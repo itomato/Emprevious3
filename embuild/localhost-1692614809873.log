@@ -1,0 +1,14 @@
+Previous.js:1 SDL screen request: 1120 x 856 (windowed)
+put_char @ Previous.js:1
+Previous.js:1 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'getContextSafariWebGL2Fixed')
+    at Object.createContext (Previous.js:1:117516)
+    at _eglCreateContext (Previous.js:1:120067)
+    at Previous.wasm:0x1009ba
+    at Previous.wasm:0x11f0e6
+    at Previous.wasm:0x58320
+    at Previous.wasm:0x27c63c
+    at Module._main (Previous.js:1:217618)
+    at callMain (Previous.js:1:222260)
+    at doRun (Previous.js:1:222646)
+    at run (Previous.js:1:222818)
+DevTools failed to load source map: Could not load content for chrome-extension://mlomiejdfkolichcflejclcbmpeaniij/dist/browser-polyfill.js.map: System error: net::ERR_BLOCKED_BY_CLIENT

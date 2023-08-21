@@ -1,0 +1,22 @@
+src/CMakeFiles/Previous.dir/rs.c.o: \
+  /Users/wjk/Code/previous-code/src/rs.c \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/strings.h \
+  /Users/wjk/Code/previous-code/src/includes/main.h \
+  /Users/wjk/Code/previous-code/embuild/config.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/alloca.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
+  /Users/wjk/Code/previous-code/src/includes/rs.h

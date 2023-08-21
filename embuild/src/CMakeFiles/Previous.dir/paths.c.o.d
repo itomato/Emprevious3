@@ -1,0 +1,32 @@
+src/CMakeFiles/Previous.dir/paths.c.o: \
+  /Users/wjk/Code/previous-code/src/paths.c \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/unistd.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/posix.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/sys/stat.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/stat.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stat.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/types.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/endian.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/select.h \
+  /Users/wjk/Code/previous-code/src/includes/main.h \
+  /Users/wjk/Code/previous-code/embuild/config.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/alloca.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/strings.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
+  /Users/wjk/Code/previous-code/src/includes/file.h \
+  /Users/wjk/Code/previous-code/src/includes/paths.h \
+  /Users/wjk/Code/previous-code/src/includes/str.h

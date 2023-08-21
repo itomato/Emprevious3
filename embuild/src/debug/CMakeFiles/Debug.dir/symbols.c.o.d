@@ -1,0 +1,28 @@
+src/debug/CMakeFiles/Debug.dir/symbols.c.o: \
+  /Users/wjk/Code/previous-code/src/debug/symbols.c \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/ctype.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/ctype.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/strings.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/assert.h \
+  /Users/wjk/Code/previous-code/src/includes/main.h \
+  /Users/wjk/Code/previous-code/embuild/config.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/alloca.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
+  /Users/wjk/Code/previous-code/src/debug/symbols.h \
+  /Users/wjk/Code/previous-code/src/debug/debugui.h \
+  /Users/wjk/Code/previous-code/src/debug/debug_priv.h \
+  /Users/wjk/Code/previous-code/src/debug/evaluate.h

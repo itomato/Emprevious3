@@ -1,0 +1,2 @@
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/emar qc libDSP.a CMakeFiles/DSP.dir/dsp.c.o CMakeFiles/DSP.dir/dsp_core.c.o CMakeFiles/DSP.dir/dsp_cpu.c.o CMakeFiles/DSP.dir/dsp_disasm.c.o
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/emranlib libDSP.a
