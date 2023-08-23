@@ -6,5 +6,5 @@ C_DEFINES = -DCONFDIR=\"/etc\"
 
 C_INCLUDES = @CMakeFiles/DSP.dir/includes_C.rsp
 
-C_FLAGS =  -s USE_SDL=2 -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers -O3 -DNDEBUG
+C_FLAGS =  -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers -fno-rtti -fno-exceptions -O3 -s USE_SDL=2 -s USE_ZLIB=1 -O3 -DNDEBUG
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wjk/Code/previous-code/src/gui-sdl
+# Install script for directory: /Users/wjk/Code/previous-code-test/src/gui-sdl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

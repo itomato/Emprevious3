@@ -6,5 +6,5 @@ CXX_DEFINES = -DCONFDIR=\"/etc\"
 
 CXX_INCLUDES = @CMakeFiles/ditool.dir/includes_CXX.rsp
 
-CXX_FLAGS = -Wall -Wextra -Wpointer-bool-conversion -Wtautological-compare -Wno-unused-parameter  -s USE_SDL=2 -Wall -Wextra -Wtautological-compare -Wno-unused-parameter -Wno-sign-compare -Wno-conversion -Wno-unused -O3 -DNDEBUG
+CXX_FLAGS = -Wall -Wextra -Wpointer-bool-conversion -Wtautological-compare -Wno-unused-parameter  -Wall -Wextra -Wtautological-compare -Wno-unused-parameter -Wno-sign-compare -Wno-conversion -Wno-unused -O3 -DNDEBUG
 

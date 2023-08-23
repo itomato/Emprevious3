@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src/debug//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src/debug//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/debug/CMakeFiles/Debug.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/CMakeFiles/Debug.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/debug/CMakeFiles/Debug.dir/rule
 .PHONY : src/debug/CMakeFiles/Debug.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Debug: src/debug/CMakeFiles/Debug.dir/rule
 
 # fast build rule for target.
 Debug/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/build
 .PHONY : Debug/fast
 
 68kDisass.o: 68kDisass.c.o
@@ -180,7 +180,7 @@ Debug/fast:
 
 # target to build an object file
 68kDisass.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/68kDisass.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/68kDisass.c.o
 .PHONY : 68kDisass.c.o
 
 68kDisass.i: 68kDisass.c.i
@@ -188,7 +188,7 @@ Debug/fast:
 
 # target to preprocess a source file
 68kDisass.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/68kDisass.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/68kDisass.c.i
 .PHONY : 68kDisass.c.i
 
 68kDisass.s: 68kDisass.c.s
@@ -196,7 +196,7 @@ Debug/fast:
 
 # target to generate assembly for a file
 68kDisass.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/68kDisass.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/68kDisass.c.s
 .PHONY : 68kDisass.c.s
 
 breakcond.o: breakcond.c.o
@@ -204,7 +204,7 @@ breakcond.o: breakcond.c.o
 
 # target to build an object file
 breakcond.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/breakcond.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/breakcond.c.o
 .PHONY : breakcond.c.o
 
 breakcond.i: breakcond.c.i
@@ -212,7 +212,7 @@ breakcond.i: breakcond.c.i
 
 # target to preprocess a source file
 breakcond.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/breakcond.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/breakcond.c.i
 .PHONY : breakcond.c.i
 
 breakcond.s: breakcond.c.s
@@ -220,7 +220,7 @@ breakcond.s: breakcond.c.s
 
 # target to generate assembly for a file
 breakcond.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/breakcond.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/breakcond.c.s
 .PHONY : breakcond.c.s
 
 debugInfo.o: debugInfo.c.o
@@ -228,7 +228,7 @@ debugInfo.o: debugInfo.c.o
 
 # target to build an object file
 debugInfo.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugInfo.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugInfo.c.o
 .PHONY : debugInfo.c.o
 
 debugInfo.i: debugInfo.c.i
@@ -236,7 +236,7 @@ debugInfo.i: debugInfo.c.i
 
 # target to preprocess a source file
 debugInfo.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugInfo.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugInfo.c.i
 .PHONY : debugInfo.c.i
 
 debugInfo.s: debugInfo.c.s
@@ -244,7 +244,7 @@ debugInfo.s: debugInfo.c.s
 
 # target to generate assembly for a file
 debugInfo.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugInfo.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugInfo.c.s
 .PHONY : debugInfo.c.s
 
 debugcpu.o: debugcpu.c.o
@@ -252,7 +252,7 @@ debugcpu.o: debugcpu.c.o
 
 # target to build an object file
 debugcpu.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugcpu.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugcpu.c.o
 .PHONY : debugcpu.c.o
 
 debugcpu.i: debugcpu.c.i
@@ -260,7 +260,7 @@ debugcpu.i: debugcpu.c.i
 
 # target to preprocess a source file
 debugcpu.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugcpu.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugcpu.c.i
 .PHONY : debugcpu.c.i
 
 debugcpu.s: debugcpu.c.s
@@ -268,7 +268,7 @@ debugcpu.s: debugcpu.c.s
 
 # target to generate assembly for a file
 debugcpu.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugcpu.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugcpu.c.s
 .PHONY : debugcpu.c.s
 
 debugdsp.o: debugdsp.c.o
@@ -276,7 +276,7 @@ debugdsp.o: debugdsp.c.o
 
 # target to build an object file
 debugdsp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugdsp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugdsp.c.o
 .PHONY : debugdsp.c.o
 
 debugdsp.i: debugdsp.c.i
@@ -284,7 +284,7 @@ debugdsp.i: debugdsp.c.i
 
 # target to preprocess a source file
 debugdsp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugdsp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugdsp.c.i
 .PHONY : debugdsp.c.i
 
 debugdsp.s: debugdsp.c.s
@@ -292,7 +292,7 @@ debugdsp.s: debugdsp.c.s
 
 # target to generate assembly for a file
 debugdsp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugdsp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugdsp.c.s
 .PHONY : debugdsp.c.s
 
 debugui.o: debugui.c.o
@@ -300,7 +300,7 @@ debugui.o: debugui.c.o
 
 # target to build an object file
 debugui.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugui.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugui.c.o
 .PHONY : debugui.c.o
 
 debugui.i: debugui.c.i
@@ -308,7 +308,7 @@ debugui.i: debugui.c.i
 
 # target to preprocess a source file
 debugui.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugui.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugui.c.i
 .PHONY : debugui.c.i
 
 debugui.s: debugui.c.s
@@ -316,7 +316,7 @@ debugui.s: debugui.c.s
 
 # target to generate assembly for a file
 debugui.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugui.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/debugui.c.s
 .PHONY : debugui.c.s
 
 evaluate.o: evaluate.c.o
@@ -324,7 +324,7 @@ evaluate.o: evaluate.c.o
 
 # target to build an object file
 evaluate.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/evaluate.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/evaluate.c.o
 .PHONY : evaluate.c.o
 
 evaluate.i: evaluate.c.i
@@ -332,7 +332,7 @@ evaluate.i: evaluate.c.i
 
 # target to preprocess a source file
 evaluate.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/evaluate.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/evaluate.c.i
 .PHONY : evaluate.c.i
 
 evaluate.s: evaluate.c.s
@@ -340,7 +340,7 @@ evaluate.s: evaluate.c.s
 
 # target to generate assembly for a file
 evaluate.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/evaluate.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/evaluate.c.s
 .PHONY : evaluate.c.s
 
 history.o: history.c.o
@@ -348,7 +348,7 @@ history.o: history.c.o
 
 # target to build an object file
 history.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/history.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/history.c.o
 .PHONY : history.c.o
 
 history.i: history.c.i
@@ -356,7 +356,7 @@ history.i: history.c.i
 
 # target to preprocess a source file
 history.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/history.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/history.c.i
 .PHONY : history.c.i
 
 history.s: history.c.s
@@ -364,7 +364,7 @@ history.s: history.c.s
 
 # target to generate assembly for a file
 history.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/history.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/history.c.s
 .PHONY : history.c.s
 
 log.o: log.c.o
@@ -372,7 +372,7 @@ log.o: log.c.o
 
 # target to build an object file
 log.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/log.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/log.c.o
 .PHONY : log.c.o
 
 log.i: log.c.i
@@ -380,7 +380,7 @@ log.i: log.c.i
 
 # target to preprocess a source file
 log.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/log.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/log.c.i
 .PHONY : log.c.i
 
 log.s: log.c.s
@@ -388,7 +388,7 @@ log.s: log.c.s
 
 # target to generate assembly for a file
 log.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/log.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/log.c.s
 .PHONY : log.c.s
 
 profile.o: profile.c.o
@@ -396,7 +396,7 @@ profile.o: profile.c.o
 
 # target to build an object file
 profile.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/profile.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/profile.c.o
 .PHONY : profile.c.o
 
 profile.i: profile.c.i
@@ -404,7 +404,7 @@ profile.i: profile.c.i
 
 # target to preprocess a source file
 profile.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/profile.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/profile.c.i
 .PHONY : profile.c.i
 
 profile.s: profile.c.s
@@ -412,7 +412,7 @@ profile.s: profile.c.s
 
 # target to generate assembly for a file
 profile.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/profile.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/profile.c.s
 .PHONY : profile.c.s
 
 symbols.o: symbols.c.o
@@ -420,7 +420,7 @@ symbols.o: symbols.c.o
 
 # target to build an object file
 symbols.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/symbols.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/symbols.c.o
 .PHONY : symbols.c.o
 
 symbols.i: symbols.c.i
@@ -428,7 +428,7 @@ symbols.i: symbols.c.i
 
 # target to preprocess a source file
 symbols.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/symbols.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/symbols.c.i
 .PHONY : symbols.c.i
 
 symbols.s: symbols.c.s
@@ -436,7 +436,7 @@ symbols.s: symbols.c.s
 
 # target to generate assembly for a file
 symbols.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/symbols.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/symbols.c.s
 .PHONY : symbols.c.s
 
 vars.o: vars.c.o
@@ -444,7 +444,7 @@ vars.o: vars.c.o
 
 # target to build an object file
 vars.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/vars.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/vars.c.o
 .PHONY : vars.c.o
 
 vars.i: vars.c.i
@@ -452,7 +452,7 @@ vars.i: vars.c.i
 
 # target to preprocess a source file
 vars.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/vars.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/vars.c.i
 .PHONY : vars.c.i
 
 vars.s: vars.c.s
@@ -460,7 +460,7 @@ vars.s: vars.c.s
 
 # target to generate assembly for a file
 vars.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/vars.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/debug/CMakeFiles/Debug.dir/build.make src/debug/CMakeFiles/Debug.dir/vars.c.s
 .PHONY : vars.c.s
 
 # Help Target
@@ -523,6 +523,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

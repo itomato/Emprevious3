@@ -1,0 +1,32 @@
+src/CMakeFiles/Previous.dir/scandir.c.o: \
+  /Users/wjk/Code/previous-code/src/scandir.c \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/strings.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stdint.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/alloca.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/types.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/endian.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/select.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/sys/stat.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/stat.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stat.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/fcntl.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/fcntl.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/unistd.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/posix.h \
+  /Users/wjk/Code/previous-code/src/includes/scandir.h \
+  /Users/wjk/Code/previous-code/build/config.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/dirent.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/dirent.h \
+  /Users/wjk/Code/previous-code/src/debug/log.h \
+  /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h

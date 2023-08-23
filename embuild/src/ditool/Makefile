@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src/ditool//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src/ditool//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/ditool/CMakeFiles/ditool.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/CMakeFiles/ditool.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ditool/CMakeFiles/ditool.dir/rule
 .PHONY : src/ditool/CMakeFiles/ditool.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ ditool: src/ditool/CMakeFiles/ditool.dir/rule
 
 # fast build rule for target.
 ditool/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/build
 .PHONY : ditool/fast
 
 DiskImage.o: DiskImage.cpp.o
@@ -180,7 +180,7 @@ DiskImage.o: DiskImage.cpp.o
 
 # target to build an object file
 DiskImage.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o
 .PHONY : DiskImage.cpp.o
 
 DiskImage.i: DiskImage.cpp.i
@@ -188,7 +188,7 @@ DiskImage.i: DiskImage.cpp.i
 
 # target to preprocess a source file
 DiskImage.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.i
 .PHONY : DiskImage.cpp.i
 
 DiskImage.s: DiskImage.cpp.s
@@ -196,7 +196,7 @@ DiskImage.s: DiskImage.cpp.s
 
 # target to generate assembly for a file
 DiskImage.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.s
 .PHONY : DiskImage.cpp.s
 
 Partition.o: Partition.cpp.o
@@ -204,7 +204,7 @@ Partition.o: Partition.cpp.o
 
 # target to build an object file
 Partition.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o
 .PHONY : Partition.cpp.o
 
 Partition.i: Partition.cpp.i
@@ -212,7 +212,7 @@ Partition.i: Partition.cpp.i
 
 # target to preprocess a source file
 Partition.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/Partition.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/Partition.cpp.i
 .PHONY : Partition.cpp.i
 
 Partition.s: Partition.cpp.s
@@ -220,7 +220,7 @@ Partition.s: Partition.cpp.s
 
 # target to generate assembly for a file
 Partition.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/Partition.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/Partition.cpp.s
 .PHONY : Partition.cpp.s
 
 UFS.o: UFS.cpp.o
@@ -228,7 +228,7 @@ UFS.o: UFS.cpp.o
 
 # target to build an object file
 UFS.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o
 .PHONY : UFS.cpp.o
 
 UFS.i: UFS.cpp.i
@@ -236,7 +236,7 @@ UFS.i: UFS.cpp.i
 
 # target to preprocess a source file
 UFS.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/UFS.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/UFS.cpp.i
 .PHONY : UFS.cpp.i
 
 UFS.s: UFS.cpp.s
@@ -244,7 +244,7 @@ UFS.s: UFS.cpp.s
 
 # target to generate assembly for a file
 UFS.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/UFS.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/UFS.cpp.s
 .PHONY : UFS.cpp.s
 
 VirtualFS.o: VirtualFS.cpp.o
@@ -252,7 +252,7 @@ VirtualFS.o: VirtualFS.cpp.o
 
 # target to build an object file
 VirtualFS.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o
 .PHONY : VirtualFS.cpp.o
 
 VirtualFS.i: VirtualFS.cpp.i
@@ -260,7 +260,7 @@ VirtualFS.i: VirtualFS.cpp.i
 
 # target to preprocess a source file
 VirtualFS.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.i
 .PHONY : VirtualFS.cpp.i
 
 VirtualFS.s: VirtualFS.cpp.s
@@ -268,7 +268,7 @@ VirtualFS.s: VirtualFS.cpp.s
 
 # target to generate assembly for a file
 VirtualFS.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.s
 .PHONY : VirtualFS.cpp.s
 
 ditool.o: ditool.cpp.o
@@ -276,7 +276,7 @@ ditool.o: ditool.cpp.o
 
 # target to build an object file
 ditool.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o
 .PHONY : ditool.cpp.o
 
 ditool.i: ditool.cpp.i
@@ -284,7 +284,7 @@ ditool.i: ditool.cpp.i
 
 # target to preprocess a source file
 ditool.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/ditool.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/ditool.cpp.i
 .PHONY : ditool.cpp.i
 
 ditool.s: ditool.cpp.s
@@ -292,7 +292,7 @@ ditool.s: ditool.cpp.s
 
 # target to generate assembly for a file
 ditool.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/ditool.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/ditool/CMakeFiles/ditool.dir/build.make src/ditool/CMakeFiles/ditool.dir/ditool.cpp.s
 .PHONY : ditool.cpp.s
 
 # Help Target
@@ -334,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

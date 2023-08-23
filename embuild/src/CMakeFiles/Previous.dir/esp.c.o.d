@@ -1,10 +1,10 @@
 src/CMakeFiles/Previous.dir/esp.c.o: \
-  /Users/wjk/Code/previous-code/src/esp.c \
-  /Users/wjk/Code/previous-code/src/includes/ioMem.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
-  /Users/wjk/Code/previous-code/src/cpu/memory.h \
-  /Users/wjk/Code/previous-code/src/cpu/sysdeps.h \
-  /Users/wjk/Code/previous-code/src/cpu/sysconfig.h \
+  /Users/wjk/Code/previous-code-test/src/esp.c \
+  /Users/wjk/Code/previous-code-test/src/includes/ioMem.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/memory.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysdeps.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysconfig.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
@@ -13,11 +13,11 @@ src/CMakeFiles/Previous.dir/esp.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/limits.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/limits.h \
-  /Users/wjk/Code/previous-code/src/cpu/compat.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/compat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/ctype.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/ctype.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/string.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/types.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/string.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/types.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
@@ -45,21 +45,21 @@ src/CMakeFiles/Previous.dir/esp.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/time.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/time.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/byteswap.h \
-  /Users/wjk/Code/previous-code/src/cpu/maccess.h \
-  /Users/wjk/Code/previous-code/src/includes/ioMemTables.h \
-  /Users/wjk/Code/previous-code/src/includes/m68000.h \
-  /Users/wjk/Code/previous-code/src/cpu/newcpu.h \
-  /Users/wjk/Code/previous-code/src/cpu/readcpu.h \
-  /Users/wjk/Code/previous-code/src/cpu/machdep/m68k.h \
-  /Users/wjk/Code/previous-code/src/cpu/events.h \
-  /Users/wjk/Code/previous-code/src/cpu/machdep/rpt.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/time.h \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat.h \
-  /Users/wjk/Code/previous-code/src/cpu/custom.h \
-  /Users/wjk/Code/previous-code/src/includes/cycInt.h \
-  /Users/wjk/Code/previous-code/src/debug/log.h \
-  /Users/wjk/Code/previous-code/src/includes/configuration.h \
-  /Users/wjk/Code/previous-code/src/includes/esp.h \
-  /Users/wjk/Code/previous-code/src/includes/sysReg.h \
-  /Users/wjk/Code/previous-code/src/includes/dma.h \
-  /Users/wjk/Code/previous-code/src/includes/scsi.h
+  /Users/wjk/Code/previous-code-test/src/cpu/maccess.h \
+  /Users/wjk/Code/previous-code-test/src/includes/ioMemTables.h \
+  /Users/wjk/Code/previous-code-test/src/includes/m68000.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/newcpu.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/readcpu.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/machdep/m68k.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/events.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/machdep/rpt.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/time.h \
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/custom.h \
+  /Users/wjk/Code/previous-code-test/src/includes/cycInt.h \
+  /Users/wjk/Code/previous-code-test/src/debug/log.h \
+  /Users/wjk/Code/previous-code-test/src/includes/configuration.h \
+  /Users/wjk/Code/previous-code-test/src/includes/esp.h \
+  /Users/wjk/Code/previous-code-test/src/includes/sysReg.h \
+  /Users/wjk/Code/previous-code-test/src/includes/dma.h \
+  /Users/wjk/Code/previous-code-test/src/includes/scsi.h

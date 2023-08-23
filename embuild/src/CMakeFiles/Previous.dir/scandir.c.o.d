@@ -1,5 +1,5 @@
 src/CMakeFiles/Previous.dir/scandir.c.o: \
-  /Users/wjk/Code/previous-code/src/scandir.c \
+  /Users/wjk/Code/previous-code-test/src/scandir.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
@@ -24,9 +24,9 @@ src/CMakeFiles/Previous.dir/scandir.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/fcntl.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/unistd.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/posix.h \
-  /Users/wjk/Code/previous-code/src/includes/scandir.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/includes/scandir.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/dirent.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/dirent.h \
-  /Users/wjk/Code/previous-code/src/debug/log.h \
+  /Users/wjk/Code/previous-code-test/src/debug/log.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h

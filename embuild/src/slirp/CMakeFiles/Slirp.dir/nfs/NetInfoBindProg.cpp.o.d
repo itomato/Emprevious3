@@ -1,6 +1,6 @@
 src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.o: \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/NetInfoBindProg.cpp \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/nfsd.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/NetInfoBindProg.cpp \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/nfsd.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__config \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__config_site \
@@ -15,9 +15,9 @@ src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/__stddef_max_align_t.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/posix.h \
-  /Users/wjk/Code/previous-code/src/slirp/ctl.h \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/RPCProg.h \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/XDRStream.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/ctl.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/RPCProg.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/XDRStream.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/string \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/comp.h \
@@ -670,14 +670,14 @@ src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdarg.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdarg.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/cstdarg \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/NetInfoBindProg.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/NetInfoBindProg.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/map \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__tree \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/NetInfoProg.h \
-  /Users/wjk/Code/previous-code/src/includes/configuration.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/NetInfoProg.h \
+  /Users/wjk/Code/previous-code-test/src/includes/configuration.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
-  /Users/wjk/Code/previous-code/src/slirp/../ditool/UFS.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/../ditool/UFS.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/fstream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/istream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/filesystem \
@@ -698,9 +698,9 @@ src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/path_iterator.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/u8path.h \
-  /Users/wjk/Code/previous-code/src/slirp/../ditool/Partition.h \
-  /Users/wjk/Code/previous-code/src/slirp/../ditool/DiskImage.h \
-  /Users/wjk/Code/previous-code/src/slirp/../ditool/fs.h \
-  /Users/wjk/Code/previous-code/src/slirp/../ditool/inode.h \
-  /Users/wjk/Code/previous-code/src/slirp/../ditool/fsdir.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/../ditool/Partition.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/../ditool/DiskImage.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/../ditool/fs.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/../ditool/inode.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/../ditool/fsdir.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/sstream

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 # Include any dependencies generated for this target.
 include src/ditool/CMakeFiles/ditool.dir/depend.make
@@ -71,78 +71,78 @@ include src/ditool/CMakeFiles/ditool.dir/flags.make
 
 src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o: src/ditool/CMakeFiles/ditool.dir/flags.make
 src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o: src/ditool/CMakeFiles/ditool.dir/includes_CXX.rsp
-src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o: /Users/wjk/Code/previous-code/src/ditool/ditool.cpp
+src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o: /Users/wjk/Code/previous-code-test/src/ditool/ditool.cpp
 src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o: src/ditool/CMakeFiles/ditool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o -MF CMakeFiles/ditool.dir/ditool.cpp.o.d -o CMakeFiles/ditool.dir/ditool.cpp.o -c /Users/wjk/Code/previous-code/src/ditool/ditool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o -MF CMakeFiles/ditool.dir/ditool.cpp.o.d -o CMakeFiles/ditool.dir/ditool.cpp.o -c /Users/wjk/Code/previous-code-test/src/ditool/ditool.cpp
 
 src/ditool/CMakeFiles/ditool.dir/ditool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ditool.dir/ditool.cpp.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code/src/ditool/ditool.cpp > CMakeFiles/ditool.dir/ditool.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code-test/src/ditool/ditool.cpp > CMakeFiles/ditool.dir/ditool.cpp.i
 
 src/ditool/CMakeFiles/ditool.dir/ditool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ditool.dir/ditool.cpp.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code/src/ditool/ditool.cpp -o CMakeFiles/ditool.dir/ditool.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code-test/src/ditool/ditool.cpp -o CMakeFiles/ditool.dir/ditool.cpp.s
 
 src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o: src/ditool/CMakeFiles/ditool.dir/flags.make
 src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o: src/ditool/CMakeFiles/ditool.dir/includes_CXX.rsp
-src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o: /Users/wjk/Code/previous-code/src/ditool/DiskImage.cpp
+src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o: /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.cpp
 src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o: src/ditool/CMakeFiles/ditool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o -MF CMakeFiles/ditool.dir/DiskImage.cpp.o.d -o CMakeFiles/ditool.dir/DiskImage.cpp.o -c /Users/wjk/Code/previous-code/src/ditool/DiskImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o -MF CMakeFiles/ditool.dir/DiskImage.cpp.o.d -o CMakeFiles/ditool.dir/DiskImage.cpp.o -c /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.cpp
 
 src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ditool.dir/DiskImage.cpp.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code/src/ditool/DiskImage.cpp > CMakeFiles/ditool.dir/DiskImage.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.cpp > CMakeFiles/ditool.dir/DiskImage.cpp.i
 
 src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ditool.dir/DiskImage.cpp.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code/src/ditool/DiskImage.cpp -o CMakeFiles/ditool.dir/DiskImage.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.cpp -o CMakeFiles/ditool.dir/DiskImage.cpp.s
 
 src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o: src/ditool/CMakeFiles/ditool.dir/flags.make
 src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o: src/ditool/CMakeFiles/ditool.dir/includes_CXX.rsp
-src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o: /Users/wjk/Code/previous-code/src/ditool/Partition.cpp
+src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o: /Users/wjk/Code/previous-code-test/src/ditool/Partition.cpp
 src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o: src/ditool/CMakeFiles/ditool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o -MF CMakeFiles/ditool.dir/Partition.cpp.o.d -o CMakeFiles/ditool.dir/Partition.cpp.o -c /Users/wjk/Code/previous-code/src/ditool/Partition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o -MF CMakeFiles/ditool.dir/Partition.cpp.o.d -o CMakeFiles/ditool.dir/Partition.cpp.o -c /Users/wjk/Code/previous-code-test/src/ditool/Partition.cpp
 
 src/ditool/CMakeFiles/ditool.dir/Partition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ditool.dir/Partition.cpp.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code/src/ditool/Partition.cpp > CMakeFiles/ditool.dir/Partition.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code-test/src/ditool/Partition.cpp > CMakeFiles/ditool.dir/Partition.cpp.i
 
 src/ditool/CMakeFiles/ditool.dir/Partition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ditool.dir/Partition.cpp.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code/src/ditool/Partition.cpp -o CMakeFiles/ditool.dir/Partition.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code-test/src/ditool/Partition.cpp -o CMakeFiles/ditool.dir/Partition.cpp.s
 
 src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o: src/ditool/CMakeFiles/ditool.dir/flags.make
 src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o: src/ditool/CMakeFiles/ditool.dir/includes_CXX.rsp
-src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o: /Users/wjk/Code/previous-code/src/ditool/UFS.cpp
+src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o: /Users/wjk/Code/previous-code-test/src/ditool/UFS.cpp
 src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o: src/ditool/CMakeFiles/ditool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o -MF CMakeFiles/ditool.dir/UFS.cpp.o.d -o CMakeFiles/ditool.dir/UFS.cpp.o -c /Users/wjk/Code/previous-code/src/ditool/UFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o -MF CMakeFiles/ditool.dir/UFS.cpp.o.d -o CMakeFiles/ditool.dir/UFS.cpp.o -c /Users/wjk/Code/previous-code-test/src/ditool/UFS.cpp
 
 src/ditool/CMakeFiles/ditool.dir/UFS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ditool.dir/UFS.cpp.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code/src/ditool/UFS.cpp > CMakeFiles/ditool.dir/UFS.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code-test/src/ditool/UFS.cpp > CMakeFiles/ditool.dir/UFS.cpp.i
 
 src/ditool/CMakeFiles/ditool.dir/UFS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ditool.dir/UFS.cpp.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code/src/ditool/UFS.cpp -o CMakeFiles/ditool.dir/UFS.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code-test/src/ditool/UFS.cpp -o CMakeFiles/ditool.dir/UFS.cpp.s
 
 src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: src/ditool/CMakeFiles/ditool.dir/flags.make
 src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: src/ditool/CMakeFiles/ditool.dir/includes_CXX.rsp
-src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: /Users/wjk/Code/previous-code/src/ditool/VirtualFS.cpp
+src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: /Users/wjk/Code/previous-code-test/src/ditool/VirtualFS.cpp
 src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: src/ditool/CMakeFiles/ditool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o -MF CMakeFiles/ditool.dir/VirtualFS.cpp.o.d -o CMakeFiles/ditool.dir/VirtualFS.cpp.o -c /Users/wjk/Code/previous-code/src/ditool/VirtualFS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o -MF CMakeFiles/ditool.dir/VirtualFS.cpp.o.d -o CMakeFiles/ditool.dir/VirtualFS.cpp.o -c /Users/wjk/Code/previous-code-test/src/ditool/VirtualFS.cpp
 
 src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ditool.dir/VirtualFS.cpp.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code/src/ditool/VirtualFS.cpp > CMakeFiles/ditool.dir/VirtualFS.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/Code/previous-code-test/src/ditool/VirtualFS.cpp > CMakeFiles/ditool.dir/VirtualFS.cpp.i
 
 src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ditool.dir/VirtualFS.cpp.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code/src/ditool/VirtualFS.cpp -o CMakeFiles/ditool.dir/VirtualFS.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/Code/previous-code-test/src/ditool/VirtualFS.cpp -o CMakeFiles/ditool.dir/VirtualFS.cpp.s
 
 # Object files for target ditool
 ditool_OBJECTS = \
@@ -155,27 +155,27 @@ ditool_OBJECTS = \
 # External object files for target ditool
 ditool_EXTERNAL_OBJECTS =
 
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/build.make
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/linkLibs.rsp
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/objects1.rsp
-src/ditool/ditool.js: src/ditool/CMakeFiles/ditool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ditool.js"
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ditool.dir/link.txt --verbose=$(VERBOSE)
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/Partition.cpp.o
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/UFS.cpp.o
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/build.make
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/linkLibs.rsp
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/objects1.rsp
+src/ditool/ditool.html: src/ditool/CMakeFiles/ditool.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ditool.html"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ditool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/ditool/CMakeFiles/ditool.dir/build: src/ditool/ditool.js
+src/ditool/CMakeFiles/ditool.dir/build: src/ditool/ditool.html
 .PHONY : src/ditool/CMakeFiles/ditool.dir/build
 
 src/ditool/CMakeFiles/ditool.dir/clean:
-	cd /Users/wjk/Code/previous-code/embuild/src/ditool && $(CMAKE_COMMAND) -P CMakeFiles/ditool.dir/cmake_clean.cmake
+	cd /Users/wjk/Code/previous-code-test/embuild/src/ditool && $(CMAKE_COMMAND) -P CMakeFiles/ditool.dir/cmake_clean.cmake
 .PHONY : src/ditool/CMakeFiles/ditool.dir/clean
 
 src/ditool/CMakeFiles/ditool.dir/depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/Code/previous-code /Users/wjk/Code/previous-code/src/ditool /Users/wjk/Code/previous-code/embuild /Users/wjk/Code/previous-code/embuild/src/ditool /Users/wjk/Code/previous-code/embuild/src/ditool/CMakeFiles/ditool.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/Code/previous-code-test /Users/wjk/Code/previous-code-test/src/ditool /Users/wjk/Code/previous-code-test/embuild /Users/wjk/Code/previous-code-test/embuild/src/ditool /Users/wjk/Code/previous-code-test/embuild/src/ditool/CMakeFiles/ditool.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/ditool/CMakeFiles/ditool.dir/depend
 

@@ -1,6 +1,6 @@
 src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.o: \
-  /Users/wjk/Code/previous-code/src/cpu/writelog.c \
-  /Users/wjk/Code/previous-code/src/cpu/sysconfig.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/writelog.c \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysconfig.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
@@ -9,12 +9,12 @@ src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/limits.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/limits.h \
-  /Users/wjk/Code/previous-code/src/cpu/sysdeps.h \
-  /Users/wjk/Code/previous-code/src/cpu/compat.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysdeps.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/compat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/ctype.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/ctype.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/string.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/types.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/string.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/types.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \

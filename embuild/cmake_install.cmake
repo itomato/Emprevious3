@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wjk/Code/previous-code
+# Install script for directory: /Users/wjk/Code/previous-code-test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/wjk/Code/previous-code/embuild/src/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/wjk/Code/previous-code/embuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/wjk/Code/previous-code-test/embuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

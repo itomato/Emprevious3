@@ -1,6 +1,6 @@
 src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.o: \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/compat.cpp \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/compat.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/compat.cpp \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/compat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/string \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/comp.h \
@@ -647,7 +647,7 @@ src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__functional/pointer_to_binary_function.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__functional/pointer_to_unary_function.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__functional/unary_negate.h \
-  /Users/wjk/Code/previous-code/src/includes/host.h \
+  /Users/wjk/Code/previous-code-test/src/includes/host.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_stdinc.h \

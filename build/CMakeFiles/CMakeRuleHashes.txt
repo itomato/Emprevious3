@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+2db63f4943acc740105c8ee5ca5214ed src/cpu/build68k
+56c23505598646f9f1e3a866f73bec4f src/cpu/cpudefs.c
+14e3b93b0d77c0b25d19604a53a7b600 src/cpu/cpustbl.c
+d23da614d0c849028b4febbe8de3a1fb src/cpu/gencpu

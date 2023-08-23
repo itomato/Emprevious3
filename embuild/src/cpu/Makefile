@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src/cpu//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src/cpu//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/cpu/CMakeFiles/UaeCpu.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/CMakeFiles/UaeCpu.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/cpu/CMakeFiles/UaeCpu.dir/rule
 .PHONY : src/cpu/CMakeFiles/UaeCpu.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ UaeCpu: src/cpu/CMakeFiles/UaeCpu.dir/rule
 
 # fast build rule for target.
 UaeCpu/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/build
 .PHONY : UaeCpu/fast
 
 cpudefs.o: cpudefs.c.o
@@ -180,7 +180,7 @@ cpudefs.o: cpudefs.c.o
 
 # target to build an object file
 cpudefs.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpudefs.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpudefs.c.o
 .PHONY : cpudefs.c.o
 
 cpudefs.i: cpudefs.c.i
@@ -188,7 +188,7 @@ cpudefs.i: cpudefs.c.i
 
 # target to preprocess a source file
 cpudefs.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpudefs.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpudefs.c.i
 .PHONY : cpudefs.c.i
 
 cpudefs.s: cpudefs.c.s
@@ -196,7 +196,7 @@ cpudefs.s: cpudefs.c.s
 
 # target to generate assembly for a file
 cpudefs.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpudefs.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpudefs.c.s
 .PHONY : cpudefs.c.s
 
 cpuemu_31.o: cpuemu_31.c.o
@@ -204,7 +204,7 @@ cpuemu_31.o: cpuemu_31.c.o
 
 # target to build an object file
 cpuemu_31.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_31.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_31.c.o
 .PHONY : cpuemu_31.c.o
 
 cpuemu_31.i: cpuemu_31.c.i
@@ -212,7 +212,7 @@ cpuemu_31.i: cpuemu_31.c.i
 
 # target to preprocess a source file
 cpuemu_31.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_31.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_31.c.i
 .PHONY : cpuemu_31.c.i
 
 cpuemu_31.s: cpuemu_31.c.s
@@ -220,7 +220,7 @@ cpuemu_31.s: cpuemu_31.c.s
 
 # target to generate assembly for a file
 cpuemu_31.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_31.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_31.c.s
 .PHONY : cpuemu_31.c.s
 
 cpuemu_32.o: cpuemu_32.c.o
@@ -228,7 +228,7 @@ cpuemu_32.o: cpuemu_32.c.o
 
 # target to build an object file
 cpuemu_32.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_32.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_32.c.o
 .PHONY : cpuemu_32.c.o
 
 cpuemu_32.i: cpuemu_32.c.i
@@ -236,7 +236,7 @@ cpuemu_32.i: cpuemu_32.c.i
 
 # target to preprocess a source file
 cpuemu_32.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_32.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_32.c.i
 .PHONY : cpuemu_32.c.i
 
 cpuemu_32.s: cpuemu_32.c.s
@@ -244,7 +244,7 @@ cpuemu_32.s: cpuemu_32.c.s
 
 # target to generate assembly for a file
 cpuemu_32.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_32.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpuemu_32.c.s
 .PHONY : cpuemu_32.c.s
 
 cpummu.o: cpummu.c.o
@@ -252,7 +252,7 @@ cpummu.o: cpummu.c.o
 
 # target to build an object file
 cpummu.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu.c.o
 .PHONY : cpummu.c.o
 
 cpummu.i: cpummu.c.i
@@ -260,7 +260,7 @@ cpummu.i: cpummu.c.i
 
 # target to preprocess a source file
 cpummu.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu.c.i
 .PHONY : cpummu.c.i
 
 cpummu.s: cpummu.c.s
@@ -268,7 +268,7 @@ cpummu.s: cpummu.c.s
 
 # target to generate assembly for a file
 cpummu.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu.c.s
 .PHONY : cpummu.c.s
 
 cpummu030.o: cpummu030.c.o
@@ -276,7 +276,7 @@ cpummu030.o: cpummu030.c.o
 
 # target to build an object file
 cpummu030.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu030.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu030.c.o
 .PHONY : cpummu030.c.o
 
 cpummu030.i: cpummu030.c.i
@@ -284,7 +284,7 @@ cpummu030.i: cpummu030.c.i
 
 # target to preprocess a source file
 cpummu030.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu030.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu030.c.i
 .PHONY : cpummu030.c.i
 
 cpummu030.s: cpummu030.c.s
@@ -292,7 +292,7 @@ cpummu030.s: cpummu030.c.s
 
 # target to generate assembly for a file
 cpummu030.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu030.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpummu030.c.s
 .PHONY : cpummu030.c.s
 
 cpustbl.o: cpustbl.c.o
@@ -300,7 +300,7 @@ cpustbl.o: cpustbl.c.o
 
 # target to build an object file
 cpustbl.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpustbl.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpustbl.c.o
 .PHONY : cpustbl.c.o
 
 cpustbl.i: cpustbl.c.i
@@ -308,7 +308,7 @@ cpustbl.i: cpustbl.c.i
 
 # target to preprocess a source file
 cpustbl.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpustbl.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpustbl.c.i
 .PHONY : cpustbl.c.i
 
 cpustbl.s: cpustbl.c.s
@@ -316,7 +316,7 @@ cpustbl.s: cpustbl.c.s
 
 # target to generate assembly for a file
 cpustbl.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpustbl.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/cpustbl.c.s
 .PHONY : cpustbl.c.s
 
 custom.o: custom.c.o
@@ -324,7 +324,7 @@ custom.o: custom.c.o
 
 # target to build an object file
 custom.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/custom.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/custom.c.o
 .PHONY : custom.c.o
 
 custom.i: custom.c.i
@@ -332,7 +332,7 @@ custom.i: custom.c.i
 
 # target to preprocess a source file
 custom.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/custom.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/custom.c.i
 .PHONY : custom.c.i
 
 custom.s: custom.c.s
@@ -340,7 +340,7 @@ custom.s: custom.c.s
 
 # target to generate assembly for a file
 custom.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/custom.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/custom.c.s
 .PHONY : custom.c.s
 
 debug.o: debug.c.o
@@ -348,7 +348,7 @@ debug.o: debug.c.o
 
 # target to build an object file
 debug.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/debug.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/debug.c.o
 .PHONY : debug.c.o
 
 debug.i: debug.c.i
@@ -356,7 +356,7 @@ debug.i: debug.c.i
 
 # target to preprocess a source file
 debug.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/debug.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/debug.c.i
 .PHONY : debug.c.i
 
 debug.s: debug.c.s
@@ -364,7 +364,7 @@ debug.s: debug.c.s
 
 # target to generate assembly for a file
 debug.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/debug.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/debug.c.s
 .PHONY : debug.c.s
 
 disasm.o: disasm.c.o
@@ -372,7 +372,7 @@ disasm.o: disasm.c.o
 
 # target to build an object file
 disasm.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/disasm.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/disasm.c.o
 .PHONY : disasm.c.o
 
 disasm.i: disasm.c.i
@@ -380,7 +380,7 @@ disasm.i: disasm.c.i
 
 # target to preprocess a source file
 disasm.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/disasm.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/disasm.c.i
 .PHONY : disasm.c.i
 
 disasm.s: disasm.c.s
@@ -388,7 +388,7 @@ disasm.s: disasm.c.s
 
 # target to generate assembly for a file
 disasm.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/disasm.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/disasm.c.s
 .PHONY : disasm.c.s
 
 events.o: events.c.o
@@ -396,7 +396,7 @@ events.o: events.c.o
 
 # target to build an object file
 events.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/events.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/events.c.o
 .PHONY : events.c.o
 
 events.i: events.c.i
@@ -404,7 +404,7 @@ events.i: events.c.i
 
 # target to preprocess a source file
 events.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/events.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/events.c.i
 .PHONY : events.c.i
 
 events.s: events.c.s
@@ -412,7 +412,7 @@ events.s: events.c.s
 
 # target to generate assembly for a file
 events.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/events.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/events.c.s
 .PHONY : events.c.s
 
 fpp.o: fpp.c.o
@@ -420,7 +420,7 @@ fpp.o: fpp.c.o
 
 # target to build an object file
 fpp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp.c.o
 .PHONY : fpp.c.o
 
 fpp.i: fpp.c.i
@@ -428,7 +428,7 @@ fpp.i: fpp.c.i
 
 # target to preprocess a source file
 fpp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp.c.i
 .PHONY : fpp.c.i
 
 fpp.s: fpp.c.s
@@ -436,7 +436,7 @@ fpp.s: fpp.c.s
 
 # target to generate assembly for a file
 fpp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp.c.s
 .PHONY : fpp.c.s
 
 fpp_softfloat.o: fpp_softfloat.c.o
@@ -444,7 +444,7 @@ fpp_softfloat.o: fpp_softfloat.c.o
 
 # target to build an object file
 fpp_softfloat.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp_softfloat.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp_softfloat.c.o
 .PHONY : fpp_softfloat.c.o
 
 fpp_softfloat.i: fpp_softfloat.c.i
@@ -452,7 +452,7 @@ fpp_softfloat.i: fpp_softfloat.c.i
 
 # target to preprocess a source file
 fpp_softfloat.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp_softfloat.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp_softfloat.c.i
 .PHONY : fpp_softfloat.c.i
 
 fpp_softfloat.s: fpp_softfloat.c.s
@@ -460,7 +460,7 @@ fpp_softfloat.s: fpp_softfloat.c.s
 
 # target to generate assembly for a file
 fpp_softfloat.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp_softfloat.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/fpp_softfloat.c.s
 .PHONY : fpp_softfloat.c.s
 
 hatari-glue.o: hatari-glue.c.o
@@ -468,7 +468,7 @@ hatari-glue.o: hatari-glue.c.o
 
 # target to build an object file
 hatari-glue.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/hatari-glue.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/hatari-glue.c.o
 .PHONY : hatari-glue.c.o
 
 hatari-glue.i: hatari-glue.c.i
@@ -476,7 +476,7 @@ hatari-glue.i: hatari-glue.c.i
 
 # target to preprocess a source file
 hatari-glue.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/hatari-glue.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/hatari-glue.c.i
 .PHONY : hatari-glue.c.i
 
 hatari-glue.s: hatari-glue.c.s
@@ -484,7 +484,7 @@ hatari-glue.s: hatari-glue.c.s
 
 # target to generate assembly for a file
 hatari-glue.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/hatari-glue.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/hatari-glue.c.s
 .PHONY : hatari-glue.c.s
 
 machdep/m68k.o: machdep/m68k.c.o
@@ -492,7 +492,7 @@ machdep/m68k.o: machdep/m68k.c.o
 
 # target to build an object file
 machdep/m68k.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/machdep/m68k.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/machdep/m68k.c.o
 .PHONY : machdep/m68k.c.o
 
 machdep/m68k.i: machdep/m68k.c.i
@@ -500,7 +500,7 @@ machdep/m68k.i: machdep/m68k.c.i
 
 # target to preprocess a source file
 machdep/m68k.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/machdep/m68k.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/machdep/m68k.c.i
 .PHONY : machdep/m68k.c.i
 
 machdep/m68k.s: machdep/m68k.c.s
@@ -508,7 +508,7 @@ machdep/m68k.s: machdep/m68k.c.s
 
 # target to generate assembly for a file
 machdep/m68k.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/machdep/m68k.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/machdep/m68k.c.s
 .PHONY : machdep/m68k.c.s
 
 memory.o: memory.c.o
@@ -516,7 +516,7 @@ memory.o: memory.c.o
 
 # target to build an object file
 memory.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/memory.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/memory.c.o
 .PHONY : memory.c.o
 
 memory.i: memory.c.i
@@ -524,7 +524,7 @@ memory.i: memory.c.i
 
 # target to preprocess a source file
 memory.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/memory.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/memory.c.i
 .PHONY : memory.c.i
 
 memory.s: memory.c.s
@@ -532,7 +532,7 @@ memory.s: memory.c.s
 
 # target to generate assembly for a file
 memory.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/memory.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/memory.c.s
 .PHONY : memory.c.s
 
 newcpu.o: newcpu.c.o
@@ -540,7 +540,7 @@ newcpu.o: newcpu.c.o
 
 # target to build an object file
 newcpu.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu.c.o
 .PHONY : newcpu.c.o
 
 newcpu.i: newcpu.c.i
@@ -548,7 +548,7 @@ newcpu.i: newcpu.c.i
 
 # target to preprocess a source file
 newcpu.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu.c.i
 .PHONY : newcpu.c.i
 
 newcpu.s: newcpu.c.s
@@ -556,7 +556,7 @@ newcpu.s: newcpu.c.s
 
 # target to generate assembly for a file
 newcpu.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu.c.s
 .PHONY : newcpu.c.s
 
 newcpu_common.o: newcpu_common.c.o
@@ -564,7 +564,7 @@ newcpu_common.o: newcpu_common.c.o
 
 # target to build an object file
 newcpu_common.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu_common.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu_common.c.o
 .PHONY : newcpu_common.c.o
 
 newcpu_common.i: newcpu_common.c.i
@@ -572,7 +572,7 @@ newcpu_common.i: newcpu_common.c.i
 
 # target to preprocess a source file
 newcpu_common.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu_common.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu_common.c.i
 .PHONY : newcpu_common.c.i
 
 newcpu_common.s: newcpu_common.c.s
@@ -580,7 +580,7 @@ newcpu_common.s: newcpu_common.c.s
 
 # target to generate assembly for a file
 newcpu_common.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu_common.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/newcpu_common.c.s
 .PHONY : newcpu_common.c.s
 
 readcpu.o: readcpu.c.o
@@ -588,7 +588,7 @@ readcpu.o: readcpu.c.o
 
 # target to build an object file
 readcpu.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/readcpu.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/readcpu.c.o
 .PHONY : readcpu.c.o
 
 readcpu.i: readcpu.c.i
@@ -596,7 +596,7 @@ readcpu.i: readcpu.c.i
 
 # target to preprocess a source file
 readcpu.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/readcpu.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/readcpu.c.i
 .PHONY : readcpu.c.i
 
 readcpu.s: readcpu.c.s
@@ -604,7 +604,7 @@ readcpu.s: readcpu.c.s
 
 # target to generate assembly for a file
 readcpu.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/readcpu.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/readcpu.c.s
 .PHONY : readcpu.c.s
 
 writelog.o: writelog.c.o
@@ -612,7 +612,7 @@ writelog.o: writelog.c.o
 
 # target to build an object file
 writelog.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.o
 .PHONY : writelog.c.o
 
 writelog.i: writelog.c.i
@@ -620,7 +620,7 @@ writelog.i: writelog.c.i
 
 # target to preprocess a source file
 writelog.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.i
 .PHONY : writelog.c.i
 
 writelog.s: writelog.c.s
@@ -628,7 +628,7 @@ writelog.s: writelog.c.s
 
 # target to generate assembly for a file
 writelog.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/cpu/CMakeFiles/UaeCpu.dir/build.make src/cpu/CMakeFiles/UaeCpu.dir/writelog.c.s
 .PHONY : writelog.c.s
 
 # Help Target
@@ -712,6 +712,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

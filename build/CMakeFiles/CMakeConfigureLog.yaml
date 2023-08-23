@@ -1,0 +1,1069 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Darwin - 22.5.0 - arm64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/FindPCAP.cmake:45 (check_c_source_compiles)"
+      - "CMakeLists.txt:84 (find_package)"
+    checks:
+      - "Performing Test PCAP_LINKS_SOLO"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-oXYBOc"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-oXYBOc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "PCAP_LINKS_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-oXYBOc'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7bc6c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7bc6c.dir/build.make CMakeFiles/cmTC_7bc6c.dir/build
+        Building C object CMakeFiles/cmTC_7bc6c.dir/src.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc -DPCAP_LINKS_SOLO   -MD -MT CMakeFiles/cmTC_7bc6c.dir/src.c.o -MF CMakeFiles/cmTC_7bc6c.dir/src.c.o.d -o CMakeFiles/cmTC_7bc6c.dir/src.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-oXYBOc/src.c
+        Linking C executable cmTC_7bc6c.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc6c.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_7bc6c.dir/objects1.rsp -o cmTC_7bc6c.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake/FindPCAP.cmake:68 (check_function_exists)"
+      - "CMakeLists.txt:84 (find_package)"
+    checks:
+      - "Looking for pcap_get_pfring_id"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-qWZjY2"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-qWZjY2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_PF_RING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-qWZjY2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_376db/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_376db.dir/build.make CMakeFiles/cmTC_376db.dir/build
+        Building C object CMakeFiles/cmTC_376db.dir/CheckFunctionExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc   -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id -MD -MT CMakeFiles/cmTC_376db.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_376db.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_376db.dir/CheckFunctionExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-qWZjY2/CheckFunctionExists.c
+        Linking C executable cmTC_376db.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_376db.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_376db.dir/objects1.rsp -o cmTC_376db.js 
+        wasm-ld: error: CMakeFiles/cmTC_376db.dir/CheckFunctionExists.c.o: undefined symbol: pcap_get_pfring_id
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/wasm-ld -o cmTC_376db.wasm CMakeFiles/cmTC_376db.dir/CheckFunctionExists.c.o -L/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/lib/wasm32-emscripten -lGL -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/0n/kvzzcvpx3fb9pgtj5n8tdvf00000gn/T/tmp6mnzj77plibemscripten_js_symbols.so --strip-debug --export-if-defined=main --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__main_argc_argv --export-if-defined=fflush --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=stackSave --export=stackRestore --export=stackAlloc --export=__errno_location --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export-table -z stack-size=65536 --initial-memory=16777216 --no-entry --max-memory=2147483648 --stack-first' failed (returned 1)
+        make[1]: *** [cmTC_376db.js] Error 1
+        make: *** [cmTC_376db/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:113 (check_include_files)"
+    checks:
+      - "Looking for include file byteswap.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-r6JP73"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-r6JP73"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-r6JP73'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ccffb/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ccffb.dir/build.make CMakeFiles/cmTC_ccffb.dir/build
+        Building C object CMakeFiles/cmTC_ccffb.dir/HAVE_BYTESWAP_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_ccffb.dir/HAVE_BYTESWAP_H.c.o -MF CMakeFiles/cmTC_ccffb.dir/HAVE_BYTESWAP_H.c.o.d -o CMakeFiles/cmTC_ccffb.dir/HAVE_BYTESWAP_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-r6JP73/HAVE_BYTESWAP_H.c
+        Linking C executable cmTC_ccffb.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccffb.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_ccffb.dir/objects1.rsp -o cmTC_ccffb.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:114 (check_include_files)"
+    checks:
+      - "Looking for include file strings.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-duo7yC"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-duo7yC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-duo7yC'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_80ee8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_80ee8.dir/build.make CMakeFiles/cmTC_80ee8.dir/build
+        Building C object CMakeFiles/cmTC_80ee8.dir/HAVE_STRINGS_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_80ee8.dir/HAVE_STRINGS_H.c.o -MF CMakeFiles/cmTC_80ee8.dir/HAVE_STRINGS_H.c.o.d -o CMakeFiles/cmTC_80ee8.dir/HAVE_STRINGS_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-duo7yC/HAVE_STRINGS_H.c
+        Linking C executable cmTC_80ee8.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80ee8.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_80ee8.dir/objects1.rsp -o cmTC_80ee8.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:115 (check_include_files)"
+    checks:
+      - "Looking for include file limits.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-M1MeLX"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-M1MeLX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_LIMITS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-M1MeLX'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73bf5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_73bf5.dir/build.make CMakeFiles/cmTC_73bf5.dir/build
+        Building C object CMakeFiles/cmTC_73bf5.dir/HAVE_LIMITS_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_73bf5.dir/HAVE_LIMITS_H.c.o -MF CMakeFiles/cmTC_73bf5.dir/HAVE_LIMITS_H.c.o.d -o CMakeFiles/cmTC_73bf5.dir/HAVE_LIMITS_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-M1MeLX/HAVE_LIMITS_H.c
+        Linking C executable cmTC_73bf5.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73bf5.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_73bf5.dir/objects1.rsp -o cmTC_73bf5.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:116 (check_include_files)"
+    checks:
+      - "Looking for include file sys/syslimits.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-l1eUKU"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-l1eUKU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SYS_SYSLIMITS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-l1eUKU'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9043b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9043b.dir/build.make CMakeFiles/cmTC_9043b.dir/build
+        Building C object CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o -MF CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o.d -o CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-l1eUKU/HAVE_SYS_SYSLIMITS_H.c
+        /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-l1eUKU/HAVE_SYS_SYSLIMITS_H.c:2:10: fatal error: 'sys/syslimits.h' file not found
+            2 | #include <sys/syslimits.h>
+              |          ^~~~~~~~~~~~~~~~~
+        1 error generated.
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration --sysroot=/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -MD -MT CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o -MF CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o.d -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-l1eUKU/HAVE_SYS_SYSLIMITS_H.c -o CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o' failed (returned 1)
+        make[1]: *** [CMakeFiles/cmTC_9043b.dir/HAVE_SYS_SYSLIMITS_H.c.o] Error 1
+        make: *** [cmTC_9043b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:117 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2beEl3"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2beEl3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2beEl3'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3ec1a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3ec1a.dir/build.make CMakeFiles/cmTC_3ec1a.dir/build
+        Building C object CMakeFiles/cmTC_3ec1a.dir/HAVE_SYS_TYPES_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_3ec1a.dir/HAVE_SYS_TYPES_H.c.o -MF CMakeFiles/cmTC_3ec1a.dir/HAVE_SYS_TYPES_H.c.o.d -o CMakeFiles/cmTC_3ec1a.dir/HAVE_SYS_TYPES_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2beEl3/HAVE_SYS_TYPES_H.c
+        Linking C executable cmTC_3ec1a.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ec1a.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_3ec1a.dir/objects1.rsp -o cmTC_3ec1a.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:118 (check_include_files)"
+    checks:
+      - "Looking for include file sys/xattr.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLToHM"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLToHM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SYS_XATTR_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLToHM'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_838f1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_838f1.dir/build.make CMakeFiles/cmTC_838f1.dir/build
+        Building C object CMakeFiles/cmTC_838f1.dir/HAVE_SYS_XATTR_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_838f1.dir/HAVE_SYS_XATTR_H.c.o -MF CMakeFiles/cmTC_838f1.dir/HAVE_SYS_XATTR_H.c.o.d -o CMakeFiles/cmTC_838f1.dir/HAVE_SYS_XATTR_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLToHM/HAVE_SYS_XATTR_H.c
+        Linking C executable cmTC_838f1.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_838f1.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_838f1.dir/objects1.rsp -o cmTC_838f1.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:119 (check_include_files)"
+    checks:
+      - "Looking for include file tchar.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-cmwPa2"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-cmwPa2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_TCHAR_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-cmwPa2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ddbbc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ddbbc.dir/build.make CMakeFiles/cmTC_ddbbc.dir/build
+        Building C object CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o -MF CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o.d -o CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-cmwPa2/HAVE_TCHAR_H.c
+        /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-cmwPa2/HAVE_TCHAR_H.c:2:10: fatal error: 'tchar.h' file not found
+            2 | #include <tchar.h>
+              |          ^~~~~~~~~
+        1 error generated.
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration --sysroot=/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -MD -MT CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o -MF CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o.d -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-cmwPa2/HAVE_TCHAR_H.c -o CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o' failed (returned 1)
+        make[1]: *** [CMakeFiles/cmTC_ddbbc.dir/HAVE_TCHAR_H.c.o] Error 1
+        make: *** [cmTC_ddbbc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:120 (check_include_files)"
+    checks:
+      - "Looking for include file arpa/inet.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jrmJlT"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jrmJlT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_ARPA_INET_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jrmJlT'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b84e9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b84e9.dir/build.make CMakeFiles/cmTC_b84e9.dir/build
+        Building C object CMakeFiles/cmTC_b84e9.dir/HAVE_ARPA_INET_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_b84e9.dir/HAVE_ARPA_INET_H.c.o -MF CMakeFiles/cmTC_b84e9.dir/HAVE_ARPA_INET_H.c.o.d -o CMakeFiles/cmTC_b84e9.dir/HAVE_ARPA_INET_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jrmJlT/HAVE_ARPA_INET_H.c
+        Linking C executable cmTC_b84e9.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b84e9.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_b84e9.dir/objects1.rsp -o cmTC_b84e9.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:121 (check_include_files)"
+    checks:
+      - "Looking for include file netinet/in.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-mcrXMx"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-mcrXMx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_NETINET_IN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-mcrXMx'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ba3b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ba3b.dir/build.make CMakeFiles/cmTC_4ba3b.dir/build
+        Building C object CMakeFiles/cmTC_4ba3b.dir/HAVE_NETINET_IN_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_4ba3b.dir/HAVE_NETINET_IN_H.c.o -MF CMakeFiles/cmTC_4ba3b.dir/HAVE_NETINET_IN_H.c.o.d -o CMakeFiles/cmTC_4ba3b.dir/HAVE_NETINET_IN_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-mcrXMx/HAVE_NETINET_IN_H.c
+        Linking C executable cmTC_4ba3b.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ba3b.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_4ba3b.dir/objects1.rsp -o cmTC_4ba3b.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:127 (check_symbol_exists)"
+    checks:
+      - "Looking for bswap_16"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-7QFmC0"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-7QFmC0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_BSWAP_16"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-7QFmC0'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6463e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6463e.dir/build.make CMakeFiles/cmTC_6463e.dir/build
+        Building C object CMakeFiles/cmTC_6463e.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_6463e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6463e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6463e.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-7QFmC0/CheckSymbolExists.c
+        Linking C executable cmTC_6463e.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6463e.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_6463e.dir/objects1.rsp -o cmTC_6463e.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:128 (check_symbol_exists)"
+    checks:
+      - "Looking for bswap_32"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-yauJsg"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-yauJsg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_BSWAP_32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-yauJsg'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5eac/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e5eac.dir/build.make CMakeFiles/cmTC_e5eac.dir/build
+        Building C object CMakeFiles/cmTC_e5eac.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_e5eac.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e5eac.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e5eac.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-yauJsg/CheckSymbolExists.c
+        Linking C executable cmTC_e5eac.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5eac.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_e5eac.dir/objects1.rsp -o cmTC_e5eac.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:129 (check_symbol_exists)"
+    checks:
+      - "Looking for setenv"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-rMYB88"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-rMYB88"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-rMYB88'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_202c5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_202c5.dir/build.make CMakeFiles/cmTC_202c5.dir/build
+        Building C object CMakeFiles/cmTC_202c5.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_202c5.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_202c5.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_202c5.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-rMYB88/CheckSymbolExists.c
+        Linking C executable cmTC_202c5.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_202c5.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_202c5.dir/objects1.rsp -o cmTC_202c5.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:130 (check_symbol_exists)"
+    checks:
+      - "Looking for select"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jVjZC2"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jVjZC2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SELECT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jVjZC2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8790/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e8790.dir/build.make CMakeFiles/cmTC_e8790.dir/build
+        Building C object CMakeFiles/cmTC_e8790.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_e8790.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e8790.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e8790.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-jVjZC2/CheckSymbolExists.c
+        Linking C executable cmTC_e8790.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8790.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_e8790.dir/objects1.rsp -o cmTC_e8790.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:131 (check_symbol_exists)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-L5tUvw"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-L5tUvw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-L5tUvw'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fc5c5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fc5c5.dir/build.make CMakeFiles/cmTC_fc5c5.dir/build
+        Building C object CMakeFiles/cmTC_fc5c5.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_fc5c5.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_fc5c5.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_fc5c5.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-L5tUvw/CheckSymbolExists.c
+        Linking C executable cmTC_fc5c5.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc5c5.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_fc5c5.dir/objects1.rsp -o cmTC_fc5c5.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:132 (check_symbol_exists)"
+    checks:
+      - "Looking for nanosleep"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-lMoqxa"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-lMoqxa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_NANOSLEEP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-lMoqxa'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6430/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6430.dir/build.make CMakeFiles/cmTC_c6430.dir/build
+        Building C object CMakeFiles/cmTC_c6430.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_c6430.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c6430.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c6430.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-lMoqxa/CheckSymbolExists.c
+        Linking C executable cmTC_c6430.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6430.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_c6430.dir/objects1.rsp -o cmTC_c6430.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:133 (check_symbol_exists)"
+    checks:
+      - "Looking for alphasort"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLwA2f"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLwA2f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_ALPHASORT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLwA2f'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4bb8e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4bb8e.dir/build.make CMakeFiles/cmTC_4bb8e.dir/build
+        Building C object CMakeFiles/cmTC_4bb8e.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_4bb8e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_4bb8e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_4bb8e.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-NLwA2f/CheckSymbolExists.c
+        Linking C executable cmTC_4bb8e.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bb8e.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_4bb8e.dir/objects1.rsp -o cmTC_4bb8e.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:134 (check_symbol_exists)"
+    checks:
+      - "Looking for scandir"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-f3FSBv"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-f3FSBv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SCANDIR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-f3FSBv'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_84dac/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_84dac.dir/build.make CMakeFiles/cmTC_84dac.dir/build
+        Building C object CMakeFiles/cmTC_84dac.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_84dac.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_84dac.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_84dac.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-f3FSBv/CheckSymbolExists.c
+        Linking C executable cmTC_84dac.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84dac.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_84dac.dir/objects1.rsp -o cmTC_84dac.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:135 (check_symbol_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zurEvg"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zurEvg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zurEvg'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0c671/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0c671.dir/build.make CMakeFiles/cmTC_0c671.dir/build
+        Building C object CMakeFiles/cmTC_0c671.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_0c671.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0c671.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0c671.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zurEvg/CheckSymbolExists.c
+        Linking C executable cmTC_0c671.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c671.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_0c671.dir/objects1.rsp -o cmTC_0c671.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:136 (check_symbol_exists)"
+    checks:
+      - "Looking for ftello"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Xkxnhb"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Xkxnhb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_FTELLO"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Xkxnhb'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_30839/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_30839.dir/build.make CMakeFiles/cmTC_30839.dir/build
+        Building C object CMakeFiles/cmTC_30839.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_30839.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_30839.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_30839.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Xkxnhb/CheckSymbolExists.c
+        Linking C executable cmTC_30839.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30839.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_30839.dir/objects1.rsp -o cmTC_30839.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:137 (check_symbol_exists)"
+    checks:
+      - "Looking for flock"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2KbkbP"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2KbkbP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_FLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2KbkbP'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ff76/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0ff76.dir/build.make CMakeFiles/cmTC_0ff76.dir/build
+        Building C object CMakeFiles/cmTC_0ff76.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_0ff76.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0ff76.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0ff76.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-2KbkbP/CheckSymbolExists.c
+        Linking C executable cmTC_0ff76.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ff76.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_0ff76.dir/objects1.rsp -o cmTC_0ff76.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:138 (check_symbol_exists)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-seDFOR"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-seDFOR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-seDFOR'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a9dc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2a9dc.dir/build.make CMakeFiles/cmTC_2a9dc.dir/build
+        Building C object CMakeFiles/cmTC_2a9dc.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_2a9dc.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2a9dc.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2a9dc.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-seDFOR/CheckSymbolExists.c
+        Linking C executable cmTC_2a9dc.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a9dc.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_2a9dc.dir/objects1.rsp -o cmTC_2a9dc.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:139 (check_symbol_exists)"
+    checks:
+      - "Looking for lsetxattr"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Dh1cnm"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Dh1cnm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_LXETXATTR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Dh1cnm'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_86825/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_86825.dir/build.make CMakeFiles/cmTC_86825.dir/build
+        Building C object CMakeFiles/cmTC_86825.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_86825.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_86825.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_86825.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Dh1cnm/CheckSymbolExists.c
+        Linking C executable cmTC_86825.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86825.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_86825.dir/objects1.rsp -o cmTC_86825.js 
+        wasm-ld: error: CMakeFiles/cmTC_86825.dir/CheckSymbolExists.c.o: undefined symbol: lsetxattr
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/wasm-ld -o cmTC_86825.wasm CMakeFiles/cmTC_86825.dir/CheckSymbolExists.c.o -L/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/lib/wasm32-emscripten -lGL -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/0n/kvzzcvpx3fb9pgtj5n8tdvf00000gn/T/tmpgks8cjbvlibemscripten_js_symbols.so --strip-debug --export-if-defined=main --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__main_argc_argv --export-if-defined=fflush --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=stackSave --export=stackRestore --export=stackAlloc --export=__errno_location --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export-table -z stack-size=65536 --initial-memory=16777216 --no-entry --max-memory=2147483648 --stack-first' failed (returned 1)
+        make[1]: *** [cmTC_86825.js] Error 1
+        make: *** [cmTC_86825/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:140 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-vGuA3H"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-vGuA3H"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-vGuA3H'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c499f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c499f.dir/build.make CMakeFiles/cmTC_c499f.dir/build
+        Building C object CMakeFiles/cmTC_c499f.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_c499f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c499f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c499f.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-vGuA3H/CheckSymbolExists.c
+        Linking C executable cmTC_c499f.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c499f.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_c499f.dir/objects1.rsp -o cmTC_c499f.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:141 (check_symbol_exists)"
+    checks:
+      - "Looking for aligned_alloc"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-6yi8p8"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-6yi8p8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_ALIGNED_ALLOC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-6yi8p8'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_45b3c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_45b3c.dir/build.make CMakeFiles/cmTC_45b3c.dir/build
+        Building C object CMakeFiles/cmTC_45b3c.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_45b3c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_45b3c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_45b3c.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-6yi8p8/CheckSymbolExists.c
+        Linking C executable cmTC_45b3c.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45b3c.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_45b3c.dir/objects1.rsp -o cmTC_45b3c.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:142 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-PvfmLC"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-PvfmLC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-PvfmLC'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_360b0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_360b0.dir/build.make CMakeFiles/cmTC_360b0.dir/build
+        Building C object CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc    -MD -MT CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-PvfmLC/CheckSymbolExists.c
+        /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-PvfmLC/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_aligned_malloc'; did you mean 'aligned_alloc'?
+            8 |   return ((int*)(&_aligned_malloc))[argc];
+              |                   ^~~~~~~~~~~~~~~
+              |                   aligned_alloc
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h:44:7: note: 'aligned_alloc' declared here
+           44 | void *aligned_alloc(size_t, size_t);
+              |       ^
+        1 error generated.
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration --sysroot=/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -MD -MT CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o.d -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-PvfmLC/CheckSymbolExists.c -o CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o' failed (returned 1)
+        make[1]: *** [CMakeFiles/cmTC_360b0.dir/CheckSymbolExists.c.o] Error 1
+        make: *** [cmTC_360b0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "CMakeLists.txt:148 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAVE_STRUCT_STAT_ST_ATIMESPEC"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Q6s15C"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Q6s15C"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_STRUCT_STAT_ST_ATIMESPEC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Q6s15C'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5ccf9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5ccf9.dir/build.make CMakeFiles/cmTC_5ccf9.dir/build
+        Building C object CMakeFiles/cmTC_5ccf9.dir/src.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc -DHAVE_STRUCT_STAT_ST_ATIMESPEC   -MD -MT CMakeFiles/cmTC_5ccf9.dir/src.c.o -MF CMakeFiles/cmTC_5ccf9.dir/src.c.o.d -o CMakeFiles/cmTC_5ccf9.dir/src.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Q6s15C/src.c
+        /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Q6s15C/src.c:7:36: error: no member named 'st_atimespec' in 'struct stat'
+            7 |   (void)sizeof(((struct stat *)0)->st_atimespec.tv_nsec);
+              |                ~~~~~~~~~~~~~~~~~~  ^
+        1 error generated.
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration --sysroot=/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -DHAVE_STRUCT_STAT_ST_ATIMESPEC -MD -MT CMakeFiles/cmTC_5ccf9.dir/src.c.o -MF CMakeFiles/cmTC_5ccf9.dir/src.c.o.d -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Q6s15C/src.c -o CMakeFiles/cmTC_5ccf9.dir/src.c.o' failed (returned 1)
+        make[1]: *** [CMakeFiles/cmTC_5ccf9.dir/src.c.o] Error 1
+        make: *** [cmTC_5ccf9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "CMakeLists.txt:150 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-enEXrH"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-enEXrH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_STRUCT_STAT_ST_MTIMESPEC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-enEXrH'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8f14/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f8f14.dir/build.make CMakeFiles/cmTC_f8f14.dir/build
+        Building C object CMakeFiles/cmTC_f8f14.dir/src.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc -DHAVE_STRUCT_STAT_ST_MTIMESPEC   -MD -MT CMakeFiles/cmTC_f8f14.dir/src.c.o -MF CMakeFiles/cmTC_f8f14.dir/src.c.o.d -o CMakeFiles/cmTC_f8f14.dir/src.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-enEXrH/src.c
+        /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-enEXrH/src.c:7:36: error: no member named 'st_mtimespec' in 'struct stat'
+            7 |   (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+              |                ~~~~~~~~~~~~~~~~~~  ^
+        1 error generated.
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration --sysroot=/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -DHAVE_STRUCT_STAT_ST_MTIMESPEC -MD -MT CMakeFiles/cmTC_f8f14.dir/src.c.o -MF CMakeFiles/cmTC_f8f14.dir/src.c.o.d -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-enEXrH/src.c -o CMakeFiles/cmTC_f8f14.dir/src.c.o' failed (returned 1)
+        make[1]: *** [CMakeFiles/cmTC_f8f14.dir/src.c.o] Error 1
+        make: *** [cmTC_f8f14/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "CMakeLists.txt:153 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAVE_STRUCT_DIRENT_D_NAMELEN"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-etvJHX"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-etvJHX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_STRUCT_DIRENT_D_NAMELEN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-etvJHX'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82a07/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_82a07.dir/build.make CMakeFiles/cmTC_82a07.dir/build
+        Building C object CMakeFiles/cmTC_82a07.dir/src.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc -DHAVE_STRUCT_DIRENT_D_NAMELEN   -MD -MT CMakeFiles/cmTC_82a07.dir/src.c.o -MF CMakeFiles/cmTC_82a07.dir/src.c.o.d -o CMakeFiles/cmTC_82a07.dir/src.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-etvJHX/src.c
+        /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-etvJHX/src.c:6:38: error: no member named 'd_namelen' in 'struct dirent'; did you mean 'd_name'?
+            6 |   (void)sizeof(((struct dirent *)0)->d_namelen);
+              |                                      ^~~~~~~~~
+              |                                      d_name
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/dirent.h:10:7: note: 'd_name' declared here
+           10 |         char d_name[256];
+              |              ^
+        1 error generated.
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration --sysroot=/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -DHAVE_STRUCT_DIRENT_D_NAMELEN -MD -MT CMakeFiles/cmTC_82a07.dir/src.c.o -MF CMakeFiles/cmTC_82a07.dir/src.c.o.d -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-etvJHX/src.c -o CMakeFiles/cmTC_82a07.dir/src.c.o' failed (returned 1)
+        make[1]: *** [CMakeFiles/cmTC_82a07.dir/src.c.o] Error 1
+        make: *** [cmTC_82a07/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "src/cpu/CMakeLists.txt:59 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAS_WUNUSED_BUT_SET_VAR"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zfTFvg"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zfTFvg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers"
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAS_WUNUSED_BUT_SET_VAR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zfTFvg'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_91b7f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_91b7f.dir/build.make CMakeFiles/cmTC_91b7f.dir/build
+        Building C object CMakeFiles/cmTC_91b7f.dir/src.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc -DHAS_WUNUSED_BUT_SET_VAR  -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers    -Wunused-but-set-variable -MD -MT CMakeFiles/cmTC_91b7f.dir/src.c.o -MF CMakeFiles/cmTC_91b7f.dir/src.c.o.d -o CMakeFiles/cmTC_91b7f.dir/src.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-zfTFvg/src.c
+        Linking C executable cmTC_91b7f.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91b7f.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers   -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_91b7f.dir/objects1.rsp -o cmTC_91b7f.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "src/slirp/CMakeLists.txt:1 (check_include_files)"
+    checks:
+      - "Looking for include file sys/filio.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Suv5WI"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Suv5WI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers"
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SYS_FILIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Suv5WI'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6e3c8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6e3c8.dir/build.make CMakeFiles/cmTC_6e3c8.dir/build
+        Building C object CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc   -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers  -MD -MT CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o -MF CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o.d -o CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Suv5WI/HAVE_SYS_FILIO_H.c
+        /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Suv5WI/HAVE_SYS_FILIO_H.c:2:10: fatal error: 'sys/filio.h' file not found
+            2 | #include <sys/filio.h>
+              |          ^~~~~~~~~~~~~
+        1 error generated.
+        emcc: error: '/opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration --sysroot=/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g3 -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers -MD -MT CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o -MF CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o.d -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-Suv5WI/HAVE_SYS_FILIO_H.c -o CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o' failed (returned 1)
+        make[1]: *** [CMakeFiles/cmTC_6e3c8.dir/HAVE_SYS_FILIO_H.c.o] Error 1
+        make: *** [cmTC_6e3c8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "src/slirp/CMakeLists.txt:6 (check_include_files)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-3N3T0O"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-3N3T0O"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers"
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-3N3T0O'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b98e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4b98e.dir/build.make CMakeFiles/cmTC_4b98e.dir/build
+        Building C object CMakeFiles/cmTC_4b98e.dir/HAVE_SYS_IOCTL_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc   -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers  -MD -MT CMakeFiles/cmTC_4b98e.dir/HAVE_SYS_IOCTL_H.c.o -MF CMakeFiles/cmTC_4b98e.dir/HAVE_SYS_IOCTL_H.c.o.d -o CMakeFiles/cmTC_4b98e.dir/HAVE_SYS_IOCTL_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-3N3T0O/HAVE_SYS_IOCTL_H.c
+        Linking C executable cmTC_4b98e.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b98e.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers   -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_4b98e.dir/objects1.rsp -o cmTC_4b98e.js 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.2/share/cmake/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "src/slirp/CMakeLists.txt:11 (check_include_files)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-DAJ181"
+      binary: "/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-DAJ181"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers"
+      CMAKE_EXE_LINKER_FLAGS: " -s ALLOW_MEMORY_GROWTH=1"
+      CMAKE_MODULE_PATH: "/Users/wjk/Code/previous-code/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-DAJ181'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a8ee3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a8ee3.dir/build.make CMakeFiles/cmTC_a8ee3.dir/build
+        Building C object CMakeFiles/cmTC_a8ee3.dir/HAVE_UNISTD_H.c.o
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc   -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers  -MD -MT CMakeFiles/cmTC_a8ee3.dir/HAVE_UNISTD_H.c.o -MF CMakeFiles/cmTC_a8ee3.dir/HAVE_UNISTD_H.c.o.d -o CMakeFiles/cmTC_a8ee3.dir/HAVE_UNISTD_H.c.o -c /Users/wjk/Code/previous-code/build/CMakeFiles/CMakeScratch/TryCompile-DAJ181/HAVE_UNISTD_H.c
+        Linking C executable cmTC_a8ee3.js
+        /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8ee3.dir/link.txt --verbose=1
+        /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc  -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers   -s ALLOW_MEMORY_GROWTH=1  @CMakeFiles/cmTC_a8ee3.dir/objects1.rsp -o cmTC_a8ee3.js 
+        
+      exitCode: 0
+...

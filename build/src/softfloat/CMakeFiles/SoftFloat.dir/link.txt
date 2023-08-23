@@ -1,0 +1,2 @@
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/emar qc libSoftFloat.a CMakeFiles/SoftFloat.dir/softfloat.c.o CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/emranlib libSoftFloat.a

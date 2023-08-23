@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src/slirp//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src/slirp//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/slirp/CMakeFiles/Slirp.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/CMakeFiles/Slirp.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/slirp/CMakeFiles/Slirp.dir/rule
 .PHONY : src/slirp/CMakeFiles/Slirp.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Slirp: src/slirp/CMakeFiles/Slirp.dir/rule
 
 # fast build rule for target.
 Slirp/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/build
 .PHONY : Slirp/fast
 
 __/ditool/DiskImage.o: __/ditool/DiskImage.cpp.o
@@ -180,7 +180,7 @@ __/ditool/DiskImage.o: __/ditool/DiskImage.cpp.o
 
 # target to build an object file
 __/ditool/DiskImage.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/DiskImage.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/DiskImage.cpp.o
 .PHONY : __/ditool/DiskImage.cpp.o
 
 __/ditool/DiskImage.i: __/ditool/DiskImage.cpp.i
@@ -188,7 +188,7 @@ __/ditool/DiskImage.i: __/ditool/DiskImage.cpp.i
 
 # target to preprocess a source file
 __/ditool/DiskImage.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/DiskImage.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/DiskImage.cpp.i
 .PHONY : __/ditool/DiskImage.cpp.i
 
 __/ditool/DiskImage.s: __/ditool/DiskImage.cpp.s
@@ -196,7 +196,7 @@ __/ditool/DiskImage.s: __/ditool/DiskImage.cpp.s
 
 # target to generate assembly for a file
 __/ditool/DiskImage.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/DiskImage.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/DiskImage.cpp.s
 .PHONY : __/ditool/DiskImage.cpp.s
 
 __/ditool/Partition.o: __/ditool/Partition.cpp.o
@@ -204,7 +204,7 @@ __/ditool/Partition.o: __/ditool/Partition.cpp.o
 
 # target to build an object file
 __/ditool/Partition.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.o
 .PHONY : __/ditool/Partition.cpp.o
 
 __/ditool/Partition.i: __/ditool/Partition.cpp.i
@@ -212,7 +212,7 @@ __/ditool/Partition.i: __/ditool/Partition.cpp.i
 
 # target to preprocess a source file
 __/ditool/Partition.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.i
 .PHONY : __/ditool/Partition.cpp.i
 
 __/ditool/Partition.s: __/ditool/Partition.cpp.s
@@ -220,7 +220,7 @@ __/ditool/Partition.s: __/ditool/Partition.cpp.s
 
 # target to generate assembly for a file
 __/ditool/Partition.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.s
 .PHONY : __/ditool/Partition.cpp.s
 
 __/ditool/UFS.o: __/ditool/UFS.cpp.o
@@ -228,7 +228,7 @@ __/ditool/UFS.o: __/ditool/UFS.cpp.o
 
 # target to build an object file
 __/ditool/UFS.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/UFS.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/UFS.cpp.o
 .PHONY : __/ditool/UFS.cpp.o
 
 __/ditool/UFS.i: __/ditool/UFS.cpp.i
@@ -236,7 +236,7 @@ __/ditool/UFS.i: __/ditool/UFS.cpp.i
 
 # target to preprocess a source file
 __/ditool/UFS.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/UFS.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/UFS.cpp.i
 .PHONY : __/ditool/UFS.cpp.i
 
 __/ditool/UFS.s: __/ditool/UFS.cpp.s
@@ -244,7 +244,7 @@ __/ditool/UFS.s: __/ditool/UFS.cpp.s
 
 # target to generate assembly for a file
 __/ditool/UFS.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/UFS.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/UFS.cpp.s
 .PHONY : __/ditool/UFS.cpp.s
 
 __/ditool/VirtualFS.o: __/ditool/VirtualFS.cpp.o
@@ -252,7 +252,7 @@ __/ditool/VirtualFS.o: __/ditool/VirtualFS.cpp.o
 
 # target to build an object file
 __/ditool/VirtualFS.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/VirtualFS.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/VirtualFS.cpp.o
 .PHONY : __/ditool/VirtualFS.cpp.o
 
 __/ditool/VirtualFS.i: __/ditool/VirtualFS.cpp.i
@@ -260,7 +260,7 @@ __/ditool/VirtualFS.i: __/ditool/VirtualFS.cpp.i
 
 # target to preprocess a source file
 __/ditool/VirtualFS.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/VirtualFS.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/VirtualFS.cpp.i
 .PHONY : __/ditool/VirtualFS.cpp.i
 
 __/ditool/VirtualFS.s: __/ditool/VirtualFS.cpp.s
@@ -268,7 +268,7 @@ __/ditool/VirtualFS.s: __/ditool/VirtualFS.cpp.s
 
 # target to generate assembly for a file
 __/ditool/VirtualFS.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/VirtualFS.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/__/ditool/VirtualFS.cpp.s
 .PHONY : __/ditool/VirtualFS.cpp.s
 
 bootp.o: bootp.c.o
@@ -276,7 +276,7 @@ bootp.o: bootp.c.o
 
 # target to build an object file
 bootp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/bootp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/bootp.c.o
 .PHONY : bootp.c.o
 
 bootp.i: bootp.c.i
@@ -284,7 +284,7 @@ bootp.i: bootp.c.i
 
 # target to preprocess a source file
 bootp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/bootp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/bootp.c.i
 .PHONY : bootp.c.i
 
 bootp.s: bootp.c.s
@@ -292,7 +292,7 @@ bootp.s: bootp.c.s
 
 # target to generate assembly for a file
 bootp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/bootp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/bootp.c.s
 .PHONY : bootp.c.s
 
 cksum.o: cksum.c.o
@@ -300,7 +300,7 @@ cksum.o: cksum.c.o
 
 # target to build an object file
 cksum.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/cksum.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/cksum.c.o
 .PHONY : cksum.c.o
 
 cksum.i: cksum.c.i
@@ -308,7 +308,7 @@ cksum.i: cksum.c.i
 
 # target to preprocess a source file
 cksum.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/cksum.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/cksum.c.i
 .PHONY : cksum.c.i
 
 cksum.s: cksum.c.s
@@ -316,7 +316,7 @@ cksum.s: cksum.c.s
 
 # target to generate assembly for a file
 cksum.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/cksum.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/cksum.c.s
 .PHONY : cksum.c.s
 
 if.o: if.c.o
@@ -324,7 +324,7 @@ if.o: if.c.o
 
 # target to build an object file
 if.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/if.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/if.c.o
 .PHONY : if.c.o
 
 if.i: if.c.i
@@ -332,7 +332,7 @@ if.i: if.c.i
 
 # target to preprocess a source file
 if.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/if.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/if.c.i
 .PHONY : if.c.i
 
 if.s: if.c.s
@@ -340,7 +340,7 @@ if.s: if.c.s
 
 # target to generate assembly for a file
 if.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/if.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/if.c.s
 .PHONY : if.c.s
 
 ip_icmp.o: ip_icmp.c.o
@@ -348,7 +348,7 @@ ip_icmp.o: ip_icmp.c.o
 
 # target to build an object file
 ip_icmp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_icmp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_icmp.c.o
 .PHONY : ip_icmp.c.o
 
 ip_icmp.i: ip_icmp.c.i
@@ -356,7 +356,7 @@ ip_icmp.i: ip_icmp.c.i
 
 # target to preprocess a source file
 ip_icmp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_icmp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_icmp.c.i
 .PHONY : ip_icmp.c.i
 
 ip_icmp.s: ip_icmp.c.s
@@ -364,7 +364,7 @@ ip_icmp.s: ip_icmp.c.s
 
 # target to generate assembly for a file
 ip_icmp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_icmp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_icmp.c.s
 .PHONY : ip_icmp.c.s
 
 ip_input.o: ip_input.c.o
@@ -372,7 +372,7 @@ ip_input.o: ip_input.c.o
 
 # target to build an object file
 ip_input.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_input.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_input.c.o
 .PHONY : ip_input.c.o
 
 ip_input.i: ip_input.c.i
@@ -380,7 +380,7 @@ ip_input.i: ip_input.c.i
 
 # target to preprocess a source file
 ip_input.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_input.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_input.c.i
 .PHONY : ip_input.c.i
 
 ip_input.s: ip_input.c.s
@@ -388,7 +388,7 @@ ip_input.s: ip_input.c.s
 
 # target to generate assembly for a file
 ip_input.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_input.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_input.c.s
 .PHONY : ip_input.c.s
 
 ip_output.o: ip_output.c.o
@@ -396,7 +396,7 @@ ip_output.o: ip_output.c.o
 
 # target to build an object file
 ip_output.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_output.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_output.c.o
 .PHONY : ip_output.c.o
 
 ip_output.i: ip_output.c.i
@@ -404,7 +404,7 @@ ip_output.i: ip_output.c.i
 
 # target to preprocess a source file
 ip_output.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_output.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_output.c.i
 .PHONY : ip_output.c.i
 
 ip_output.s: ip_output.c.s
@@ -412,7 +412,7 @@ ip_output.s: ip_output.c.s
 
 # target to generate assembly for a file
 ip_output.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_output.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ip_output.c.s
 .PHONY : ip_output.c.s
 
 mbuf.o: mbuf.c.o
@@ -420,7 +420,7 @@ mbuf.o: mbuf.c.o
 
 # target to build an object file
 mbuf.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/mbuf.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/mbuf.c.o
 .PHONY : mbuf.c.o
 
 mbuf.i: mbuf.c.i
@@ -428,7 +428,7 @@ mbuf.i: mbuf.c.i
 
 # target to preprocess a source file
 mbuf.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/mbuf.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/mbuf.c.i
 .PHONY : mbuf.c.i
 
 mbuf.s: mbuf.c.s
@@ -436,7 +436,7 @@ mbuf.s: mbuf.c.s
 
 # target to generate assembly for a file
 mbuf.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/mbuf.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/mbuf.c.s
 .PHONY : mbuf.c.s
 
 misc.o: misc.c.o
@@ -444,7 +444,7 @@ misc.o: misc.c.o
 
 # target to build an object file
 misc.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/misc.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/misc.c.o
 .PHONY : misc.c.o
 
 misc.i: misc.c.i
@@ -452,7 +452,7 @@ misc.i: misc.c.i
 
 # target to preprocess a source file
 misc.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/misc.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/misc.c.i
 .PHONY : misc.c.i
 
 misc.s: misc.c.s
@@ -460,7 +460,7 @@ misc.s: misc.c.s
 
 # target to generate assembly for a file
 misc.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/misc.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/misc.c.s
 .PHONY : misc.c.s
 
 nfs/BootparamProg.o: nfs/BootparamProg.cpp.o
@@ -468,7 +468,7 @@ nfs/BootparamProg.o: nfs/BootparamProg.cpp.o
 
 # target to build an object file
 nfs/BootparamProg.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/BootparamProg.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/BootparamProg.cpp.o
 .PHONY : nfs/BootparamProg.cpp.o
 
 nfs/BootparamProg.i: nfs/BootparamProg.cpp.i
@@ -476,7 +476,7 @@ nfs/BootparamProg.i: nfs/BootparamProg.cpp.i
 
 # target to preprocess a source file
 nfs/BootparamProg.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/BootparamProg.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/BootparamProg.cpp.i
 .PHONY : nfs/BootparamProg.cpp.i
 
 nfs/BootparamProg.s: nfs/BootparamProg.cpp.s
@@ -484,7 +484,7 @@ nfs/BootparamProg.s: nfs/BootparamProg.cpp.s
 
 # target to generate assembly for a file
 nfs/BootparamProg.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/BootparamProg.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/BootparamProg.cpp.s
 .PHONY : nfs/BootparamProg.cpp.s
 
 nfs/CSocket.o: nfs/CSocket.cpp.o
@@ -492,7 +492,7 @@ nfs/CSocket.o: nfs/CSocket.cpp.o
 
 # target to build an object file
 nfs/CSocket.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/CSocket.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/CSocket.cpp.o
 .PHONY : nfs/CSocket.cpp.o
 
 nfs/CSocket.i: nfs/CSocket.cpp.i
@@ -500,7 +500,7 @@ nfs/CSocket.i: nfs/CSocket.cpp.i
 
 # target to preprocess a source file
 nfs/CSocket.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/CSocket.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/CSocket.cpp.i
 .PHONY : nfs/CSocket.cpp.i
 
 nfs/CSocket.s: nfs/CSocket.cpp.s
@@ -508,7 +508,7 @@ nfs/CSocket.s: nfs/CSocket.cpp.s
 
 # target to generate assembly for a file
 nfs/CSocket.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/CSocket.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/CSocket.cpp.s
 .PHONY : nfs/CSocket.cpp.s
 
 nfs/FileTableNFSD.o: nfs/FileTableNFSD.cpp.o
@@ -516,7 +516,7 @@ nfs/FileTableNFSD.o: nfs/FileTableNFSD.cpp.o
 
 # target to build an object file
 nfs/FileTableNFSD.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.o
 .PHONY : nfs/FileTableNFSD.cpp.o
 
 nfs/FileTableNFSD.i: nfs/FileTableNFSD.cpp.i
@@ -524,7 +524,7 @@ nfs/FileTableNFSD.i: nfs/FileTableNFSD.cpp.i
 
 # target to preprocess a source file
 nfs/FileTableNFSD.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.i
 .PHONY : nfs/FileTableNFSD.cpp.i
 
 nfs/FileTableNFSD.s: nfs/FileTableNFSD.cpp.s
@@ -532,7 +532,7 @@ nfs/FileTableNFSD.s: nfs/FileTableNFSD.cpp.s
 
 # target to generate assembly for a file
 nfs/FileTableNFSD.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.s
 .PHONY : nfs/FileTableNFSD.cpp.s
 
 nfs/MountProg.o: nfs/MountProg.cpp.o
@@ -540,7 +540,7 @@ nfs/MountProg.o: nfs/MountProg.cpp.o
 
 # target to build an object file
 nfs/MountProg.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/MountProg.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/MountProg.cpp.o
 .PHONY : nfs/MountProg.cpp.o
 
 nfs/MountProg.i: nfs/MountProg.cpp.i
@@ -548,7 +548,7 @@ nfs/MountProg.i: nfs/MountProg.cpp.i
 
 # target to preprocess a source file
 nfs/MountProg.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/MountProg.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/MountProg.cpp.i
 .PHONY : nfs/MountProg.cpp.i
 
 nfs/MountProg.s: nfs/MountProg.cpp.s
@@ -556,7 +556,7 @@ nfs/MountProg.s: nfs/MountProg.cpp.s
 
 # target to generate assembly for a file
 nfs/MountProg.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/MountProg.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/MountProg.cpp.s
 .PHONY : nfs/MountProg.cpp.s
 
 nfs/NFS2Prog.o: nfs/NFS2Prog.cpp.o
@@ -564,7 +564,7 @@ nfs/NFS2Prog.o: nfs/NFS2Prog.cpp.o
 
 # target to build an object file
 nfs/NFS2Prog.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFS2Prog.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFS2Prog.cpp.o
 .PHONY : nfs/NFS2Prog.cpp.o
 
 nfs/NFS2Prog.i: nfs/NFS2Prog.cpp.i
@@ -572,7 +572,7 @@ nfs/NFS2Prog.i: nfs/NFS2Prog.cpp.i
 
 # target to preprocess a source file
 nfs/NFS2Prog.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFS2Prog.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFS2Prog.cpp.i
 .PHONY : nfs/NFS2Prog.cpp.i
 
 nfs/NFS2Prog.s: nfs/NFS2Prog.cpp.s
@@ -580,7 +580,7 @@ nfs/NFS2Prog.s: nfs/NFS2Prog.cpp.s
 
 # target to generate assembly for a file
 nfs/NFS2Prog.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFS2Prog.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFS2Prog.cpp.s
 .PHONY : nfs/NFS2Prog.cpp.s
 
 nfs/NFSProg.o: nfs/NFSProg.cpp.o
@@ -588,7 +588,7 @@ nfs/NFSProg.o: nfs/NFSProg.cpp.o
 
 # target to build an object file
 nfs/NFSProg.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFSProg.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFSProg.cpp.o
 .PHONY : nfs/NFSProg.cpp.o
 
 nfs/NFSProg.i: nfs/NFSProg.cpp.i
@@ -596,7 +596,7 @@ nfs/NFSProg.i: nfs/NFSProg.cpp.i
 
 # target to preprocess a source file
 nfs/NFSProg.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFSProg.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFSProg.cpp.i
 .PHONY : nfs/NFSProg.cpp.i
 
 nfs/NFSProg.s: nfs/NFSProg.cpp.s
@@ -604,7 +604,7 @@ nfs/NFSProg.s: nfs/NFSProg.cpp.s
 
 # target to generate assembly for a file
 nfs/NFSProg.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFSProg.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NFSProg.cpp.s
 .PHONY : nfs/NFSProg.cpp.s
 
 nfs/NetInfoBindProg.o: nfs/NetInfoBindProg.cpp.o
@@ -612,7 +612,7 @@ nfs/NetInfoBindProg.o: nfs/NetInfoBindProg.cpp.o
 
 # target to build an object file
 nfs/NetInfoBindProg.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.o
 .PHONY : nfs/NetInfoBindProg.cpp.o
 
 nfs/NetInfoBindProg.i: nfs/NetInfoBindProg.cpp.i
@@ -620,7 +620,7 @@ nfs/NetInfoBindProg.i: nfs/NetInfoBindProg.cpp.i
 
 # target to preprocess a source file
 nfs/NetInfoBindProg.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.i
 .PHONY : nfs/NetInfoBindProg.cpp.i
 
 nfs/NetInfoBindProg.s: nfs/NetInfoBindProg.cpp.s
@@ -628,7 +628,7 @@ nfs/NetInfoBindProg.s: nfs/NetInfoBindProg.cpp.s
 
 # target to generate assembly for a file
 nfs/NetInfoBindProg.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoBindProg.cpp.s
 .PHONY : nfs/NetInfoBindProg.cpp.s
 
 nfs/NetInfoProg.o: nfs/NetInfoProg.cpp.o
@@ -636,7 +636,7 @@ nfs/NetInfoProg.o: nfs/NetInfoProg.cpp.o
 
 # target to build an object file
 nfs/NetInfoProg.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoProg.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoProg.cpp.o
 .PHONY : nfs/NetInfoProg.cpp.o
 
 nfs/NetInfoProg.i: nfs/NetInfoProg.cpp.i
@@ -644,7 +644,7 @@ nfs/NetInfoProg.i: nfs/NetInfoProg.cpp.i
 
 # target to preprocess a source file
 nfs/NetInfoProg.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoProg.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoProg.cpp.i
 .PHONY : nfs/NetInfoProg.cpp.i
 
 nfs/NetInfoProg.s: nfs/NetInfoProg.cpp.s
@@ -652,7 +652,7 @@ nfs/NetInfoProg.s: nfs/NetInfoProg.cpp.s
 
 # target to generate assembly for a file
 nfs/NetInfoProg.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoProg.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/NetInfoProg.cpp.s
 .PHONY : nfs/NetInfoProg.cpp.s
 
 nfs/PortmapProg.o: nfs/PortmapProg.cpp.o
@@ -660,7 +660,7 @@ nfs/PortmapProg.o: nfs/PortmapProg.cpp.o
 
 # target to build an object file
 nfs/PortmapProg.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/PortmapProg.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/PortmapProg.cpp.o
 .PHONY : nfs/PortmapProg.cpp.o
 
 nfs/PortmapProg.i: nfs/PortmapProg.cpp.i
@@ -668,7 +668,7 @@ nfs/PortmapProg.i: nfs/PortmapProg.cpp.i
 
 # target to preprocess a source file
 nfs/PortmapProg.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/PortmapProg.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/PortmapProg.cpp.i
 .PHONY : nfs/PortmapProg.cpp.i
 
 nfs/PortmapProg.s: nfs/PortmapProg.cpp.s
@@ -676,7 +676,7 @@ nfs/PortmapProg.s: nfs/PortmapProg.cpp.s
 
 # target to generate assembly for a file
 nfs/PortmapProg.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/PortmapProg.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/PortmapProg.cpp.s
 .PHONY : nfs/PortmapProg.cpp.s
 
 nfs/RPCProg.o: nfs/RPCProg.cpp.o
@@ -684,7 +684,7 @@ nfs/RPCProg.o: nfs/RPCProg.cpp.o
 
 # target to build an object file
 nfs/RPCProg.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCProg.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCProg.cpp.o
 .PHONY : nfs/RPCProg.cpp.o
 
 nfs/RPCProg.i: nfs/RPCProg.cpp.i
@@ -692,7 +692,7 @@ nfs/RPCProg.i: nfs/RPCProg.cpp.i
 
 # target to preprocess a source file
 nfs/RPCProg.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCProg.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCProg.cpp.i
 .PHONY : nfs/RPCProg.cpp.i
 
 nfs/RPCProg.s: nfs/RPCProg.cpp.s
@@ -700,7 +700,7 @@ nfs/RPCProg.s: nfs/RPCProg.cpp.s
 
 # target to generate assembly for a file
 nfs/RPCProg.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCProg.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCProg.cpp.s
 .PHONY : nfs/RPCProg.cpp.s
 
 nfs/RPCServer.o: nfs/RPCServer.cpp.o
@@ -708,7 +708,7 @@ nfs/RPCServer.o: nfs/RPCServer.cpp.o
 
 # target to build an object file
 nfs/RPCServer.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCServer.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCServer.cpp.o
 .PHONY : nfs/RPCServer.cpp.o
 
 nfs/RPCServer.i: nfs/RPCServer.cpp.i
@@ -716,7 +716,7 @@ nfs/RPCServer.i: nfs/RPCServer.cpp.i
 
 # target to preprocess a source file
 nfs/RPCServer.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCServer.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCServer.cpp.i
 .PHONY : nfs/RPCServer.cpp.i
 
 nfs/RPCServer.s: nfs/RPCServer.cpp.s
@@ -724,7 +724,7 @@ nfs/RPCServer.s: nfs/RPCServer.cpp.s
 
 # target to generate assembly for a file
 nfs/RPCServer.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCServer.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/RPCServer.cpp.s
 .PHONY : nfs/RPCServer.cpp.s
 
 nfs/TCPServerSocket.o: nfs/TCPServerSocket.cpp.o
@@ -732,7 +732,7 @@ nfs/TCPServerSocket.o: nfs/TCPServerSocket.cpp.o
 
 # target to build an object file
 nfs/TCPServerSocket.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/TCPServerSocket.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/TCPServerSocket.cpp.o
 .PHONY : nfs/TCPServerSocket.cpp.o
 
 nfs/TCPServerSocket.i: nfs/TCPServerSocket.cpp.i
@@ -740,7 +740,7 @@ nfs/TCPServerSocket.i: nfs/TCPServerSocket.cpp.i
 
 # target to preprocess a source file
 nfs/TCPServerSocket.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/TCPServerSocket.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/TCPServerSocket.cpp.i
 .PHONY : nfs/TCPServerSocket.cpp.i
 
 nfs/TCPServerSocket.s: nfs/TCPServerSocket.cpp.s
@@ -748,7 +748,7 @@ nfs/TCPServerSocket.s: nfs/TCPServerSocket.cpp.s
 
 # target to generate assembly for a file
 nfs/TCPServerSocket.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/TCPServerSocket.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/TCPServerSocket.cpp.s
 .PHONY : nfs/TCPServerSocket.cpp.s
 
 nfs/UDPServerSocket.o: nfs/UDPServerSocket.cpp.o
@@ -756,7 +756,7 @@ nfs/UDPServerSocket.o: nfs/UDPServerSocket.cpp.o
 
 # target to build an object file
 nfs/UDPServerSocket.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/UDPServerSocket.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/UDPServerSocket.cpp.o
 .PHONY : nfs/UDPServerSocket.cpp.o
 
 nfs/UDPServerSocket.i: nfs/UDPServerSocket.cpp.i
@@ -764,7 +764,7 @@ nfs/UDPServerSocket.i: nfs/UDPServerSocket.cpp.i
 
 # target to preprocess a source file
 nfs/UDPServerSocket.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/UDPServerSocket.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/UDPServerSocket.cpp.i
 .PHONY : nfs/UDPServerSocket.cpp.i
 
 nfs/UDPServerSocket.s: nfs/UDPServerSocket.cpp.s
@@ -772,7 +772,7 @@ nfs/UDPServerSocket.s: nfs/UDPServerSocket.cpp.s
 
 # target to generate assembly for a file
 nfs/UDPServerSocket.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/UDPServerSocket.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/UDPServerSocket.cpp.s
 .PHONY : nfs/UDPServerSocket.cpp.s
 
 nfs/VDNS.o: nfs/VDNS.cpp.o
@@ -780,7 +780,7 @@ nfs/VDNS.o: nfs/VDNS.cpp.o
 
 # target to build an object file
 nfs/VDNS.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/VDNS.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/VDNS.cpp.o
 .PHONY : nfs/VDNS.cpp.o
 
 nfs/VDNS.i: nfs/VDNS.cpp.i
@@ -788,7 +788,7 @@ nfs/VDNS.i: nfs/VDNS.cpp.i
 
 # target to preprocess a source file
 nfs/VDNS.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/VDNS.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/VDNS.cpp.i
 .PHONY : nfs/VDNS.cpp.i
 
 nfs/VDNS.s: nfs/VDNS.cpp.s
@@ -796,7 +796,7 @@ nfs/VDNS.s: nfs/VDNS.cpp.s
 
 # target to generate assembly for a file
 nfs/VDNS.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/VDNS.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/VDNS.cpp.s
 .PHONY : nfs/VDNS.cpp.s
 
 nfs/XDRStream.o: nfs/XDRStream.cpp.o
@@ -804,7 +804,7 @@ nfs/XDRStream.o: nfs/XDRStream.cpp.o
 
 # target to build an object file
 nfs/XDRStream.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.o
 .PHONY : nfs/XDRStream.cpp.o
 
 nfs/XDRStream.i: nfs/XDRStream.cpp.i
@@ -812,7 +812,7 @@ nfs/XDRStream.i: nfs/XDRStream.cpp.i
 
 # target to preprocess a source file
 nfs/XDRStream.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.i
 .PHONY : nfs/XDRStream.cpp.i
 
 nfs/XDRStream.s: nfs/XDRStream.cpp.s
@@ -820,7 +820,7 @@ nfs/XDRStream.s: nfs/XDRStream.cpp.s
 
 # target to generate assembly for a file
 nfs/XDRStream.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.s
 .PHONY : nfs/XDRStream.cpp.s
 
 nfs/compat.o: nfs/compat.cpp.o
@@ -828,7 +828,7 @@ nfs/compat.o: nfs/compat.cpp.o
 
 # target to build an object file
 nfs/compat.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.o
 .PHONY : nfs/compat.cpp.o
 
 nfs/compat.i: nfs/compat.cpp.i
@@ -836,7 +836,7 @@ nfs/compat.i: nfs/compat.cpp.i
 
 # target to preprocess a source file
 nfs/compat.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.i
 .PHONY : nfs/compat.cpp.i
 
 nfs/compat.s: nfs/compat.cpp.s
@@ -844,7 +844,7 @@ nfs/compat.s: nfs/compat.cpp.s
 
 # target to generate assembly for a file
 nfs/compat.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/compat.cpp.s
 .PHONY : nfs/compat.cpp.s
 
 nfs/nfsd.o: nfs/nfsd.cpp.o
@@ -852,7 +852,7 @@ nfs/nfsd.o: nfs/nfsd.cpp.o
 
 # target to build an object file
 nfs/nfsd.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/nfsd.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/nfsd.cpp.o
 .PHONY : nfs/nfsd.cpp.o
 
 nfs/nfsd.i: nfs/nfsd.cpp.i
@@ -860,7 +860,7 @@ nfs/nfsd.i: nfs/nfsd.cpp.i
 
 # target to preprocess a source file
 nfs/nfsd.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/nfsd.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/nfsd.cpp.i
 .PHONY : nfs/nfsd.cpp.i
 
 nfs/nfsd.s: nfs/nfsd.cpp.s
@@ -868,7 +868,7 @@ nfs/nfsd.s: nfs/nfsd.cpp.s
 
 # target to generate assembly for a file
 nfs/nfsd.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/nfsd.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/nfs/nfsd.cpp.s
 .PHONY : nfs/nfsd.cpp.s
 
 ntp.o: ntp.c.o
@@ -876,7 +876,7 @@ ntp.o: ntp.c.o
 
 # target to build an object file
 ntp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ntp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ntp.c.o
 .PHONY : ntp.c.o
 
 ntp.i: ntp.c.i
@@ -884,7 +884,7 @@ ntp.i: ntp.c.i
 
 # target to preprocess a source file
 ntp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ntp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ntp.c.i
 .PHONY : ntp.c.i
 
 ntp.s: ntp.c.s
@@ -892,7 +892,7 @@ ntp.s: ntp.c.s
 
 # target to generate assembly for a file
 ntp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ntp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/ntp.c.s
 .PHONY : ntp.c.s
 
 rip.o: rip.c.o
@@ -900,7 +900,7 @@ rip.o: rip.c.o
 
 # target to build an object file
 rip.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/rip.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/rip.c.o
 .PHONY : rip.c.o
 
 rip.i: rip.c.i
@@ -908,7 +908,7 @@ rip.i: rip.c.i
 
 # target to preprocess a source file
 rip.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/rip.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/rip.c.i
 .PHONY : rip.c.i
 
 rip.s: rip.c.s
@@ -916,7 +916,7 @@ rip.s: rip.c.s
 
 # target to generate assembly for a file
 rip.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/rip.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/rip.c.s
 .PHONY : rip.c.s
 
 sbuf.o: sbuf.c.o
@@ -924,7 +924,7 @@ sbuf.o: sbuf.c.o
 
 # target to build an object file
 sbuf.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/sbuf.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/sbuf.c.o
 .PHONY : sbuf.c.o
 
 sbuf.i: sbuf.c.i
@@ -932,7 +932,7 @@ sbuf.i: sbuf.c.i
 
 # target to preprocess a source file
 sbuf.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/sbuf.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/sbuf.c.i
 .PHONY : sbuf.c.i
 
 sbuf.s: sbuf.c.s
@@ -940,7 +940,7 @@ sbuf.s: sbuf.c.s
 
 # target to generate assembly for a file
 sbuf.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/sbuf.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/sbuf.c.s
 .PHONY : sbuf.c.s
 
 slirp.o: slirp.c.o
@@ -948,7 +948,7 @@ slirp.o: slirp.c.o
 
 # target to build an object file
 slirp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirp.c.o
 .PHONY : slirp.c.o
 
 slirp.i: slirp.c.i
@@ -956,7 +956,7 @@ slirp.i: slirp.c.i
 
 # target to preprocess a source file
 slirp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirp.c.i
 .PHONY : slirp.c.i
 
 slirp.s: slirp.c.s
@@ -964,7 +964,7 @@ slirp.s: slirp.c.s
 
 # target to generate assembly for a file
 slirp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirp.c.s
 .PHONY : slirp.c.s
 
 slirpdebug.o: slirpdebug.c.o
@@ -972,7 +972,7 @@ slirpdebug.o: slirpdebug.c.o
 
 # target to build an object file
 slirpdebug.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirpdebug.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirpdebug.c.o
 .PHONY : slirpdebug.c.o
 
 slirpdebug.i: slirpdebug.c.i
@@ -980,7 +980,7 @@ slirpdebug.i: slirpdebug.c.i
 
 # target to preprocess a source file
 slirpdebug.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirpdebug.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirpdebug.c.i
 .PHONY : slirpdebug.c.i
 
 slirpdebug.s: slirpdebug.c.s
@@ -988,7 +988,7 @@ slirpdebug.s: slirpdebug.c.s
 
 # target to generate assembly for a file
 slirpdebug.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirpdebug.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/slirpdebug.c.s
 .PHONY : slirpdebug.c.s
 
 socket.o: socket.c.o
@@ -996,7 +996,7 @@ socket.o: socket.c.o
 
 # target to build an object file
 socket.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/socket.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/socket.c.o
 .PHONY : socket.c.o
 
 socket.i: socket.c.i
@@ -1004,7 +1004,7 @@ socket.i: socket.c.i
 
 # target to preprocess a source file
 socket.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/socket.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/socket.c.i
 .PHONY : socket.c.i
 
 socket.s: socket.c.s
@@ -1012,7 +1012,7 @@ socket.s: socket.c.s
 
 # target to generate assembly for a file
 socket.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/socket.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/socket.c.s
 .PHONY : socket.c.s
 
 tcp_input.o: tcp_input.c.o
@@ -1020,7 +1020,7 @@ tcp_input.o: tcp_input.c.o
 
 # target to build an object file
 tcp_input.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_input.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_input.c.o
 .PHONY : tcp_input.c.o
 
 tcp_input.i: tcp_input.c.i
@@ -1028,7 +1028,7 @@ tcp_input.i: tcp_input.c.i
 
 # target to preprocess a source file
 tcp_input.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_input.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_input.c.i
 .PHONY : tcp_input.c.i
 
 tcp_input.s: tcp_input.c.s
@@ -1036,7 +1036,7 @@ tcp_input.s: tcp_input.c.s
 
 # target to generate assembly for a file
 tcp_input.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_input.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_input.c.s
 .PHONY : tcp_input.c.s
 
 tcp_output.o: tcp_output.c.o
@@ -1044,7 +1044,7 @@ tcp_output.o: tcp_output.c.o
 
 # target to build an object file
 tcp_output.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_output.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_output.c.o
 .PHONY : tcp_output.c.o
 
 tcp_output.i: tcp_output.c.i
@@ -1052,7 +1052,7 @@ tcp_output.i: tcp_output.c.i
 
 # target to preprocess a source file
 tcp_output.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_output.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_output.c.i
 .PHONY : tcp_output.c.i
 
 tcp_output.s: tcp_output.c.s
@@ -1060,7 +1060,7 @@ tcp_output.s: tcp_output.c.s
 
 # target to generate assembly for a file
 tcp_output.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_output.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_output.c.s
 .PHONY : tcp_output.c.s
 
 tcp_subr.o: tcp_subr.c.o
@@ -1068,7 +1068,7 @@ tcp_subr.o: tcp_subr.c.o
 
 # target to build an object file
 tcp_subr.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_subr.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_subr.c.o
 .PHONY : tcp_subr.c.o
 
 tcp_subr.i: tcp_subr.c.i
@@ -1076,7 +1076,7 @@ tcp_subr.i: tcp_subr.c.i
 
 # target to preprocess a source file
 tcp_subr.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_subr.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_subr.c.i
 .PHONY : tcp_subr.c.i
 
 tcp_subr.s: tcp_subr.c.s
@@ -1084,7 +1084,7 @@ tcp_subr.s: tcp_subr.c.s
 
 # target to generate assembly for a file
 tcp_subr.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_subr.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_subr.c.s
 .PHONY : tcp_subr.c.s
 
 tcp_timer.o: tcp_timer.c.o
@@ -1092,7 +1092,7 @@ tcp_timer.o: tcp_timer.c.o
 
 # target to build an object file
 tcp_timer.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_timer.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_timer.c.o
 .PHONY : tcp_timer.c.o
 
 tcp_timer.i: tcp_timer.c.i
@@ -1100,7 +1100,7 @@ tcp_timer.i: tcp_timer.c.i
 
 # target to preprocess a source file
 tcp_timer.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_timer.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_timer.c.i
 .PHONY : tcp_timer.c.i
 
 tcp_timer.s: tcp_timer.c.s
@@ -1108,7 +1108,7 @@ tcp_timer.s: tcp_timer.c.s
 
 # target to generate assembly for a file
 tcp_timer.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_timer.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tcp_timer.c.s
 .PHONY : tcp_timer.c.s
 
 tftp.o: tftp.c.o
@@ -1116,7 +1116,7 @@ tftp.o: tftp.c.o
 
 # target to build an object file
 tftp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tftp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tftp.c.o
 .PHONY : tftp.c.o
 
 tftp.i: tftp.c.i
@@ -1124,7 +1124,7 @@ tftp.i: tftp.c.i
 
 # target to preprocess a source file
 tftp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tftp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tftp.c.i
 .PHONY : tftp.c.i
 
 tftp.s: tftp.c.s
@@ -1132,7 +1132,7 @@ tftp.s: tftp.c.s
 
 # target to generate assembly for a file
 tftp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tftp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/tftp.c.s
 .PHONY : tftp.c.s
 
 udp.o: udp.c.o
@@ -1140,7 +1140,7 @@ udp.o: udp.c.o
 
 # target to build an object file
 udp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/udp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/udp.c.o
 .PHONY : udp.c.o
 
 udp.i: udp.c.i
@@ -1148,7 +1148,7 @@ udp.i: udp.c.i
 
 # target to preprocess a source file
 udp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/udp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/udp.c.i
 .PHONY : udp.c.i
 
 udp.s: udp.c.s
@@ -1156,7 +1156,7 @@ udp.s: udp.c.s
 
 # target to generate assembly for a file
 udp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/udp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/slirp/CMakeFiles/Slirp.dir/build.make src/slirp/CMakeFiles/Slirp.dir/udp.c.s
 .PHONY : udp.c.s
 
 # Help Target
@@ -1306,6 +1306,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

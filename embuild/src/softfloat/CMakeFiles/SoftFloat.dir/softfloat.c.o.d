@@ -1,5 +1,5 @@
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o: \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat.c \
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
@@ -8,7 +8,7 @@ src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/alloca.h \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat.h \
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat-macros.h \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat-specialize.h
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat-macros.h \
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat-specialize.h

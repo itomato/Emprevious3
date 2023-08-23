@@ -1,20 +1,20 @@
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o: \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat_decimal.c \
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_decimal.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdint.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stdint.h \
-  /Users/wjk/Code/previous-code/src/cpu/sysconfig.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysconfig.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/limits.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/limits.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/limits.h \
-  /Users/wjk/Code/previous-code/src/cpu/sysdeps.h \
-  /Users/wjk/Code/previous-code/src/cpu/compat.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysdeps.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/compat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/ctype.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/ctype.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/string.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/types.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/string.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/types.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
@@ -41,6 +41,6 @@ src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/time.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/time.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/time.h \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat.h \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat-macros.h \
-  /Users/wjk/Code/previous-code/src/softfloat/softfloat-specialize.h
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.h \
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat-macros.h \
+  /Users/wjk/Code/previous-code-test/src/softfloat/softfloat-specialize.h

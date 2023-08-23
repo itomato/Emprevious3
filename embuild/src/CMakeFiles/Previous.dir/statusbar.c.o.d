@@ -1,9 +1,9 @@
 src/CMakeFiles/Previous.dir/statusbar.c.o: \
-  /Users/wjk/Code/previous-code/src/statusbar.c \
+  /Users/wjk/Code/previous-code-test/src/statusbar.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/assert.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
-  /Users/wjk/Code/previous-code/src/includes/main.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/includes/main.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
@@ -20,8 +20,8 @@ src/CMakeFiles/Previous.dir/statusbar.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
-  /Users/wjk/Code/previous-code/src/includes/configuration.h \
-  /Users/wjk/Code/previous-code/src/includes/sdlgui.h \
+  /Users/wjk/Code/previous-code-test/src/includes/configuration.h \
+  /Users/wjk/Code/previous-code-test/src/includes/sdlgui.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -84,9 +84,9 @@ src/CMakeFiles/Previous.dir/statusbar.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_misc.h \
-  /Users/wjk/Code/previous-code/src/includes/statusbar.h \
-  /Users/wjk/Code/previous-code/src/includes/screen.h \
-  /Users/wjk/Code/previous-code/src/includes/video.h \
-  /Users/wjk/Code/previous-code/src/includes/grab.h \
-  /Users/wjk/Code/previous-code/src/dimension/dimension.hpp \
-  /Users/wjk/Code/previous-code/src/includes/str.h
+  /Users/wjk/Code/previous-code-test/src/includes/statusbar.h \
+  /Users/wjk/Code/previous-code-test/src/includes/screen.h \
+  /Users/wjk/Code/previous-code-test/src/includes/video.h \
+  /Users/wjk/Code/previous-code-test/src/includes/grab.h \
+  /Users/wjk/Code/previous-code-test/src/dimension/dimension.hpp \
+  /Users/wjk/Code/previous-code-test/src/includes/str.h

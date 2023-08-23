@@ -9,7 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ditool.dir/VirtualFS.cpp.o.d"
   "CMakeFiles/ditool.dir/ditool.cpp.o"
   "CMakeFiles/ditool.dir/ditool.cpp.o.d"
-  "ditool.js"
+  "ditool.html"
   "ditool.pdb"
 )
 

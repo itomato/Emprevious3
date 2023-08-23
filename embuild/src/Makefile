@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Previous.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Previous.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Previous.dir/rule
 .PHONY : src/CMakeFiles/Previous.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Previous: src/CMakeFiles/Previous.dir/rule
 
 # fast build rule for target.
 Previous/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/build
 .PHONY : Previous/fast
 
 NextBus.o: NextBus.cpp.o
@@ -180,7 +180,7 @@ NextBus.o: NextBus.cpp.o
 
 # target to build an object file
 NextBus.cpp.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/NextBus.cpp.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/NextBus.cpp.o
 .PHONY : NextBus.cpp.o
 
 NextBus.i: NextBus.cpp.i
@@ -188,7 +188,7 @@ NextBus.i: NextBus.cpp.i
 
 # target to preprocess a source file
 NextBus.cpp.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/NextBus.cpp.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/NextBus.cpp.i
 .PHONY : NextBus.cpp.i
 
 NextBus.s: NextBus.cpp.s
@@ -196,7 +196,7 @@ NextBus.s: NextBus.cpp.s
 
 # target to generate assembly for a file
 NextBus.cpp.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/NextBus.cpp.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/NextBus.cpp.s
 .PHONY : NextBus.cpp.s
 
 adb.o: adb.c.o
@@ -204,7 +204,7 @@ adb.o: adb.c.o
 
 # target to build an object file
 adb.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/adb.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/adb.c.o
 .PHONY : adb.c.o
 
 adb.i: adb.c.i
@@ -212,7 +212,7 @@ adb.i: adb.c.i
 
 # target to preprocess a source file
 adb.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/adb.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/adb.c.i
 .PHONY : adb.c.i
 
 adb.s: adb.c.s
@@ -220,7 +220,7 @@ adb.s: adb.c.s
 
 # target to generate assembly for a file
 adb.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/adb.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/adb.c.s
 .PHONY : adb.c.s
 
 audio.o: audio.c.o
@@ -228,7 +228,7 @@ audio.o: audio.c.o
 
 # target to build an object file
 audio.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/audio.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/audio.c.o
 .PHONY : audio.c.o
 
 audio.i: audio.c.i
@@ -236,7 +236,7 @@ audio.i: audio.c.i
 
 # target to preprocess a source file
 audio.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/audio.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/audio.c.i
 .PHONY : audio.c.i
 
 audio.s: audio.c.s
@@ -244,7 +244,7 @@ audio.s: audio.c.s
 
 # target to generate assembly for a file
 audio.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/audio.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/audio.c.s
 .PHONY : audio.c.s
 
 bmap.o: bmap.c.o
@@ -252,7 +252,7 @@ bmap.o: bmap.c.o
 
 # target to build an object file
 bmap.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/bmap.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/bmap.c.o
 .PHONY : bmap.c.o
 
 bmap.i: bmap.c.i
@@ -260,7 +260,7 @@ bmap.i: bmap.c.i
 
 # target to preprocess a source file
 bmap.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/bmap.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/bmap.c.i
 .PHONY : bmap.c.i
 
 bmap.s: bmap.c.s
@@ -268,7 +268,7 @@ bmap.s: bmap.c.s
 
 # target to generate assembly for a file
 bmap.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/bmap.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/bmap.c.s
 .PHONY : bmap.c.s
 
 cfgopts.o: cfgopts.c.o
@@ -276,7 +276,7 @@ cfgopts.o: cfgopts.c.o
 
 # target to build an object file
 cfgopts.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cfgopts.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cfgopts.c.o
 .PHONY : cfgopts.c.o
 
 cfgopts.i: cfgopts.c.i
@@ -284,7 +284,7 @@ cfgopts.i: cfgopts.c.i
 
 # target to preprocess a source file
 cfgopts.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cfgopts.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cfgopts.c.i
 .PHONY : cfgopts.c.i
 
 cfgopts.s: cfgopts.c.s
@@ -292,7 +292,7 @@ cfgopts.s: cfgopts.c.s
 
 # target to generate assembly for a file
 cfgopts.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cfgopts.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cfgopts.c.s
 .PHONY : cfgopts.c.s
 
 change.o: change.c.o
@@ -300,7 +300,7 @@ change.o: change.c.o
 
 # target to build an object file
 change.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/change.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/change.c.o
 .PHONY : change.c.o
 
 change.i: change.c.i
@@ -308,7 +308,7 @@ change.i: change.c.i
 
 # target to preprocess a source file
 change.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/change.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/change.c.i
 .PHONY : change.c.i
 
 change.s: change.c.s
@@ -316,7 +316,7 @@ change.s: change.c.s
 
 # target to generate assembly for a file
 change.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/change.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/change.c.s
 .PHONY : change.c.s
 
 configuration.o: configuration.c.o
@@ -324,7 +324,7 @@ configuration.o: configuration.c.o
 
 # target to build an object file
 configuration.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/configuration.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/configuration.c.o
 .PHONY : configuration.c.o
 
 configuration.i: configuration.c.i
@@ -332,7 +332,7 @@ configuration.i: configuration.c.i
 
 # target to preprocess a source file
 configuration.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/configuration.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/configuration.c.i
 .PHONY : configuration.c.i
 
 configuration.s: configuration.c.s
@@ -340,7 +340,7 @@ configuration.s: configuration.c.s
 
 # target to generate assembly for a file
 configuration.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/configuration.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/configuration.c.s
 .PHONY : configuration.c.s
 
 cycInt.o: cycInt.c.o
@@ -348,7 +348,7 @@ cycInt.o: cycInt.c.o
 
 # target to build an object file
 cycInt.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cycInt.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cycInt.c.o
 .PHONY : cycInt.c.o
 
 cycInt.i: cycInt.c.i
@@ -356,7 +356,7 @@ cycInt.i: cycInt.c.i
 
 # target to preprocess a source file
 cycInt.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cycInt.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cycInt.c.i
 .PHONY : cycInt.c.i
 
 cycInt.s: cycInt.c.s
@@ -364,7 +364,7 @@ cycInt.s: cycInt.c.s
 
 # target to generate assembly for a file
 cycInt.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cycInt.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/cycInt.c.s
 .PHONY : cycInt.c.s
 
 dialog.o: dialog.c.o
@@ -372,7 +372,7 @@ dialog.o: dialog.c.o
 
 # target to build an object file
 dialog.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dialog.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dialog.c.o
 .PHONY : dialog.c.o
 
 dialog.i: dialog.c.i
@@ -380,7 +380,7 @@ dialog.i: dialog.c.i
 
 # target to preprocess a source file
 dialog.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dialog.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dialog.c.i
 .PHONY : dialog.c.i
 
 dialog.s: dialog.c.s
@@ -388,7 +388,7 @@ dialog.s: dialog.c.s
 
 # target to generate assembly for a file
 dialog.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dialog.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dialog.c.s
 .PHONY : dialog.c.s
 
 dma.o: dma.c.o
@@ -396,7 +396,7 @@ dma.o: dma.c.o
 
 # target to build an object file
 dma.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dma.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dma.c.o
 .PHONY : dma.c.o
 
 dma.i: dma.c.i
@@ -404,7 +404,7 @@ dma.i: dma.c.i
 
 # target to preprocess a source file
 dma.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dma.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dma.c.i
 .PHONY : dma.c.i
 
 dma.s: dma.c.s
@@ -412,7 +412,7 @@ dma.s: dma.c.s
 
 # target to generate assembly for a file
 dma.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dma.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/dma.c.s
 .PHONY : dma.c.s
 
 enet_pcap.o: enet_pcap.c.o
@@ -420,7 +420,7 @@ enet_pcap.o: enet_pcap.c.o
 
 # target to build an object file
 enet_pcap.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_pcap.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_pcap.c.o
 .PHONY : enet_pcap.c.o
 
 enet_pcap.i: enet_pcap.c.i
@@ -428,7 +428,7 @@ enet_pcap.i: enet_pcap.c.i
 
 # target to preprocess a source file
 enet_pcap.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_pcap.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_pcap.c.i
 .PHONY : enet_pcap.c.i
 
 enet_pcap.s: enet_pcap.c.s
@@ -436,7 +436,7 @@ enet_pcap.s: enet_pcap.c.s
 
 # target to generate assembly for a file
 enet_pcap.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_pcap.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_pcap.c.s
 .PHONY : enet_pcap.c.s
 
 enet_slirp.o: enet_slirp.c.o
@@ -444,7 +444,7 @@ enet_slirp.o: enet_slirp.c.o
 
 # target to build an object file
 enet_slirp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_slirp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_slirp.c.o
 .PHONY : enet_slirp.c.o
 
 enet_slirp.i: enet_slirp.c.i
@@ -452,7 +452,7 @@ enet_slirp.i: enet_slirp.c.i
 
 # target to preprocess a source file
 enet_slirp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_slirp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_slirp.c.i
 .PHONY : enet_slirp.c.i
 
 enet_slirp.s: enet_slirp.c.s
@@ -460,7 +460,7 @@ enet_slirp.s: enet_slirp.c.s
 
 # target to generate assembly for a file
 enet_slirp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_slirp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/enet_slirp.c.s
 .PHONY : enet_slirp.c.s
 
 esp.o: esp.c.o
@@ -468,7 +468,7 @@ esp.o: esp.c.o
 
 # target to build an object file
 esp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/esp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/esp.c.o
 .PHONY : esp.c.o
 
 esp.i: esp.c.i
@@ -476,7 +476,7 @@ esp.i: esp.c.i
 
 # target to preprocess a source file
 esp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/esp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/esp.c.i
 .PHONY : esp.c.i
 
 esp.s: esp.c.s
@@ -484,7 +484,7 @@ esp.s: esp.c.s
 
 # target to generate assembly for a file
 esp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/esp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/esp.c.s
 .PHONY : esp.c.s
 
 ethernet.o: ethernet.c.o
@@ -492,7 +492,7 @@ ethernet.o: ethernet.c.o
 
 # target to build an object file
 ethernet.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ethernet.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ethernet.c.o
 .PHONY : ethernet.c.o
 
 ethernet.i: ethernet.c.i
@@ -500,7 +500,7 @@ ethernet.i: ethernet.c.i
 
 # target to preprocess a source file
 ethernet.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ethernet.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ethernet.c.i
 .PHONY : ethernet.c.i
 
 ethernet.s: ethernet.c.s
@@ -508,7 +508,7 @@ ethernet.s: ethernet.c.s
 
 # target to generate assembly for a file
 ethernet.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ethernet.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ethernet.c.s
 .PHONY : ethernet.c.s
 
 fast_screen.o: fast_screen.c.o
@@ -516,7 +516,7 @@ fast_screen.o: fast_screen.c.o
 
 # target to build an object file
 fast_screen.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/fast_screen.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/fast_screen.c.o
 .PHONY : fast_screen.c.o
 
 fast_screen.i: fast_screen.c.i
@@ -524,7 +524,7 @@ fast_screen.i: fast_screen.c.i
 
 # target to preprocess a source file
 fast_screen.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/fast_screen.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/fast_screen.c.i
 .PHONY : fast_screen.c.i
 
 fast_screen.s: fast_screen.c.s
@@ -532,7 +532,7 @@ fast_screen.s: fast_screen.c.s
 
 # target to generate assembly for a file
 fast_screen.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/fast_screen.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/fast_screen.c.s
 .PHONY : fast_screen.c.s
 
 file.o: file.c.o
@@ -540,7 +540,7 @@ file.o: file.c.o
 
 # target to build an object file
 file.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/file.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/file.c.o
 .PHONY : file.c.o
 
 file.i: file.c.i
@@ -548,7 +548,7 @@ file.i: file.c.i
 
 # target to preprocess a source file
 file.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/file.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/file.c.i
 .PHONY : file.c.i
 
 file.s: file.c.s
@@ -556,7 +556,7 @@ file.s: file.c.s
 
 # target to generate assembly for a file
 file.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/file.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/file.c.s
 .PHONY : file.c.s
 
 floppy.o: floppy.c.o
@@ -564,7 +564,7 @@ floppy.o: floppy.c.o
 
 # target to build an object file
 floppy.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/floppy.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/floppy.c.o
 .PHONY : floppy.c.o
 
 floppy.i: floppy.c.i
@@ -572,7 +572,7 @@ floppy.i: floppy.c.i
 
 # target to preprocess a source file
 floppy.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/floppy.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/floppy.c.i
 .PHONY : floppy.c.i
 
 floppy.s: floppy.c.s
@@ -580,7 +580,7 @@ floppy.s: floppy.c.s
 
 # target to generate assembly for a file
 floppy.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/floppy.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/floppy.c.s
 .PHONY : floppy.c.s
 
 grab.o: grab.c.o
@@ -588,7 +588,7 @@ grab.o: grab.c.o
 
 # target to build an object file
 grab.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/grab.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/grab.c.o
 .PHONY : grab.c.o
 
 grab.i: grab.c.i
@@ -596,7 +596,7 @@ grab.i: grab.c.i
 
 # target to preprocess a source file
 grab.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/grab.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/grab.c.i
 .PHONY : grab.c.i
 
 grab.s: grab.c.s
@@ -604,7 +604,7 @@ grab.s: grab.c.s
 
 # target to generate assembly for a file
 grab.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/grab.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/grab.c.s
 .PHONY : grab.c.s
 
 host.o: host.c.o
@@ -612,7 +612,7 @@ host.o: host.c.o
 
 # target to build an object file
 host.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/host.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/host.c.o
 .PHONY : host.c.o
 
 host.i: host.c.i
@@ -620,7 +620,7 @@ host.i: host.c.i
 
 # target to preprocess a source file
 host.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/host.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/host.c.i
 .PHONY : host.c.i
 
 host.s: host.c.s
@@ -628,7 +628,7 @@ host.s: host.c.s
 
 # target to generate assembly for a file
 host.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/host.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/host.c.s
 .PHONY : host.c.s
 
 ioMem.o: ioMem.c.o
@@ -636,7 +636,7 @@ ioMem.o: ioMem.c.o
 
 # target to build an object file
 ioMem.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMem.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMem.c.o
 .PHONY : ioMem.c.o
 
 ioMem.i: ioMem.c.i
@@ -644,7 +644,7 @@ ioMem.i: ioMem.c.i
 
 # target to preprocess a source file
 ioMem.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMem.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMem.c.i
 .PHONY : ioMem.c.i
 
 ioMem.s: ioMem.c.s
@@ -652,7 +652,7 @@ ioMem.s: ioMem.c.s
 
 # target to generate assembly for a file
 ioMem.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMem.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMem.c.s
 .PHONY : ioMem.c.s
 
 ioMemTabNEXT.o: ioMemTabNEXT.c.o
@@ -660,7 +660,7 @@ ioMemTabNEXT.o: ioMemTabNEXT.c.o
 
 # target to build an object file
 ioMemTabNEXT.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabNEXT.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabNEXT.c.o
 .PHONY : ioMemTabNEXT.c.o
 
 ioMemTabNEXT.i: ioMemTabNEXT.c.i
@@ -668,7 +668,7 @@ ioMemTabNEXT.i: ioMemTabNEXT.c.i
 
 # target to preprocess a source file
 ioMemTabNEXT.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabNEXT.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabNEXT.c.i
 .PHONY : ioMemTabNEXT.c.i
 
 ioMemTabNEXT.s: ioMemTabNEXT.c.s
@@ -676,7 +676,7 @@ ioMemTabNEXT.s: ioMemTabNEXT.c.s
 
 # target to generate assembly for a file
 ioMemTabNEXT.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabNEXT.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabNEXT.c.s
 .PHONY : ioMemTabNEXT.c.s
 
 ioMemTabTurbo.o: ioMemTabTurbo.c.o
@@ -684,7 +684,7 @@ ioMemTabTurbo.o: ioMemTabTurbo.c.o
 
 # target to build an object file
 ioMemTabTurbo.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabTurbo.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabTurbo.c.o
 .PHONY : ioMemTabTurbo.c.o
 
 ioMemTabTurbo.i: ioMemTabTurbo.c.i
@@ -692,7 +692,7 @@ ioMemTabTurbo.i: ioMemTabTurbo.c.i
 
 # target to preprocess a source file
 ioMemTabTurbo.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabTurbo.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabTurbo.c.i
 .PHONY : ioMemTabTurbo.c.i
 
 ioMemTabTurbo.s: ioMemTabTurbo.c.s
@@ -700,7 +700,7 @@ ioMemTabTurbo.s: ioMemTabTurbo.c.s
 
 # target to generate assembly for a file
 ioMemTabTurbo.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabTurbo.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ioMemTabTurbo.c.s
 .PHONY : ioMemTabTurbo.c.s
 
 keymap.o: keymap.c.o
@@ -708,7 +708,7 @@ keymap.o: keymap.c.o
 
 # target to build an object file
 keymap.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/keymap.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/keymap.c.o
 .PHONY : keymap.c.o
 
 keymap.i: keymap.c.i
@@ -716,7 +716,7 @@ keymap.i: keymap.c.i
 
 # target to preprocess a source file
 keymap.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/keymap.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/keymap.c.i
 .PHONY : keymap.c.i
 
 keymap.s: keymap.c.s
@@ -724,7 +724,7 @@ keymap.s: keymap.c.s
 
 # target to generate assembly for a file
 keymap.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/keymap.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/keymap.c.s
 .PHONY : keymap.c.s
 
 kms.o: kms.c.o
@@ -732,7 +732,7 @@ kms.o: kms.c.o
 
 # target to build an object file
 kms.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/kms.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/kms.c.o
 .PHONY : kms.c.o
 
 kms.i: kms.c.i
@@ -740,7 +740,7 @@ kms.i: kms.c.i
 
 # target to preprocess a source file
 kms.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/kms.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/kms.c.i
 .PHONY : kms.c.i
 
 kms.s: kms.c.s
@@ -748,7 +748,7 @@ kms.s: kms.c.s
 
 # target to generate assembly for a file
 kms.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/kms.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/kms.c.s
 .PHONY : kms.c.s
 
 m68000.o: m68000.c.o
@@ -756,7 +756,7 @@ m68000.o: m68000.c.o
 
 # target to build an object file
 m68000.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/m68000.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/m68000.c.o
 .PHONY : m68000.c.o
 
 m68000.i: m68000.c.i
@@ -764,7 +764,7 @@ m68000.i: m68000.c.i
 
 # target to preprocess a source file
 m68000.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/m68000.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/m68000.c.i
 .PHONY : m68000.c.i
 
 m68000.s: m68000.c.s
@@ -772,7 +772,7 @@ m68000.s: m68000.c.s
 
 # target to generate assembly for a file
 m68000.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/m68000.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/m68000.c.s
 .PHONY : m68000.c.s
 
 main.o: main.c.o
@@ -780,7 +780,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/main.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -788,7 +788,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/main.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -796,7 +796,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/main.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/main.c.s
 .PHONY : main.c.s
 
 mo.o: mo.c.o
@@ -804,7 +804,7 @@ mo.o: mo.c.o
 
 # target to build an object file
 mo.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/mo.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/mo.c.o
 .PHONY : mo.c.o
 
 mo.i: mo.c.i
@@ -812,7 +812,7 @@ mo.i: mo.c.i
 
 # target to preprocess a source file
 mo.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/mo.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/mo.c.i
 .PHONY : mo.c.i
 
 mo.s: mo.c.s
@@ -820,7 +820,7 @@ mo.s: mo.c.s
 
 # target to generate assembly for a file
 mo.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/mo.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/mo.c.s
 .PHONY : mo.c.s
 
 nbic.o: nbic.c.o
@@ -828,7 +828,7 @@ nbic.o: nbic.c.o
 
 # target to build an object file
 nbic.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/nbic.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/nbic.c.o
 .PHONY : nbic.c.o
 
 nbic.i: nbic.c.i
@@ -836,7 +836,7 @@ nbic.i: nbic.c.i
 
 # target to preprocess a source file
 nbic.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/nbic.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/nbic.c.i
 .PHONY : nbic.c.i
 
 nbic.s: nbic.c.s
@@ -844,7 +844,7 @@ nbic.s: nbic.c.s
 
 # target to generate assembly for a file
 nbic.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/nbic.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/nbic.c.s
 .PHONY : nbic.c.s
 
 paths.o: paths.c.o
@@ -852,7 +852,7 @@ paths.o: paths.c.o
 
 # target to build an object file
 paths.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/paths.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/paths.c.o
 .PHONY : paths.c.o
 
 paths.i: paths.c.i
@@ -860,7 +860,7 @@ paths.i: paths.c.i
 
 # target to preprocess a source file
 paths.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/paths.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/paths.c.i
 .PHONY : paths.c.i
 
 paths.s: paths.c.s
@@ -868,7 +868,7 @@ paths.s: paths.c.s
 
 # target to generate assembly for a file
 paths.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/paths.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/paths.c.s
 .PHONY : paths.c.s
 
 printer.o: printer.c.o
@@ -876,7 +876,7 @@ printer.o: printer.c.o
 
 # target to build an object file
 printer.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/printer.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/printer.c.o
 .PHONY : printer.c.o
 
 printer.i: printer.c.i
@@ -884,7 +884,7 @@ printer.i: printer.c.i
 
 # target to preprocess a source file
 printer.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/printer.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/printer.c.i
 .PHONY : printer.c.i
 
 printer.s: printer.c.s
@@ -892,7 +892,7 @@ printer.s: printer.c.s
 
 # target to generate assembly for a file
 printer.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/printer.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/printer.c.s
 .PHONY : printer.c.s
 
 queue.o: queue.c.o
@@ -900,7 +900,7 @@ queue.o: queue.c.o
 
 # target to build an object file
 queue.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/queue.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/queue.c.o
 .PHONY : queue.c.o
 
 queue.i: queue.c.i
@@ -908,7 +908,7 @@ queue.i: queue.c.i
 
 # target to preprocess a source file
 queue.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/queue.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/queue.c.i
 .PHONY : queue.c.i
 
 queue.s: queue.c.s
@@ -916,7 +916,7 @@ queue.s: queue.c.s
 
 # target to generate assembly for a file
 queue.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/queue.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/queue.c.s
 .PHONY : queue.c.s
 
 ramdac.o: ramdac.c.o
@@ -924,7 +924,7 @@ ramdac.o: ramdac.c.o
 
 # target to build an object file
 ramdac.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ramdac.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ramdac.c.o
 .PHONY : ramdac.c.o
 
 ramdac.i: ramdac.c.i
@@ -932,7 +932,7 @@ ramdac.i: ramdac.c.i
 
 # target to preprocess a source file
 ramdac.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ramdac.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ramdac.c.i
 .PHONY : ramdac.c.i
 
 ramdac.s: ramdac.c.s
@@ -940,7 +940,7 @@ ramdac.s: ramdac.c.s
 
 # target to generate assembly for a file
 ramdac.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ramdac.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/ramdac.c.s
 .PHONY : ramdac.c.s
 
 reset.o: reset.c.o
@@ -948,7 +948,7 @@ reset.o: reset.c.o
 
 # target to build an object file
 reset.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/reset.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/reset.c.o
 .PHONY : reset.c.o
 
 reset.i: reset.c.i
@@ -956,7 +956,7 @@ reset.i: reset.c.i
 
 # target to preprocess a source file
 reset.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/reset.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/reset.c.i
 .PHONY : reset.c.i
 
 reset.s: reset.c.s
@@ -964,7 +964,7 @@ reset.s: reset.c.s
 
 # target to generate assembly for a file
 reset.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/reset.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/reset.c.s
 .PHONY : reset.c.s
 
 rs.o: rs.c.o
@@ -972,7 +972,7 @@ rs.o: rs.c.o
 
 # target to build an object file
 rs.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rs.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rs.c.o
 .PHONY : rs.c.o
 
 rs.i: rs.c.i
@@ -980,7 +980,7 @@ rs.i: rs.c.i
 
 # target to preprocess a source file
 rs.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rs.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rs.c.i
 .PHONY : rs.c.i
 
 rs.s: rs.c.s
@@ -988,7 +988,7 @@ rs.s: rs.c.s
 
 # target to generate assembly for a file
 rs.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rs.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rs.c.s
 .PHONY : rs.c.s
 
 rtcnvram.o: rtcnvram.c.o
@@ -996,7 +996,7 @@ rtcnvram.o: rtcnvram.c.o
 
 # target to build an object file
 rtcnvram.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rtcnvram.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rtcnvram.c.o
 .PHONY : rtcnvram.c.o
 
 rtcnvram.i: rtcnvram.c.i
@@ -1004,7 +1004,7 @@ rtcnvram.i: rtcnvram.c.i
 
 # target to preprocess a source file
 rtcnvram.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rtcnvram.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rtcnvram.c.i
 .PHONY : rtcnvram.c.i
 
 rtcnvram.s: rtcnvram.c.s
@@ -1012,7 +1012,7 @@ rtcnvram.s: rtcnvram.c.s
 
 # target to generate assembly for a file
 rtcnvram.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rtcnvram.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/rtcnvram.c.s
 .PHONY : rtcnvram.c.s
 
 scandir.o: scandir.c.o
@@ -1020,7 +1020,7 @@ scandir.o: scandir.c.o
 
 # target to build an object file
 scandir.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scandir.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scandir.c.o
 .PHONY : scandir.c.o
 
 scandir.i: scandir.c.i
@@ -1028,7 +1028,7 @@ scandir.i: scandir.c.i
 
 # target to preprocess a source file
 scandir.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scandir.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scandir.c.i
 .PHONY : scandir.c.i
 
 scandir.s: scandir.c.s
@@ -1036,7 +1036,7 @@ scandir.s: scandir.c.s
 
 # target to generate assembly for a file
 scandir.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scandir.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scandir.c.s
 .PHONY : scandir.c.s
 
 scc.o: scc.c.o
@@ -1044,7 +1044,7 @@ scc.o: scc.c.o
 
 # target to build an object file
 scc.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scc.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scc.c.o
 .PHONY : scc.c.o
 
 scc.i: scc.c.i
@@ -1052,7 +1052,7 @@ scc.i: scc.c.i
 
 # target to preprocess a source file
 scc.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scc.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scc.c.i
 .PHONY : scc.c.i
 
 scc.s: scc.c.s
@@ -1060,7 +1060,7 @@ scc.s: scc.c.s
 
 # target to generate assembly for a file
 scc.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scc.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scc.c.s
 .PHONY : scc.c.s
 
 scsi.o: scsi.c.o
@@ -1068,7 +1068,7 @@ scsi.o: scsi.c.o
 
 # target to build an object file
 scsi.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scsi.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scsi.c.o
 .PHONY : scsi.c.o
 
 scsi.i: scsi.c.i
@@ -1076,7 +1076,7 @@ scsi.i: scsi.c.i
 
 # target to preprocess a source file
 scsi.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scsi.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scsi.c.i
 .PHONY : scsi.c.i
 
 scsi.s: scsi.c.s
@@ -1084,7 +1084,7 @@ scsi.s: scsi.c.s
 
 # target to generate assembly for a file
 scsi.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scsi.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/scsi.c.s
 .PHONY : scsi.c.s
 
 shortcut.o: shortcut.c.o
@@ -1092,7 +1092,7 @@ shortcut.o: shortcut.c.o
 
 # target to build an object file
 shortcut.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/shortcut.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/shortcut.c.o
 .PHONY : shortcut.c.o
 
 shortcut.i: shortcut.c.i
@@ -1100,7 +1100,7 @@ shortcut.i: shortcut.c.i
 
 # target to preprocess a source file
 shortcut.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/shortcut.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/shortcut.c.i
 .PHONY : shortcut.c.i
 
 shortcut.s: shortcut.c.s
@@ -1108,7 +1108,7 @@ shortcut.s: shortcut.c.s
 
 # target to generate assembly for a file
 shortcut.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/shortcut.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/shortcut.c.s
 .PHONY : shortcut.c.s
 
 snd.o: snd.c.o
@@ -1116,7 +1116,7 @@ snd.o: snd.c.o
 
 # target to build an object file
 snd.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/snd.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/snd.c.o
 .PHONY : snd.c.o
 
 snd.i: snd.c.i
@@ -1124,7 +1124,7 @@ snd.i: snd.c.i
 
 # target to preprocess a source file
 snd.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/snd.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/snd.c.i
 .PHONY : snd.c.i
 
 snd.s: snd.c.s
@@ -1132,7 +1132,7 @@ snd.s: snd.c.s
 
 # target to generate assembly for a file
 snd.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/snd.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/snd.c.s
 .PHONY : snd.c.s
 
 statusbar.o: statusbar.c.o
@@ -1140,7 +1140,7 @@ statusbar.o: statusbar.c.o
 
 # target to build an object file
 statusbar.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/statusbar.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/statusbar.c.o
 .PHONY : statusbar.c.o
 
 statusbar.i: statusbar.c.i
@@ -1148,7 +1148,7 @@ statusbar.i: statusbar.c.i
 
 # target to preprocess a source file
 statusbar.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/statusbar.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/statusbar.c.i
 .PHONY : statusbar.c.i
 
 statusbar.s: statusbar.c.s
@@ -1156,7 +1156,7 @@ statusbar.s: statusbar.c.s
 
 # target to generate assembly for a file
 statusbar.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/statusbar.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/statusbar.c.s
 .PHONY : statusbar.c.s
 
 str.o: str.c.o
@@ -1164,7 +1164,7 @@ str.o: str.c.o
 
 # target to build an object file
 str.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/str.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/str.c.o
 .PHONY : str.c.o
 
 str.i: str.c.i
@@ -1172,7 +1172,7 @@ str.i: str.c.i
 
 # target to preprocess a source file
 str.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/str.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/str.c.i
 .PHONY : str.c.i
 
 str.s: str.c.s
@@ -1180,7 +1180,7 @@ str.s: str.c.s
 
 # target to generate assembly for a file
 str.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/str.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/str.c.s
 .PHONY : str.c.s
 
 sysReg.o: sysReg.c.o
@@ -1188,7 +1188,7 @@ sysReg.o: sysReg.c.o
 
 # target to build an object file
 sysReg.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/sysReg.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/sysReg.c.o
 .PHONY : sysReg.c.o
 
 sysReg.i: sysReg.c.i
@@ -1196,7 +1196,7 @@ sysReg.i: sysReg.c.i
 
 # target to preprocess a source file
 sysReg.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/sysReg.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/sysReg.c.i
 .PHONY : sysReg.c.i
 
 sysReg.s: sysReg.c.s
@@ -1204,7 +1204,7 @@ sysReg.s: sysReg.c.s
 
 # target to generate assembly for a file
 sysReg.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/sysReg.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/sysReg.c.s
 .PHONY : sysReg.c.s
 
 tmc.o: tmc.c.o
@@ -1212,7 +1212,7 @@ tmc.o: tmc.c.o
 
 # target to build an object file
 tmc.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/tmc.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/tmc.c.o
 .PHONY : tmc.c.o
 
 tmc.i: tmc.c.i
@@ -1220,7 +1220,7 @@ tmc.i: tmc.c.i
 
 # target to preprocess a source file
 tmc.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/tmc.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/tmc.c.i
 .PHONY : tmc.c.i
 
 tmc.s: tmc.c.s
@@ -1228,15 +1228,39 @@ tmc.s: tmc.c.s
 
 # target to generate assembly for a file
 tmc.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/tmc.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/tmc.c.s
 .PHONY : tmc.c.s
+
+unzip.o: unzip.c.o
+.PHONY : unzip.o
+
+# target to build an object file
+unzip.c.o:
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/unzip.c.o
+.PHONY : unzip.c.o
+
+unzip.i: unzip.c.i
+.PHONY : unzip.i
+
+# target to preprocess a source file
+unzip.c.i:
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/unzip.c.i
+.PHONY : unzip.c.i
+
+unzip.s: unzip.c.s
+.PHONY : unzip.s
+
+# target to generate assembly for a file
+unzip.c.s:
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/unzip.c.s
+.PHONY : unzip.c.s
 
 video.o: video.c.o
 .PHONY : video.o
 
 # target to build an object file
 video.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/video.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/video.c.o
 .PHONY : video.c.o
 
 video.i: video.c.i
@@ -1244,7 +1268,7 @@ video.i: video.c.i
 
 # target to preprocess a source file
 video.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/video.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/video.c.i
 .PHONY : video.c.i
 
 video.s: video.c.s
@@ -1252,7 +1276,7 @@ video.s: video.c.s
 
 # target to generate assembly for a file
 video.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/video.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/video.c.s
 .PHONY : video.c.s
 
 zip.o: zip.c.o
@@ -1260,7 +1284,7 @@ zip.o: zip.c.o
 
 # target to build an object file
 zip.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/zip.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/zip.c.o
 .PHONY : zip.c.o
 
 zip.i: zip.c.i
@@ -1268,7 +1292,7 @@ zip.i: zip.c.i
 
 # target to preprocess a source file
 zip.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/zip.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/zip.c.i
 .PHONY : zip.c.i
 
 zip.s: zip.c.s
@@ -1276,7 +1300,7 @@ zip.s: zip.c.s
 
 # target to generate assembly for a file
 zip.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/zip.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Previous.dir/build.make src/CMakeFiles/Previous.dir/zip.c.s
 .PHONY : zip.c.s
 
 # Help Target
@@ -1424,6 +1448,9 @@ help:
 	@echo "... tmc.o"
 	@echo "... tmc.i"
 	@echo "... tmc.s"
+	@echo "... unzip.o"
+	@echo "... unzip.i"
+	@echo "... unzip.s"
 	@echo "... video.o"
 	@echo "... video.i"
 	@echo "... video.s"
@@ -1441,6 +1468,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

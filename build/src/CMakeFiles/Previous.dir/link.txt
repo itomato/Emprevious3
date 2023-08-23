@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/em++ -Wall -Wextra -Wpointer-bool-conversion -Wtautological-compare -Wno-unused-parameter  -Wall -Wextra -Wtautological-compare -Wno-unused-parameter -Wno-sign-compare -Wno-conversion -Wno-unused -O3 -DNDEBUG  -s ALLOW_MEMORY_GROWTH=1 @CMakeFiles/Previous.dir/objects1.rsp -o Previous.js @CMakeFiles/Previous.dir/linkLibs.rsp

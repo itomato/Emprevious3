@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wjk/Code/previous-code/src/slirp
+# Install script for directory: /Users/wjk/Code/previous-code-test/src/slirp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

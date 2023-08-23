@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 # Include any dependencies generated for this target.
 include src/debug/CMakeFiles/Debug.dir/depend.make
@@ -71,183 +71,183 @@ include src/debug/CMakeFiles/Debug.dir/flags.make
 
 src/debug/CMakeFiles/Debug.dir/log.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/log.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/log.c.o: /Users/wjk/Code/previous-code/src/debug/log.c
+src/debug/CMakeFiles/Debug.dir/log.c.o: /Users/wjk/Code/previous-code-test/src/debug/log.c
 src/debug/CMakeFiles/Debug.dir/log.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/debug/CMakeFiles/Debug.dir/log.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/log.c.o -MF CMakeFiles/Debug.dir/log.c.o.d -o CMakeFiles/Debug.dir/log.c.o -c /Users/wjk/Code/previous-code/src/debug/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/debug/CMakeFiles/Debug.dir/log.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/log.c.o -MF CMakeFiles/Debug.dir/log.c.o.d -o CMakeFiles/Debug.dir/log.c.o -c /Users/wjk/Code/previous-code-test/src/debug/log.c
 
 src/debug/CMakeFiles/Debug.dir/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/log.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/log.c > CMakeFiles/Debug.dir/log.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/log.c > CMakeFiles/Debug.dir/log.c.i
 
 src/debug/CMakeFiles/Debug.dir/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/log.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/log.c -o CMakeFiles/Debug.dir/log.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/log.c -o CMakeFiles/Debug.dir/log.c.s
 
 src/debug/CMakeFiles/Debug.dir/debugui.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/debugui.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/debugui.c.o: /Users/wjk/Code/previous-code/src/debug/debugui.c
+src/debug/CMakeFiles/Debug.dir/debugui.c.o: /Users/wjk/Code/previous-code-test/src/debug/debugui.c
 src/debug/CMakeFiles/Debug.dir/debugui.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/debug/CMakeFiles/Debug.dir/debugui.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugui.c.o -MF CMakeFiles/Debug.dir/debugui.c.o.d -o CMakeFiles/Debug.dir/debugui.c.o -c /Users/wjk/Code/previous-code/src/debug/debugui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/debug/CMakeFiles/Debug.dir/debugui.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugui.c.o -MF CMakeFiles/Debug.dir/debugui.c.o.d -o CMakeFiles/Debug.dir/debugui.c.o -c /Users/wjk/Code/previous-code-test/src/debug/debugui.c
 
 src/debug/CMakeFiles/Debug.dir/debugui.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/debugui.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/debugui.c > CMakeFiles/Debug.dir/debugui.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/debugui.c > CMakeFiles/Debug.dir/debugui.c.i
 
 src/debug/CMakeFiles/Debug.dir/debugui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/debugui.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/debugui.c -o CMakeFiles/Debug.dir/debugui.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/debugui.c -o CMakeFiles/Debug.dir/debugui.c.s
 
 src/debug/CMakeFiles/Debug.dir/breakcond.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/breakcond.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/breakcond.c.o: /Users/wjk/Code/previous-code/src/debug/breakcond.c
+src/debug/CMakeFiles/Debug.dir/breakcond.c.o: /Users/wjk/Code/previous-code-test/src/debug/breakcond.c
 src/debug/CMakeFiles/Debug.dir/breakcond.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/debug/CMakeFiles/Debug.dir/breakcond.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/breakcond.c.o -MF CMakeFiles/Debug.dir/breakcond.c.o.d -o CMakeFiles/Debug.dir/breakcond.c.o -c /Users/wjk/Code/previous-code/src/debug/breakcond.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/debug/CMakeFiles/Debug.dir/breakcond.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/breakcond.c.o -MF CMakeFiles/Debug.dir/breakcond.c.o.d -o CMakeFiles/Debug.dir/breakcond.c.o -c /Users/wjk/Code/previous-code-test/src/debug/breakcond.c
 
 src/debug/CMakeFiles/Debug.dir/breakcond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/breakcond.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/breakcond.c > CMakeFiles/Debug.dir/breakcond.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/breakcond.c > CMakeFiles/Debug.dir/breakcond.c.i
 
 src/debug/CMakeFiles/Debug.dir/breakcond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/breakcond.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/breakcond.c -o CMakeFiles/Debug.dir/breakcond.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/breakcond.c -o CMakeFiles/Debug.dir/breakcond.c.s
 
 src/debug/CMakeFiles/Debug.dir/debugcpu.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/debugcpu.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/debugcpu.c.o: /Users/wjk/Code/previous-code/src/debug/debugcpu.c
+src/debug/CMakeFiles/Debug.dir/debugcpu.c.o: /Users/wjk/Code/previous-code-test/src/debug/debugcpu.c
 src/debug/CMakeFiles/Debug.dir/debugcpu.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/debug/CMakeFiles/Debug.dir/debugcpu.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugcpu.c.o -MF CMakeFiles/Debug.dir/debugcpu.c.o.d -o CMakeFiles/Debug.dir/debugcpu.c.o -c /Users/wjk/Code/previous-code/src/debug/debugcpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/debug/CMakeFiles/Debug.dir/debugcpu.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugcpu.c.o -MF CMakeFiles/Debug.dir/debugcpu.c.o.d -o CMakeFiles/Debug.dir/debugcpu.c.o -c /Users/wjk/Code/previous-code-test/src/debug/debugcpu.c
 
 src/debug/CMakeFiles/Debug.dir/debugcpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/debugcpu.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/debugcpu.c > CMakeFiles/Debug.dir/debugcpu.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/debugcpu.c > CMakeFiles/Debug.dir/debugcpu.c.i
 
 src/debug/CMakeFiles/Debug.dir/debugcpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/debugcpu.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/debugcpu.c -o CMakeFiles/Debug.dir/debugcpu.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/debugcpu.c -o CMakeFiles/Debug.dir/debugcpu.c.s
 
 src/debug/CMakeFiles/Debug.dir/debugInfo.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/debugInfo.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/debugInfo.c.o: /Users/wjk/Code/previous-code/src/debug/debugInfo.c
+src/debug/CMakeFiles/Debug.dir/debugInfo.c.o: /Users/wjk/Code/previous-code-test/src/debug/debugInfo.c
 src/debug/CMakeFiles/Debug.dir/debugInfo.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/debug/CMakeFiles/Debug.dir/debugInfo.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugInfo.c.o -MF CMakeFiles/Debug.dir/debugInfo.c.o.d -o CMakeFiles/Debug.dir/debugInfo.c.o -c /Users/wjk/Code/previous-code/src/debug/debugInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/debug/CMakeFiles/Debug.dir/debugInfo.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugInfo.c.o -MF CMakeFiles/Debug.dir/debugInfo.c.o.d -o CMakeFiles/Debug.dir/debugInfo.c.o -c /Users/wjk/Code/previous-code-test/src/debug/debugInfo.c
 
 src/debug/CMakeFiles/Debug.dir/debugInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/debugInfo.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/debugInfo.c > CMakeFiles/Debug.dir/debugInfo.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/debugInfo.c > CMakeFiles/Debug.dir/debugInfo.c.i
 
 src/debug/CMakeFiles/Debug.dir/debugInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/debugInfo.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/debugInfo.c -o CMakeFiles/Debug.dir/debugInfo.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/debugInfo.c -o CMakeFiles/Debug.dir/debugInfo.c.s
 
 src/debug/CMakeFiles/Debug.dir/debugdsp.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/debugdsp.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/debugdsp.c.o: /Users/wjk/Code/previous-code/src/debug/debugdsp.c
+src/debug/CMakeFiles/Debug.dir/debugdsp.c.o: /Users/wjk/Code/previous-code-test/src/debug/debugdsp.c
 src/debug/CMakeFiles/Debug.dir/debugdsp.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/debug/CMakeFiles/Debug.dir/debugdsp.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugdsp.c.o -MF CMakeFiles/Debug.dir/debugdsp.c.o.d -o CMakeFiles/Debug.dir/debugdsp.c.o -c /Users/wjk/Code/previous-code/src/debug/debugdsp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/debug/CMakeFiles/Debug.dir/debugdsp.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/debugdsp.c.o -MF CMakeFiles/Debug.dir/debugdsp.c.o.d -o CMakeFiles/Debug.dir/debugdsp.c.o -c /Users/wjk/Code/previous-code-test/src/debug/debugdsp.c
 
 src/debug/CMakeFiles/Debug.dir/debugdsp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/debugdsp.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/debugdsp.c > CMakeFiles/Debug.dir/debugdsp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/debugdsp.c > CMakeFiles/Debug.dir/debugdsp.c.i
 
 src/debug/CMakeFiles/Debug.dir/debugdsp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/debugdsp.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/debugdsp.c -o CMakeFiles/Debug.dir/debugdsp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/debugdsp.c -o CMakeFiles/Debug.dir/debugdsp.c.s
 
 src/debug/CMakeFiles/Debug.dir/evaluate.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/evaluate.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/evaluate.c.o: /Users/wjk/Code/previous-code/src/debug/evaluate.c
+src/debug/CMakeFiles/Debug.dir/evaluate.c.o: /Users/wjk/Code/previous-code-test/src/debug/evaluate.c
 src/debug/CMakeFiles/Debug.dir/evaluate.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/debug/CMakeFiles/Debug.dir/evaluate.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/evaluate.c.o -MF CMakeFiles/Debug.dir/evaluate.c.o.d -o CMakeFiles/Debug.dir/evaluate.c.o -c /Users/wjk/Code/previous-code/src/debug/evaluate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/debug/CMakeFiles/Debug.dir/evaluate.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/evaluate.c.o -MF CMakeFiles/Debug.dir/evaluate.c.o.d -o CMakeFiles/Debug.dir/evaluate.c.o -c /Users/wjk/Code/previous-code-test/src/debug/evaluate.c
 
 src/debug/CMakeFiles/Debug.dir/evaluate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/evaluate.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/evaluate.c > CMakeFiles/Debug.dir/evaluate.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/evaluate.c > CMakeFiles/Debug.dir/evaluate.c.i
 
 src/debug/CMakeFiles/Debug.dir/evaluate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/evaluate.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/evaluate.c -o CMakeFiles/Debug.dir/evaluate.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/evaluate.c -o CMakeFiles/Debug.dir/evaluate.c.s
 
 src/debug/CMakeFiles/Debug.dir/history.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/history.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/history.c.o: /Users/wjk/Code/previous-code/src/debug/history.c
+src/debug/CMakeFiles/Debug.dir/history.c.o: /Users/wjk/Code/previous-code-test/src/debug/history.c
 src/debug/CMakeFiles/Debug.dir/history.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/debug/CMakeFiles/Debug.dir/history.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/history.c.o -MF CMakeFiles/Debug.dir/history.c.o.d -o CMakeFiles/Debug.dir/history.c.o -c /Users/wjk/Code/previous-code/src/debug/history.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/debug/CMakeFiles/Debug.dir/history.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/history.c.o -MF CMakeFiles/Debug.dir/history.c.o.d -o CMakeFiles/Debug.dir/history.c.o -c /Users/wjk/Code/previous-code-test/src/debug/history.c
 
 src/debug/CMakeFiles/Debug.dir/history.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/history.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/history.c > CMakeFiles/Debug.dir/history.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/history.c > CMakeFiles/Debug.dir/history.c.i
 
 src/debug/CMakeFiles/Debug.dir/history.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/history.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/history.c -o CMakeFiles/Debug.dir/history.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/history.c -o CMakeFiles/Debug.dir/history.c.s
 
 src/debug/CMakeFiles/Debug.dir/symbols.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/symbols.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/symbols.c.o: /Users/wjk/Code/previous-code/src/debug/symbols.c
+src/debug/CMakeFiles/Debug.dir/symbols.c.o: /Users/wjk/Code/previous-code-test/src/debug/symbols.c
 src/debug/CMakeFiles/Debug.dir/symbols.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/debug/CMakeFiles/Debug.dir/symbols.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/symbols.c.o -MF CMakeFiles/Debug.dir/symbols.c.o.d -o CMakeFiles/Debug.dir/symbols.c.o -c /Users/wjk/Code/previous-code/src/debug/symbols.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/debug/CMakeFiles/Debug.dir/symbols.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/symbols.c.o -MF CMakeFiles/Debug.dir/symbols.c.o.d -o CMakeFiles/Debug.dir/symbols.c.o -c /Users/wjk/Code/previous-code-test/src/debug/symbols.c
 
 src/debug/CMakeFiles/Debug.dir/symbols.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/symbols.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/symbols.c > CMakeFiles/Debug.dir/symbols.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/symbols.c > CMakeFiles/Debug.dir/symbols.c.i
 
 src/debug/CMakeFiles/Debug.dir/symbols.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/symbols.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/symbols.c -o CMakeFiles/Debug.dir/symbols.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/symbols.c -o CMakeFiles/Debug.dir/symbols.c.s
 
 src/debug/CMakeFiles/Debug.dir/vars.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/vars.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/vars.c.o: /Users/wjk/Code/previous-code/src/debug/vars.c
+src/debug/CMakeFiles/Debug.dir/vars.c.o: /Users/wjk/Code/previous-code-test/src/debug/vars.c
 src/debug/CMakeFiles/Debug.dir/vars.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/debug/CMakeFiles/Debug.dir/vars.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/vars.c.o -MF CMakeFiles/Debug.dir/vars.c.o.d -o CMakeFiles/Debug.dir/vars.c.o -c /Users/wjk/Code/previous-code/src/debug/vars.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/debug/CMakeFiles/Debug.dir/vars.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/vars.c.o -MF CMakeFiles/Debug.dir/vars.c.o.d -o CMakeFiles/Debug.dir/vars.c.o -c /Users/wjk/Code/previous-code-test/src/debug/vars.c
 
 src/debug/CMakeFiles/Debug.dir/vars.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/vars.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/vars.c > CMakeFiles/Debug.dir/vars.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/vars.c > CMakeFiles/Debug.dir/vars.c.i
 
 src/debug/CMakeFiles/Debug.dir/vars.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/vars.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/vars.c -o CMakeFiles/Debug.dir/vars.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/vars.c -o CMakeFiles/Debug.dir/vars.c.s
 
 src/debug/CMakeFiles/Debug.dir/profile.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/profile.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/profile.c.o: /Users/wjk/Code/previous-code/src/debug/profile.c
+src/debug/CMakeFiles/Debug.dir/profile.c.o: /Users/wjk/Code/previous-code-test/src/debug/profile.c
 src/debug/CMakeFiles/Debug.dir/profile.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/debug/CMakeFiles/Debug.dir/profile.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/profile.c.o -MF CMakeFiles/Debug.dir/profile.c.o.d -o CMakeFiles/Debug.dir/profile.c.o -c /Users/wjk/Code/previous-code/src/debug/profile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/debug/CMakeFiles/Debug.dir/profile.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/profile.c.o -MF CMakeFiles/Debug.dir/profile.c.o.d -o CMakeFiles/Debug.dir/profile.c.o -c /Users/wjk/Code/previous-code-test/src/debug/profile.c
 
 src/debug/CMakeFiles/Debug.dir/profile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/profile.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/profile.c > CMakeFiles/Debug.dir/profile.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/profile.c > CMakeFiles/Debug.dir/profile.c.i
 
 src/debug/CMakeFiles/Debug.dir/profile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/profile.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/profile.c -o CMakeFiles/Debug.dir/profile.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/profile.c -o CMakeFiles/Debug.dir/profile.c.s
 
 src/debug/CMakeFiles/Debug.dir/68kDisass.c.o: src/debug/CMakeFiles/Debug.dir/flags.make
 src/debug/CMakeFiles/Debug.dir/68kDisass.c.o: src/debug/CMakeFiles/Debug.dir/includes_C.rsp
-src/debug/CMakeFiles/Debug.dir/68kDisass.c.o: /Users/wjk/Code/previous-code/src/debug/68kDisass.c
+src/debug/CMakeFiles/Debug.dir/68kDisass.c.o: /Users/wjk/Code/previous-code-test/src/debug/68kDisass.c
 src/debug/CMakeFiles/Debug.dir/68kDisass.c.o: src/debug/CMakeFiles/Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/debug/CMakeFiles/Debug.dir/68kDisass.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/68kDisass.c.o -MF CMakeFiles/Debug.dir/68kDisass.c.o.d -o CMakeFiles/Debug.dir/68kDisass.c.o -c /Users/wjk/Code/previous-code/src/debug/68kDisass.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/debug/CMakeFiles/Debug.dir/68kDisass.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/debug/CMakeFiles/Debug.dir/68kDisass.c.o -MF CMakeFiles/Debug.dir/68kDisass.c.o.d -o CMakeFiles/Debug.dir/68kDisass.c.o -c /Users/wjk/Code/previous-code-test/src/debug/68kDisass.c
 
 src/debug/CMakeFiles/Debug.dir/68kDisass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Debug.dir/68kDisass.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/debug/68kDisass.c > CMakeFiles/Debug.dir/68kDisass.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/debug/68kDisass.c > CMakeFiles/Debug.dir/68kDisass.c.i
 
 src/debug/CMakeFiles/Debug.dir/68kDisass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Debug.dir/68kDisass.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/debug/68kDisass.c -o CMakeFiles/Debug.dir/68kDisass.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/debug/68kDisass.c -o CMakeFiles/Debug.dir/68kDisass.c.s
 
 # Object files for target Debug
 Debug_OBJECTS = \
@@ -281,19 +281,19 @@ src/debug/libDebug.a: src/debug/CMakeFiles/Debug.dir/profile.c.o
 src/debug/libDebug.a: src/debug/CMakeFiles/Debug.dir/68kDisass.c.o
 src/debug/libDebug.a: src/debug/CMakeFiles/Debug.dir/build.make
 src/debug/libDebug.a: src/debug/CMakeFiles/Debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libDebug.a"
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && $(CMAKE_COMMAND) -P CMakeFiles/Debug.dir/cmake_clean_target.cmake
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Debug.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libDebug.a"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && $(CMAKE_COMMAND) -P CMakeFiles/Debug.dir/cmake_clean_target.cmake
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Debug.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/debug/CMakeFiles/Debug.dir/build: src/debug/libDebug.a
 .PHONY : src/debug/CMakeFiles/Debug.dir/build
 
 src/debug/CMakeFiles/Debug.dir/clean:
-	cd /Users/wjk/Code/previous-code/embuild/src/debug && $(CMAKE_COMMAND) -P CMakeFiles/Debug.dir/cmake_clean.cmake
+	cd /Users/wjk/Code/previous-code-test/embuild/src/debug && $(CMAKE_COMMAND) -P CMakeFiles/Debug.dir/cmake_clean.cmake
 .PHONY : src/debug/CMakeFiles/Debug.dir/clean
 
 src/debug/CMakeFiles/Debug.dir/depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/Code/previous-code /Users/wjk/Code/previous-code/src/debug /Users/wjk/Code/previous-code/embuild /Users/wjk/Code/previous-code/embuild/src/debug /Users/wjk/Code/previous-code/embuild/src/debug/CMakeFiles/Debug.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/Code/previous-code-test /Users/wjk/Code/previous-code-test/src/debug /Users/wjk/Code/previous-code-test/embuild /Users/wjk/Code/previous-code-test/embuild/src/debug /Users/wjk/Code/previous-code-test/embuild/src/debug/CMakeFiles/Debug.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/debug/CMakeFiles/Debug.dir/depend
 

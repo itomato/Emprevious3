@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src/softfloat//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src/softfloat//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/softfloat/CMakeFiles/SoftFloat.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/CMakeFiles/SoftFloat.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/softfloat/CMakeFiles/SoftFloat.dir/rule
 .PHONY : src/softfloat/CMakeFiles/SoftFloat.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ SoftFloat: src/softfloat/CMakeFiles/SoftFloat.dir/rule
 
 # fast build rule for target.
 SoftFloat/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/build
 .PHONY : SoftFloat/fast
 
 softfloat.o: softfloat.c.o
@@ -180,7 +180,7 @@ softfloat.o: softfloat.c.o
 
 # target to build an object file
 softfloat.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o
 .PHONY : softfloat.c.o
 
 softfloat.i: softfloat.c.i
@@ -188,7 +188,7 @@ softfloat.i: softfloat.c.i
 
 # target to preprocess a source file
 softfloat.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.i
 .PHONY : softfloat.c.i
 
 softfloat.s: softfloat.c.s
@@ -196,7 +196,7 @@ softfloat.s: softfloat.c.s
 
 # target to generate assembly for a file
 softfloat.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.s
 .PHONY : softfloat.c.s
 
 softfloat_decimal.o: softfloat_decimal.c.o
@@ -204,7 +204,7 @@ softfloat_decimal.o: softfloat_decimal.c.o
 
 # target to build an object file
 softfloat_decimal.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o
 .PHONY : softfloat_decimal.c.o
 
 softfloat_decimal.i: softfloat_decimal.c.i
@@ -212,7 +212,7 @@ softfloat_decimal.i: softfloat_decimal.c.i
 
 # target to preprocess a source file
 softfloat_decimal.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.i
 .PHONY : softfloat_decimal.c.i
 
 softfloat_decimal.s: softfloat_decimal.c.s
@@ -220,7 +220,7 @@ softfloat_decimal.s: softfloat_decimal.c.s
 
 # target to generate assembly for a file
 softfloat_decimal.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.s
 .PHONY : softfloat_decimal.c.s
 
 softfloat_fpsp.o: softfloat_fpsp.c.o
@@ -228,7 +228,7 @@ softfloat_fpsp.o: softfloat_fpsp.c.o
 
 # target to build an object file
 softfloat_fpsp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o
 .PHONY : softfloat_fpsp.c.o
 
 softfloat_fpsp.i: softfloat_fpsp.c.i
@@ -236,7 +236,7 @@ softfloat_fpsp.i: softfloat_fpsp.c.i
 
 # target to preprocess a source file
 softfloat_fpsp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.i
 .PHONY : softfloat_fpsp.c.i
 
 softfloat_fpsp.s: softfloat_fpsp.c.s
@@ -244,7 +244,7 @@ softfloat_fpsp.s: softfloat_fpsp.c.s
 
 # target to generate assembly for a file
 softfloat_fpsp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/softfloat/CMakeFiles/SoftFloat.dir/build.make src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.s
 .PHONY : softfloat_fpsp.c.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

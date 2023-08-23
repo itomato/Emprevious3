@@ -1,5 +1,5 @@
 src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.o: \
-  /Users/wjk/Code/previous-code/src/ditool/Partition.cpp \
+  /Users/wjk/Code/previous-code-test/src/ditool/Partition.cpp \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__config \
@@ -8,7 +8,7 @@ src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/strings.h \
-  /Users/wjk/Code/previous-code/src/ditool/Partition.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/Partition.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/ostream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__assert \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__verbose_abort \
@@ -665,7 +665,7 @@ src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdarg.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdarg.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/cstdarg \
-  /Users/wjk/Code/previous-code/src/ditool/DiskImage.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/fstream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/istream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/filesystem \
@@ -686,7 +686,7 @@ src/slirp/CMakeFiles/Slirp.dir/__/ditool/Partition.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/path_iterator.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/u8path.h \
-  /Users/wjk/Code/previous-code/src/ditool/fs.h \
-  /Users/wjk/Code/previous-code/src/ditool/UFS.h \
-  /Users/wjk/Code/previous-code/src/ditool/inode.h \
-  /Users/wjk/Code/previous-code/src/ditool/fsdir.h
+  /Users/wjk/Code/previous-code-test/src/ditool/fs.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/UFS.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/inode.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/fsdir.h

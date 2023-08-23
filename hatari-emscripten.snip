@@ -1,0 +1,15 @@
+svn checkout https://svn.code.sf.net/p/previous/code/trunk previous-code
+
+3.2.1) Configuring and compiling with emscripten
+
+	mkdir -p build/files
+	# Copy your tos.img to build/files/
+	cd build
+	emcmake cmake ..
+	cmake --build . -j$(getconf _NPROCESSORS_ONLN) hatari
+
+The resulting hatari.html can't be used directly, you must provide it via
+a webserver to your browser (use Chromium, it currently works better than
+Firefox). A simple way is to use "python3 -m http.server" as a minimalist
+webserver for testing it locally.
+

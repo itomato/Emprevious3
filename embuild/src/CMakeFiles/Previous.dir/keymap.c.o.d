@@ -1,11 +1,11 @@
 src/CMakeFiles/Previous.dir/keymap.c.o: \
-  /Users/wjk/Code/previous-code/src/keymap.c \
+  /Users/wjk/Code/previous-code-test/src/keymap.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/ctype.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/ctype.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/alltypes.h \
-  /Users/wjk/Code/previous-code/src/includes/main.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/includes/main.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
@@ -21,7 +21,7 @@ src/CMakeFiles/Previous.dir/keymap.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
-  /Users/wjk/Code/previous-code/src/includes/keymap.h \
+  /Users/wjk/Code/previous-code-test/src/includes/keymap.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -82,9 +82,9 @@ src/CMakeFiles/Previous.dir/keymap.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_misc.h \
-  /Users/wjk/Code/previous-code/src/includes/configuration.h \
-  /Users/wjk/Code/previous-code/src/includes/file.h \
-  /Users/wjk/Code/previous-code/src/includes/str.h \
-  /Users/wjk/Code/previous-code/src/debug/debugui.h \
-  /Users/wjk/Code/previous-code/src/debug/log.h \
-  /Users/wjk/Code/previous-code/src/includes/kms.h
+  /Users/wjk/Code/previous-code-test/src/includes/configuration.h \
+  /Users/wjk/Code/previous-code-test/src/includes/file.h \
+  /Users/wjk/Code/previous-code-test/src/includes/str.h \
+  /Users/wjk/Code/previous-code-test/src/debug/debugui.h \
+  /Users/wjk/Code/previous-code-test/src/debug/log.h \
+  /Users/wjk/Code/previous-code-test/src/includes/kms.h

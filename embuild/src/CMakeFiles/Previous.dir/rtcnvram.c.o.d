@@ -1,7 +1,7 @@
 src/CMakeFiles/Previous.dir/rtcnvram.c.o: \
-  /Users/wjk/Code/previous-code/src/rtcnvram.c \
-  /Users/wjk/Code/previous-code/src/includes/main.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/rtcnvram.c \
+  /Users/wjk/Code/previous-code-test/src/includes/main.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
@@ -19,7 +19,7 @@ src/CMakeFiles/Previous.dir/rtcnvram.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
-  /Users/wjk/Code/previous-code/src/includes/host.h \
+  /Users/wjk/Code/previous-code-test/src/includes/host.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -82,16 +82,16 @@ src/CMakeFiles/Previous.dir/rtcnvram.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_misc.h \
-  /Users/wjk/Code/previous-code/src/includes/ioMem.h \
-  /Users/wjk/Code/previous-code/src/cpu/memory.h \
-  /Users/wjk/Code/previous-code/src/cpu/sysdeps.h \
-  /Users/wjk/Code/previous-code/src/cpu/sysconfig.h \
+  /Users/wjk/Code/previous-code-test/src/includes/ioMem.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/memory.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysdeps.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/sysconfig.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/limits.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/limits.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/limits.h \
-  /Users/wjk/Code/previous-code/src/cpu/compat.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/string.h \
-  /Users/wjk/Code/previous-code/src/cpu/uae/types.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/compat.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/string.h \
+  /Users/wjk/Code/previous-code-test/src/cpu/uae/types.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/errno.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/errno.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/assert.h \
@@ -104,10 +104,10 @@ src/CMakeFiles/Previous.dir/rtcnvram.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/time.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/time.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/byteswap.h \
-  /Users/wjk/Code/previous-code/src/cpu/maccess.h \
-  /Users/wjk/Code/previous-code/src/includes/ioMemTables.h \
-  /Users/wjk/Code/previous-code/src/debug/log.h \
-  /Users/wjk/Code/previous-code/src/includes/configuration.h \
-  /Users/wjk/Code/previous-code/src/dimension/dimension.hpp \
-  /Users/wjk/Code/previous-code/src/includes/sysReg.h \
-  /Users/wjk/Code/previous-code/src/includes/rtcnvram.h
+  /Users/wjk/Code/previous-code-test/src/cpu/maccess.h \
+  /Users/wjk/Code/previous-code-test/src/includes/ioMemTables.h \
+  /Users/wjk/Code/previous-code-test/src/debug/log.h \
+  /Users/wjk/Code/previous-code-test/src/includes/configuration.h \
+  /Users/wjk/Code/previous-code-test/src/dimension/dimension.hpp \
+  /Users/wjk/Code/previous-code-test/src/includes/sysReg.h \
+  /Users/wjk/Code/previous-code-test/src/includes/rtcnvram.h

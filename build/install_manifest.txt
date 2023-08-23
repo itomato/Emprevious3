@@ -1,0 +1,7 @@
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/bin/Previous.js
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/share/previous/Previous-icon.bmp
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/share/previous/ND_step1_v43.BIN
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/share/previous/Rev_0.8_v31.BIN
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/share/previous/Rev_1.0_v41.BIN
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/share/previous/Rev_2.5_v66.BIN
+/opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/share/previous/Rev_3.3_v74.BIN

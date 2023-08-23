@@ -1,5 +1,5 @@
 src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.o: \
-  /Users/wjk/Code/previous-code/src/gui-sdl/dlgFileSelect.c \
+  /Users/wjk/Code/previous-code-test/src/gui-sdl/dlgFileSelect.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -83,15 +83,15 @@ src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/unistd.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/posix.h \
-  /Users/wjk/Code/previous-code/src/includes/main.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/includes/main.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
-  /Users/wjk/Code/previous-code/src/includes/scandir.h \
+  /Users/wjk/Code/previous-code-test/src/includes/scandir.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/dirent.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/dirent.h \
-  /Users/wjk/Code/previous-code/src/includes/sdlgui.h \
-  /Users/wjk/Code/previous-code/src/includes/file.h \
-  /Users/wjk/Code/previous-code/src/includes/paths.h \
-  /Users/wjk/Code/previous-code/src/includes/str.h \
-  /Users/wjk/Code/previous-code/src/includes/zip.h \
-  /Users/wjk/Code/previous-code/src/debug/log.h
+  /Users/wjk/Code/previous-code-test/src/includes/sdlgui.h \
+  /Users/wjk/Code/previous-code-test/src/includes/file.h \
+  /Users/wjk/Code/previous-code-test/src/includes/paths.h \
+  /Users/wjk/Code/previous-code-test/src/includes/str.h \
+  /Users/wjk/Code/previous-code-test/src/includes/zip.h \
+  /Users/wjk/Code/previous-code-test/src/debug/log.h

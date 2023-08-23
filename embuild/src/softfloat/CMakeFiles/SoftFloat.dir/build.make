@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 # Include any dependencies generated for this target.
 include src/softfloat/CMakeFiles/SoftFloat.dir/depend.make
@@ -71,48 +71,48 @@ include src/softfloat/CMakeFiles/SoftFloat.dir/flags.make
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/flags.make
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/includes_C.rsp
-src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o: /Users/wjk/Code/previous-code/src/softfloat/softfloat.c
+src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o: /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.c
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o -MF CMakeFiles/SoftFloat.dir/softfloat.c.o.d -o CMakeFiles/SoftFloat.dir/softfloat.c.o -c /Users/wjk/Code/previous-code/src/softfloat/softfloat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.o -MF CMakeFiles/SoftFloat.dir/softfloat.c.o.d -o CMakeFiles/SoftFloat.dir/softfloat.c.o -c /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.c
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SoftFloat.dir/softfloat.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/softfloat/softfloat.c > CMakeFiles/SoftFloat.dir/softfloat.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.c > CMakeFiles/SoftFloat.dir/softfloat.c.i
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SoftFloat.dir/softfloat.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/softfloat/softfloat.c -o CMakeFiles/SoftFloat.dir/softfloat.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/softfloat/softfloat.c -o CMakeFiles/SoftFloat.dir/softfloat.c.s
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/flags.make
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/includes_C.rsp
-src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o: /Users/wjk/Code/previous-code/src/softfloat/softfloat_decimal.c
+src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o: /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_decimal.c
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o -MF CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o.d -o CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o -c /Users/wjk/Code/previous-code/src/softfloat/softfloat_decimal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o -MF CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o.d -o CMakeFiles/SoftFloat.dir/softfloat_decimal.c.o -c /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_decimal.c
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SoftFloat.dir/softfloat_decimal.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/softfloat/softfloat_decimal.c > CMakeFiles/SoftFloat.dir/softfloat_decimal.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_decimal.c > CMakeFiles/SoftFloat.dir/softfloat_decimal.c.i
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_decimal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SoftFloat.dir/softfloat_decimal.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/softfloat/softfloat_decimal.c -o CMakeFiles/SoftFloat.dir/softfloat_decimal.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_decimal.c -o CMakeFiles/SoftFloat.dir/softfloat_decimal.c.s
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/flags.make
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/includes_C.rsp
-src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o: /Users/wjk/Code/previous-code/src/softfloat/softfloat_fpsp.c
+src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o: /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_fpsp.c
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o: src/softfloat/CMakeFiles/SoftFloat.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o -MF CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o.d -o CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o -c /Users/wjk/Code/previous-code/src/softfloat/softfloat_fpsp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o -MF CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o.d -o CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o -c /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_fpsp.c
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.i"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code/src/softfloat/softfloat_fpsp.c > CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_fpsp.c > CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.i
 
 src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.s"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code/src/softfloat/softfloat_fpsp.c -o CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && /opt/homebrew/Cellar/emscripten/3.1.44/libexec/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wjk/Code/previous-code-test/src/softfloat/softfloat_fpsp.c -o CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.s
 
 # Object files for target SoftFloat
 SoftFloat_OBJECTS = \
@@ -128,19 +128,19 @@ src/softfloat/libSoftFloat.a: src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_d
 src/softfloat/libSoftFloat.a: src/softfloat/CMakeFiles/SoftFloat.dir/softfloat_fpsp.c.o
 src/softfloat/libSoftFloat.a: src/softfloat/CMakeFiles/SoftFloat.dir/build.make
 src/softfloat/libSoftFloat.a: src/softfloat/CMakeFiles/SoftFloat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/Code/previous-code/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libSoftFloat.a"
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && $(CMAKE_COMMAND) -P CMakeFiles/SoftFloat.dir/cmake_clean_target.cmake
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SoftFloat.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/Code/previous-code-test/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libSoftFloat.a"
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && $(CMAKE_COMMAND) -P CMakeFiles/SoftFloat.dir/cmake_clean_target.cmake
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SoftFloat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/softfloat/CMakeFiles/SoftFloat.dir/build: src/softfloat/libSoftFloat.a
 .PHONY : src/softfloat/CMakeFiles/SoftFloat.dir/build
 
 src/softfloat/CMakeFiles/SoftFloat.dir/clean:
-	cd /Users/wjk/Code/previous-code/embuild/src/softfloat && $(CMAKE_COMMAND) -P CMakeFiles/SoftFloat.dir/cmake_clean.cmake
+	cd /Users/wjk/Code/previous-code-test/embuild/src/softfloat && $(CMAKE_COMMAND) -P CMakeFiles/SoftFloat.dir/cmake_clean.cmake
 .PHONY : src/softfloat/CMakeFiles/SoftFloat.dir/clean
 
 src/softfloat/CMakeFiles/SoftFloat.dir/depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/Code/previous-code /Users/wjk/Code/previous-code/src/softfloat /Users/wjk/Code/previous-code/embuild /Users/wjk/Code/previous-code/embuild/src/softfloat /Users/wjk/Code/previous-code/embuild/src/softfloat/CMakeFiles/SoftFloat.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/Code/previous-code-test /Users/wjk/Code/previous-code-test/src/softfloat /Users/wjk/Code/previous-code-test/embuild /Users/wjk/Code/previous-code-test/embuild/src/softfloat /Users/wjk/Code/previous-code-test/embuild/src/softfloat/CMakeFiles/SoftFloat.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/softfloat/CMakeFiles/SoftFloat.dir/depend
 

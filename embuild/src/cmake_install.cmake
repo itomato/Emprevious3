@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wjk/Code/previous-code/src
+# Install script for directory: /Users/wjk/Code/previous-code-test/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,49 +38,49 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/wjk/Code/previous-code/embuild/src/Previous.js")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Previous.js" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Previous.js")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/wjk/Code/previous-code-test/embuild/src/Previous.html")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Previous.html" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Previous.html")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Previous.js")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Previous.html")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code/src/Previous-icon.bmp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code-test/src/Previous-icon.bmp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code/src/ND_step1_v43.BIN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code-test/src/ND_step1_v43.BIN")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code/src/Rev_0.8_v31.BIN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code-test/src/Rev_0.8_v31.BIN")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code/src/Rev_1.0_v41.BIN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code-test/src/Rev_1.0_v41.BIN")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code/src/Rev_2.5_v66.BIN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code-test/src/Rev_2.5_v66.BIN")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code/src/Rev_3.3_v74.BIN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/previous" TYPE FILE FILES "/Users/wjk/Code/previous-code-test/src/Rev_3.3_v74.BIN")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/wjk/Code/previous-code/embuild/src/debug/cmake_install.cmake")
-  include("/Users/wjk/Code/previous-code/embuild/src/softfloat/cmake_install.cmake")
-  include("/Users/wjk/Code/previous-code/embuild/src/gui-sdl/cmake_install.cmake")
-  include("/Users/wjk/Code/previous-code/embuild/src/cpu/cmake_install.cmake")
-  include("/Users/wjk/Code/previous-code/embuild/src/dsp/cmake_install.cmake")
-  include("/Users/wjk/Code/previous-code/embuild/src/dimension/cmake_install.cmake")
-  include("/Users/wjk/Code/previous-code/embuild/src/slirp/cmake_install.cmake")
-  include("/Users/wjk/Code/previous-code/embuild/src/ditool/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/debug/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/softfloat/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/gui-sdl/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/cpu/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/dsp/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/dimension/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/slirp/cmake_install.cmake")
+  include("/Users/wjk/Code/previous-code-test/embuild/src/ditool/cmake_install.cmake")
 
 endif()
 

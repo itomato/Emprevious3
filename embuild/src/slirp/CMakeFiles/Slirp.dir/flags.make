@@ -7,11 +7,11 @@ C_DEFINES = -DCONFDIR=\"/etc\" -DHAVE_STRERROR -DHAVE_SYS_IOCTL_H -DHAVE_UNISTD_
 
 C_INCLUDES = @CMakeFiles/Slirp.dir/includes_C.rsp
 
-C_FLAGS =  -s USE_SDL=2 -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers -O3 -DNDEBUG
+C_FLAGS =  -std=gnu99 -Wcast-qual -Wbad-function-cast -Wpointer-arith -Wmissing-prototypes -Wstrict-prototypes -Wall -Wwrite-strings -Wsign-compare -Wformat-security -g -O0 -D__USE_MINGW_ANSI_STDIO=1 -Wno-conversion -Wno-unused -Wno-sign-compare -Wno-missing-field-initializers -fno-rtti -fno-exceptions -O3 -s USE_SDL=2 -s USE_ZLIB=1 -O3 -DNDEBUG
 
 CXX_DEFINES = -DCONFDIR=\"/etc\" -DHAVE_STRERROR -DHAVE_SYS_IOCTL_H -DHAVE_UNISTD_H
 
 CXX_INCLUDES = @CMakeFiles/Slirp.dir/includes_CXX.rsp
 
-CXX_FLAGS = -Wall -Wextra -Wpointer-bool-conversion -Wtautological-compare -Wno-unused-parameter  -s USE_SDL=2 -Wall -Wextra -Wtautological-compare -Wno-unused-parameter -Wno-sign-compare -Wno-conversion -Wno-unused -O3 -DNDEBUG
+CXX_FLAGS = -Wall -Wextra -Wpointer-bool-conversion -Wtautological-compare -Wno-unused-parameter  -Wall -Wextra -Wtautological-compare -Wno-unused-parameter -Wno-sign-compare -Wno-conversion -Wno-unused -O3 -DNDEBUG
 

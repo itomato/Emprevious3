@@ -1,5 +1,5 @@
 src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o: \
-  /Users/wjk/Code/previous-code/src/ditool/ditool.cpp \
+  /Users/wjk/Code/previous-code-test/src/ditool/ditool.cpp \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/iostream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__assert \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__config \
@@ -694,20 +694,20 @@ src/ditool/CMakeFiles/ditool.dir/ditool.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/sys/stat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/stat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stat.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
-  /Users/wjk/Code/previous-code/src/ditool/ditool.h \
-  /Users/wjk/Code/previous-code/src/ditool/VirtualFS.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/ditool.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/VirtualFS.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/set \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/dirent.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/dirent.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/statvfs.h \
-  /Users/wjk/Code/previous-code/src/ditool/fsdir.h \
-  /Users/wjk/Code/previous-code/src/ditool/UFS.h \
-  /Users/wjk/Code/previous-code/src/ditool/Partition.h \
-  /Users/wjk/Code/previous-code/src/ditool/DiskImage.h \
-  /Users/wjk/Code/previous-code/src/ditool/fs.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/fsdir.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/UFS.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/Partition.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/fs.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/types.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/endian.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/select.h \
-  /Users/wjk/Code/previous-code/src/ditool/inode.h \
-  /Users/wjk/Code/previous-code/src/slirp/ctl.h
+  /Users/wjk/Code/previous-code-test/src/ditool/inode.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/ctl.h

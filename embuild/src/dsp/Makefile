@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src/dsp//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src/dsp//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/dsp/CMakeFiles/DSP.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/CMakeFiles/DSP.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/dsp/CMakeFiles/DSP.dir/rule
 .PHONY : src/dsp/CMakeFiles/DSP.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ DSP: src/dsp/CMakeFiles/DSP.dir/rule
 
 # fast build rule for target.
 DSP/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/build
 .PHONY : DSP/fast
 
 dsp.o: dsp.c.o
@@ -180,7 +180,7 @@ dsp.o: dsp.c.o
 
 # target to build an object file
 dsp.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp.c.o
 .PHONY : dsp.c.o
 
 dsp.i: dsp.c.i
@@ -188,7 +188,7 @@ dsp.i: dsp.c.i
 
 # target to preprocess a source file
 dsp.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp.c.i
 .PHONY : dsp.c.i
 
 dsp.s: dsp.c.s
@@ -196,7 +196,7 @@ dsp.s: dsp.c.s
 
 # target to generate assembly for a file
 dsp.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp.c.s
 .PHONY : dsp.c.s
 
 dsp_core.o: dsp_core.c.o
@@ -204,7 +204,7 @@ dsp_core.o: dsp_core.c.o
 
 # target to build an object file
 dsp_core.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_core.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_core.c.o
 .PHONY : dsp_core.c.o
 
 dsp_core.i: dsp_core.c.i
@@ -212,7 +212,7 @@ dsp_core.i: dsp_core.c.i
 
 # target to preprocess a source file
 dsp_core.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_core.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_core.c.i
 .PHONY : dsp_core.c.i
 
 dsp_core.s: dsp_core.c.s
@@ -220,7 +220,7 @@ dsp_core.s: dsp_core.c.s
 
 # target to generate assembly for a file
 dsp_core.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_core.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_core.c.s
 .PHONY : dsp_core.c.s
 
 dsp_cpu.o: dsp_cpu.c.o
@@ -228,7 +228,7 @@ dsp_cpu.o: dsp_cpu.c.o
 
 # target to build an object file
 dsp_cpu.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_cpu.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_cpu.c.o
 .PHONY : dsp_cpu.c.o
 
 dsp_cpu.i: dsp_cpu.c.i
@@ -236,7 +236,7 @@ dsp_cpu.i: dsp_cpu.c.i
 
 # target to preprocess a source file
 dsp_cpu.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_cpu.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_cpu.c.i
 .PHONY : dsp_cpu.c.i
 
 dsp_cpu.s: dsp_cpu.c.s
@@ -244,7 +244,7 @@ dsp_cpu.s: dsp_cpu.c.s
 
 # target to generate assembly for a file
 dsp_cpu.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_cpu.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_cpu.c.s
 .PHONY : dsp_cpu.c.s
 
 dsp_disasm.o: dsp_disasm.c.o
@@ -252,7 +252,7 @@ dsp_disasm.o: dsp_disasm.c.o
 
 # target to build an object file
 dsp_disasm.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.o
 .PHONY : dsp_disasm.c.o
 
 dsp_disasm.i: dsp_disasm.c.i
@@ -260,7 +260,7 @@ dsp_disasm.i: dsp_disasm.c.i
 
 # target to preprocess a source file
 dsp_disasm.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.i
 .PHONY : dsp_disasm.c.i
 
 dsp_disasm.s: dsp_disasm.c.s
@@ -268,7 +268,7 @@ dsp_disasm.s: dsp_disasm.c.s
 
 # target to generate assembly for a file
 dsp_disasm.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/dsp/CMakeFiles/DSP.dir/build.make src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.s
 .PHONY : dsp_disasm.c.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

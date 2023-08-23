@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wjk/Code/previous-code/src/dimension
+# Install script for directory: /Users/wjk/Code/previous-code-test/src/dimension
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

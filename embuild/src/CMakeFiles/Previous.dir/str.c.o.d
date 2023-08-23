@@ -1,5 +1,5 @@
 src/CMakeFiles/Previous.dir/str.c.o: \
-  /Users/wjk/Code/previous-code/src/str.c \
+  /Users/wjk/Code/previous-code-test/src/str.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
@@ -16,9 +16,9 @@ src/CMakeFiles/Previous.dir/str.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdlib.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/alloca.h \
-  /Users/wjk/Code/previous-code/src/includes/configuration.h \
-  /Users/wjk/Code/previous-code/src/includes/str.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/includes/configuration.h \
+  /Users/wjk/Code/previous-code-test/src/includes/str.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/strings.h

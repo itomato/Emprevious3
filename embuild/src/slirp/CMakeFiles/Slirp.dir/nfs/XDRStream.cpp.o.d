@@ -1,5 +1,5 @@
 src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.o: \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/XDRStream.cpp \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/XDRStream.cpp \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__config \
@@ -673,4 +673,4 @@ src/slirp/CMakeFiles/Slirp.dir/nfs/XDRStream.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/streambuf \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__bsd_locale_fallbacks.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/cstdarg \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/XDRStream.h
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/XDRStream.h

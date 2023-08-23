@@ -1,5 +1,5 @@
 src/CMakeFiles/Previous.dir/paths.c.o: \
-  /Users/wjk/Code/previous-code/src/paths.c \
+  /Users/wjk/Code/previous-code-test/src/paths.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/unistd.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
@@ -15,8 +15,8 @@ src/CMakeFiles/Previous.dir/paths.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/types.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/endian.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/select.h \
-  /Users/wjk/Code/previous-code/src/includes/main.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/includes/main.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/stdlib.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdlib.h \
@@ -27,6 +27,6 @@ src/CMakeFiles/Previous.dir/paths.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
-  /Users/wjk/Code/previous-code/src/includes/file.h \
-  /Users/wjk/Code/previous-code/src/includes/paths.h \
-  /Users/wjk/Code/previous-code/src/includes/str.h
+  /Users/wjk/Code/previous-code-test/src/includes/file.h \
+  /Users/wjk/Code/previous-code-test/src/includes/paths.h \
+  /Users/wjk/Code/previous-code-test/src/includes/str.h

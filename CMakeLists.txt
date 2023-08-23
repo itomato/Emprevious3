@@ -40,10 +40,8 @@ set(ENABLE_RENDERING_THREAD 1
     CACHE BOOL "Enable rendering threads")
 
 if(APPLE)
-	set(ENABLE_OSX_BUNDLE 1
+	set(ENABLE_OSX_BUNDLE 0
 	    CACHE BOOL "Built Previous as macOS application bundle")
-	set(ADDITIONAL_INCLUDES ${FRAMEWORKS})
-	set_source_files_properties(${FRAMEWORKS} PROPERTIES MACOSX_PACKAGE_LOCATION Frameworks)
 else()
 	set(ENABLE_OSX_BUNDLE 0
 	    CACHE BOOL "Built Previous as macOS application bundle")
@@ -171,6 +169,16 @@ if(CMAKE_COMPILER_IS_GNUCC OR CMAKE_C_COMPILER_ID MATCHES "Clang")
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wtautological-compare -Wno-unused-parameter")
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-sign-compare -Wno-conversion -Wno-unused")
 endif()
+
+if(EMSCRIPTEN)
+	set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fno-rtti -fno-exceptions -O3 -s USE_SDL=2 -s USE_ZLIB=1")
+	set(CMAKE_EXECUTABLE_SUFFIX ".html")
+        set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -sASSERTIONS")
+	# Enable memory growth for Emscripten
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -s ALLOW_MEMORY_GROWTH=1")
+        set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -s ALLOW_MEMORY_GROWTH=1")
+endif()
+
 
 if(ENABLE_WERROR)
 	if (ENABLE_TRACING)

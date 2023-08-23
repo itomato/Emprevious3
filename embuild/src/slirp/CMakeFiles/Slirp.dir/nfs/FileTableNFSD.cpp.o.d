@@ -1,7 +1,7 @@
 src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.o: \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/FileTableNFSD.cpp \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/FileTableNFSD.h \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/../../ditool/VirtualFS.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/FileTableNFSD.cpp \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/FileTableNFSD.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/../../ditool/VirtualFS.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/iostream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__assert \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__config \
@@ -678,8 +678,8 @@ src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/stat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/statvfs.h \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/XDRStream.h \
-  /Users/wjk/Code/previous-code/src/includes/host.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/XDRStream.h \
+  /Users/wjk/Code/previous-code-test/src/includes/host.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -739,6 +739,6 @@ src/slirp/CMakeFiles/Slirp.dir/nfs/FileTableNFSD.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_misc.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
-  /Users/wjk/Code/previous-code/src/slirp/nfs/compat.h \
+  /Users/wjk/Code/previous-code-test/src/slirp/nfs/compat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/unistd.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/posix.h

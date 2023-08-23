@@ -1,5 +1,5 @@
 src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.o: \
-  /Users/wjk/Code/previous-code/src/dsp/dsp_disasm.c \
+  /Users/wjk/Code/previous-code-test/src/dsp/dsp_disasm.c \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/string.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/features.h \
@@ -14,7 +14,7 @@ src/dsp/CMakeFiles/DSP.dir/dsp_disasm.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
-  /Users/wjk/Code/previous-code/src/dsp/dsp_core.h \
-  /Users/wjk/Code/previous-code/src/dsp/dsp_cpu.h \
-  /Users/wjk/Code/previous-code/src/dsp/dsp_disasm.h \
-  /Users/wjk/Code/previous-code/src/debug/profile.h
+  /Users/wjk/Code/previous-code-test/src/dsp/dsp_core.h \
+  /Users/wjk/Code/previous-code-test/src/dsp/dsp_cpu.h \
+  /Users/wjk/Code/previous-code-test/src/dsp/dsp_disasm.h \
+  /Users/wjk/Code/previous-code-test/src/debug/profile.h

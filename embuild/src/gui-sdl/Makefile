@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code
+CMAKE_SOURCE_DIR = /Users/wjk/Code/previous-code-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code/embuild
+CMAKE_BINARY_DIR = /Users/wjk/Code/previous-code-test/embuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles /Users/wjk/Code/previous-code/embuild/src/gui-sdl//CMakeFiles/progress.marks
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code/embuild/CMakeFiles 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles /Users/wjk/Code/previous-code-test/embuild/src/gui-sdl//CMakeFiles/progress.marks
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wjk/Code/previous-code-test/embuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/clean
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/preinstall
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/gui-sdl/CMakeFiles/GuiSdl.dir/rule:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/CMakeFiles/GuiSdl.dir/rule
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui-sdl/CMakeFiles/GuiSdl.dir/rule
 .PHONY : src/gui-sdl/CMakeFiles/GuiSdl.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ GuiSdl: src/gui-sdl/CMakeFiles/GuiSdl.dir/rule
 
 # fast build rule for target.
 GuiSdl/fast:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/build
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/build
 .PHONY : GuiSdl/fast
 
 dlgAbout.o: dlgAbout.c.o
@@ -180,7 +180,7 @@ dlgAbout.o: dlgAbout.c.o
 
 # target to build an object file
 dlgAbout.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAbout.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAbout.c.o
 .PHONY : dlgAbout.c.o
 
 dlgAbout.i: dlgAbout.c.i
@@ -188,7 +188,7 @@ dlgAbout.i: dlgAbout.c.i
 
 # target to preprocess a source file
 dlgAbout.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAbout.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAbout.c.i
 .PHONY : dlgAbout.c.i
 
 dlgAbout.s: dlgAbout.c.s
@@ -196,7 +196,7 @@ dlgAbout.s: dlgAbout.c.s
 
 # target to generate assembly for a file
 dlgAbout.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAbout.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAbout.c.s
 .PHONY : dlgAbout.c.s
 
 dlgAdvanced.o: dlgAdvanced.c.o
@@ -204,7 +204,7 @@ dlgAdvanced.o: dlgAdvanced.c.o
 
 # target to build an object file
 dlgAdvanced.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAdvanced.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAdvanced.c.o
 .PHONY : dlgAdvanced.c.o
 
 dlgAdvanced.i: dlgAdvanced.c.i
@@ -212,7 +212,7 @@ dlgAdvanced.i: dlgAdvanced.c.i
 
 # target to preprocess a source file
 dlgAdvanced.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAdvanced.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAdvanced.c.i
 .PHONY : dlgAdvanced.c.i
 
 dlgAdvanced.s: dlgAdvanced.c.s
@@ -220,7 +220,7 @@ dlgAdvanced.s: dlgAdvanced.c.s
 
 # target to generate assembly for a file
 dlgAdvanced.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAdvanced.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAdvanced.c.s
 .PHONY : dlgAdvanced.c.s
 
 dlgAlert.o: dlgAlert.c.o
@@ -228,7 +228,7 @@ dlgAlert.o: dlgAlert.c.o
 
 # target to build an object file
 dlgAlert.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAlert.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAlert.c.o
 .PHONY : dlgAlert.c.o
 
 dlgAlert.i: dlgAlert.c.i
@@ -236,7 +236,7 @@ dlgAlert.i: dlgAlert.c.i
 
 # target to preprocess a source file
 dlgAlert.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAlert.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAlert.c.i
 .PHONY : dlgAlert.c.i
 
 dlgAlert.s: dlgAlert.c.s
@@ -244,7 +244,7 @@ dlgAlert.s: dlgAlert.c.s
 
 # target to generate assembly for a file
 dlgAlert.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAlert.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgAlert.c.s
 .PHONY : dlgAlert.c.s
 
 dlgBoot.o: dlgBoot.c.o
@@ -252,7 +252,7 @@ dlgBoot.o: dlgBoot.c.o
 
 # target to build an object file
 dlgBoot.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgBoot.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgBoot.c.o
 .PHONY : dlgBoot.c.o
 
 dlgBoot.i: dlgBoot.c.i
@@ -260,7 +260,7 @@ dlgBoot.i: dlgBoot.c.i
 
 # target to preprocess a source file
 dlgBoot.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgBoot.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgBoot.c.i
 .PHONY : dlgBoot.c.i
 
 dlgBoot.s: dlgBoot.c.s
@@ -268,7 +268,7 @@ dlgBoot.s: dlgBoot.c.s
 
 # target to generate assembly for a file
 dlgBoot.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgBoot.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgBoot.c.s
 .PHONY : dlgBoot.c.s
 
 dlgDimension.o: dlgDimension.c.o
@@ -276,7 +276,7 @@ dlgDimension.o: dlgDimension.c.o
 
 # target to build an object file
 dlgDimension.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDimension.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDimension.c.o
 .PHONY : dlgDimension.c.o
 
 dlgDimension.i: dlgDimension.c.i
@@ -284,7 +284,7 @@ dlgDimension.i: dlgDimension.c.i
 
 # target to preprocess a source file
 dlgDimension.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDimension.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDimension.c.i
 .PHONY : dlgDimension.c.i
 
 dlgDimension.s: dlgDimension.c.s
@@ -292,7 +292,7 @@ dlgDimension.s: dlgDimension.c.s
 
 # target to generate assembly for a file
 dlgDimension.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDimension.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgDimension.c.s
 .PHONY : dlgDimension.c.s
 
 dlgEthernet.o: dlgEthernet.c.o
@@ -300,7 +300,7 @@ dlgEthernet.o: dlgEthernet.c.o
 
 # target to build an object file
 dlgEthernet.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernet.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernet.c.o
 .PHONY : dlgEthernet.c.o
 
 dlgEthernet.i: dlgEthernet.c.i
@@ -308,7 +308,7 @@ dlgEthernet.i: dlgEthernet.c.i
 
 # target to preprocess a source file
 dlgEthernet.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernet.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernet.c.i
 .PHONY : dlgEthernet.c.i
 
 dlgEthernet.s: dlgEthernet.c.s
@@ -316,7 +316,7 @@ dlgEthernet.s: dlgEthernet.c.s
 
 # target to generate assembly for a file
 dlgEthernet.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernet.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernet.c.s
 .PHONY : dlgEthernet.c.s
 
 dlgEthernetAdvanced.o: dlgEthernetAdvanced.c.o
@@ -324,7 +324,7 @@ dlgEthernetAdvanced.o: dlgEthernetAdvanced.c.o
 
 # target to build an object file
 dlgEthernetAdvanced.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernetAdvanced.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernetAdvanced.c.o
 .PHONY : dlgEthernetAdvanced.c.o
 
 dlgEthernetAdvanced.i: dlgEthernetAdvanced.c.i
@@ -332,7 +332,7 @@ dlgEthernetAdvanced.i: dlgEthernetAdvanced.c.i
 
 # target to preprocess a source file
 dlgEthernetAdvanced.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernetAdvanced.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernetAdvanced.c.i
 .PHONY : dlgEthernetAdvanced.c.i
 
 dlgEthernetAdvanced.s: dlgEthernetAdvanced.c.s
@@ -340,7 +340,7 @@ dlgEthernetAdvanced.s: dlgEthernetAdvanced.c.s
 
 # target to generate assembly for a file
 dlgEthernetAdvanced.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernetAdvanced.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgEthernetAdvanced.c.s
 .PHONY : dlgEthernetAdvanced.c.s
 
 dlgFileSelect.o: dlgFileSelect.c.o
@@ -348,7 +348,7 @@ dlgFileSelect.o: dlgFileSelect.c.o
 
 # target to build an object file
 dlgFileSelect.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.o
 .PHONY : dlgFileSelect.c.o
 
 dlgFileSelect.i: dlgFileSelect.c.i
@@ -356,7 +356,7 @@ dlgFileSelect.i: dlgFileSelect.c.i
 
 # target to preprocess a source file
 dlgFileSelect.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.i
 .PHONY : dlgFileSelect.c.i
 
 dlgFileSelect.s: dlgFileSelect.c.s
@@ -364,7 +364,7 @@ dlgFileSelect.s: dlgFileSelect.c.s
 
 # target to generate assembly for a file
 dlgFileSelect.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFileSelect.c.s
 .PHONY : dlgFileSelect.c.s
 
 dlgFloppy.o: dlgFloppy.c.o
@@ -372,7 +372,7 @@ dlgFloppy.o: dlgFloppy.c.o
 
 # target to build an object file
 dlgFloppy.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFloppy.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFloppy.c.o
 .PHONY : dlgFloppy.c.o
 
 dlgFloppy.i: dlgFloppy.c.i
@@ -380,7 +380,7 @@ dlgFloppy.i: dlgFloppy.c.i
 
 # target to preprocess a source file
 dlgFloppy.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFloppy.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFloppy.c.i
 .PHONY : dlgFloppy.c.i
 
 dlgFloppy.s: dlgFloppy.c.s
@@ -388,7 +388,7 @@ dlgFloppy.s: dlgFloppy.c.s
 
 # target to generate assembly for a file
 dlgFloppy.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFloppy.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgFloppy.c.s
 .PHONY : dlgFloppy.c.s
 
 dlgGraphics.o: dlgGraphics.c.o
@@ -396,7 +396,7 @@ dlgGraphics.o: dlgGraphics.c.o
 
 # target to build an object file
 dlgGraphics.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgGraphics.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgGraphics.c.o
 .PHONY : dlgGraphics.c.o
 
 dlgGraphics.i: dlgGraphics.c.i
@@ -404,7 +404,7 @@ dlgGraphics.i: dlgGraphics.c.i
 
 # target to preprocess a source file
 dlgGraphics.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgGraphics.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgGraphics.c.i
 .PHONY : dlgGraphics.c.i
 
 dlgGraphics.s: dlgGraphics.c.s
@@ -412,7 +412,7 @@ dlgGraphics.s: dlgGraphics.c.s
 
 # target to generate assembly for a file
 dlgGraphics.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgGraphics.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgGraphics.c.s
 .PHONY : dlgGraphics.c.s
 
 dlgKeyboard.o: dlgKeyboard.c.o
@@ -420,7 +420,7 @@ dlgKeyboard.o: dlgKeyboard.c.o
 
 # target to build an object file
 dlgKeyboard.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgKeyboard.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgKeyboard.c.o
 .PHONY : dlgKeyboard.c.o
 
 dlgKeyboard.i: dlgKeyboard.c.i
@@ -428,7 +428,7 @@ dlgKeyboard.i: dlgKeyboard.c.i
 
 # target to preprocess a source file
 dlgKeyboard.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgKeyboard.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgKeyboard.c.i
 .PHONY : dlgKeyboard.c.i
 
 dlgKeyboard.s: dlgKeyboard.c.s
@@ -436,7 +436,7 @@ dlgKeyboard.s: dlgKeyboard.c.s
 
 # target to generate assembly for a file
 dlgKeyboard.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgKeyboard.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgKeyboard.c.s
 .PHONY : dlgKeyboard.c.s
 
 dlgMain.o: dlgMain.c.o
@@ -444,7 +444,7 @@ dlgMain.o: dlgMain.c.o
 
 # target to build an object file
 dlgMain.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMain.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMain.c.o
 .PHONY : dlgMain.c.o
 
 dlgMain.i: dlgMain.c.i
@@ -452,7 +452,7 @@ dlgMain.i: dlgMain.c.i
 
 # target to preprocess a source file
 dlgMain.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMain.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMain.c.i
 .PHONY : dlgMain.c.i
 
 dlgMain.s: dlgMain.c.s
@@ -460,7 +460,7 @@ dlgMain.s: dlgMain.c.s
 
 # target to generate assembly for a file
 dlgMain.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMain.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMain.c.s
 .PHONY : dlgMain.c.s
 
 dlgMemory.o: dlgMemory.c.o
@@ -468,7 +468,7 @@ dlgMemory.o: dlgMemory.c.o
 
 # target to build an object file
 dlgMemory.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemory.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemory.c.o
 .PHONY : dlgMemory.c.o
 
 dlgMemory.i: dlgMemory.c.i
@@ -476,7 +476,7 @@ dlgMemory.i: dlgMemory.c.i
 
 # target to preprocess a source file
 dlgMemory.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemory.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemory.c.i
 .PHONY : dlgMemory.c.i
 
 dlgMemory.s: dlgMemory.c.s
@@ -484,7 +484,7 @@ dlgMemory.s: dlgMemory.c.s
 
 # target to generate assembly for a file
 dlgMemory.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemory.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemory.c.s
 .PHONY : dlgMemory.c.s
 
 dlgMemoryAdvanced.o: dlgMemoryAdvanced.c.o
@@ -492,7 +492,7 @@ dlgMemoryAdvanced.o: dlgMemoryAdvanced.c.o
 
 # target to build an object file
 dlgMemoryAdvanced.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemoryAdvanced.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemoryAdvanced.c.o
 .PHONY : dlgMemoryAdvanced.c.o
 
 dlgMemoryAdvanced.i: dlgMemoryAdvanced.c.i
@@ -500,7 +500,7 @@ dlgMemoryAdvanced.i: dlgMemoryAdvanced.c.i
 
 # target to preprocess a source file
 dlgMemoryAdvanced.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemoryAdvanced.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemoryAdvanced.c.i
 .PHONY : dlgMemoryAdvanced.c.i
 
 dlgMemoryAdvanced.s: dlgMemoryAdvanced.c.s
@@ -508,7 +508,7 @@ dlgMemoryAdvanced.s: dlgMemoryAdvanced.c.s
 
 # target to generate assembly for a file
 dlgMemoryAdvanced.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemoryAdvanced.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMemoryAdvanced.c.s
 .PHONY : dlgMemoryAdvanced.c.s
 
 dlgMissingFile.o: dlgMissingFile.c.o
@@ -516,7 +516,7 @@ dlgMissingFile.o: dlgMissingFile.c.o
 
 # target to build an object file
 dlgMissingFile.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMissingFile.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMissingFile.c.o
 .PHONY : dlgMissingFile.c.o
 
 dlgMissingFile.i: dlgMissingFile.c.i
@@ -524,7 +524,7 @@ dlgMissingFile.i: dlgMissingFile.c.i
 
 # target to preprocess a source file
 dlgMissingFile.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMissingFile.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMissingFile.c.i
 .PHONY : dlgMissingFile.c.i
 
 dlgMissingFile.s: dlgMissingFile.c.s
@@ -532,7 +532,7 @@ dlgMissingFile.s: dlgMissingFile.c.s
 
 # target to generate assembly for a file
 dlgMissingFile.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMissingFile.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMissingFile.c.s
 .PHONY : dlgMissingFile.c.s
 
 dlgMouse.o: dlgMouse.c.o
@@ -540,7 +540,7 @@ dlgMouse.o: dlgMouse.c.o
 
 # target to build an object file
 dlgMouse.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMouse.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMouse.c.o
 .PHONY : dlgMouse.c.o
 
 dlgMouse.i: dlgMouse.c.i
@@ -548,7 +548,7 @@ dlgMouse.i: dlgMouse.c.i
 
 # target to preprocess a source file
 dlgMouse.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMouse.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMouse.c.i
 .PHONY : dlgMouse.c.i
 
 dlgMouse.s: dlgMouse.c.s
@@ -556,7 +556,7 @@ dlgMouse.s: dlgMouse.c.s
 
 # target to generate assembly for a file
 dlgMouse.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMouse.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgMouse.c.s
 .PHONY : dlgMouse.c.s
 
 dlgOpticalDisk.o: dlgOpticalDisk.c.o
@@ -564,7 +564,7 @@ dlgOpticalDisk.o: dlgOpticalDisk.c.o
 
 # target to build an object file
 dlgOpticalDisk.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgOpticalDisk.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgOpticalDisk.c.o
 .PHONY : dlgOpticalDisk.c.o
 
 dlgOpticalDisk.i: dlgOpticalDisk.c.i
@@ -572,7 +572,7 @@ dlgOpticalDisk.i: dlgOpticalDisk.c.i
 
 # target to preprocess a source file
 dlgOpticalDisk.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgOpticalDisk.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgOpticalDisk.c.i
 .PHONY : dlgOpticalDisk.c.i
 
 dlgOpticalDisk.s: dlgOpticalDisk.c.s
@@ -580,7 +580,7 @@ dlgOpticalDisk.s: dlgOpticalDisk.c.s
 
 # target to generate assembly for a file
 dlgOpticalDisk.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgOpticalDisk.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgOpticalDisk.c.s
 .PHONY : dlgOpticalDisk.c.s
 
 dlgPrinter.o: dlgPrinter.c.o
@@ -588,7 +588,7 @@ dlgPrinter.o: dlgPrinter.c.o
 
 # target to build an object file
 dlgPrinter.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgPrinter.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgPrinter.c.o
 .PHONY : dlgPrinter.c.o
 
 dlgPrinter.i: dlgPrinter.c.i
@@ -596,7 +596,7 @@ dlgPrinter.i: dlgPrinter.c.i
 
 # target to preprocess a source file
 dlgPrinter.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgPrinter.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgPrinter.c.i
 .PHONY : dlgPrinter.c.i
 
 dlgPrinter.s: dlgPrinter.c.s
@@ -604,7 +604,7 @@ dlgPrinter.s: dlgPrinter.c.s
 
 # target to generate assembly for a file
 dlgPrinter.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgPrinter.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgPrinter.c.s
 .PHONY : dlgPrinter.c.s
 
 dlgRom.o: dlgRom.c.o
@@ -612,7 +612,7 @@ dlgRom.o: dlgRom.c.o
 
 # target to build an object file
 dlgRom.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgRom.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgRom.c.o
 .PHONY : dlgRom.c.o
 
 dlgRom.i: dlgRom.c.i
@@ -620,7 +620,7 @@ dlgRom.i: dlgRom.c.i
 
 # target to preprocess a source file
 dlgRom.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgRom.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgRom.c.i
 .PHONY : dlgRom.c.i
 
 dlgRom.s: dlgRom.c.s
@@ -628,7 +628,7 @@ dlgRom.s: dlgRom.c.s
 
 # target to generate assembly for a file
 dlgRom.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgRom.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgRom.c.s
 .PHONY : dlgRom.c.s
 
 dlgSCSI.o: dlgSCSI.c.o
@@ -636,7 +636,7 @@ dlgSCSI.o: dlgSCSI.c.o
 
 # target to build an object file
 dlgSCSI.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSCSI.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSCSI.c.o
 .PHONY : dlgSCSI.c.o
 
 dlgSCSI.i: dlgSCSI.c.i
@@ -644,7 +644,7 @@ dlgSCSI.i: dlgSCSI.c.i
 
 # target to preprocess a source file
 dlgSCSI.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSCSI.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSCSI.c.i
 .PHONY : dlgSCSI.c.i
 
 dlgSCSI.s: dlgSCSI.c.s
@@ -652,7 +652,7 @@ dlgSCSI.s: dlgSCSI.c.s
 
 # target to generate assembly for a file
 dlgSCSI.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSCSI.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSCSI.c.s
 .PHONY : dlgSCSI.c.s
 
 dlgSound.o: dlgSound.c.o
@@ -660,7 +660,7 @@ dlgSound.o: dlgSound.c.o
 
 # target to build an object file
 dlgSound.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSound.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSound.c.o
 .PHONY : dlgSound.c.o
 
 dlgSound.i: dlgSound.c.i
@@ -668,7 +668,7 @@ dlgSound.i: dlgSound.c.i
 
 # target to preprocess a source file
 dlgSound.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSound.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSound.c.i
 .PHONY : dlgSound.c.i
 
 dlgSound.s: dlgSound.c.s
@@ -676,7 +676,7 @@ dlgSound.s: dlgSound.c.s
 
 # target to generate assembly for a file
 dlgSound.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSound.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSound.c.s
 .PHONY : dlgSound.c.s
 
 dlgSystem.o: dlgSystem.c.o
@@ -684,7 +684,7 @@ dlgSystem.o: dlgSystem.c.o
 
 # target to build an object file
 dlgSystem.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSystem.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSystem.c.o
 .PHONY : dlgSystem.c.o
 
 dlgSystem.i: dlgSystem.c.i
@@ -692,7 +692,7 @@ dlgSystem.i: dlgSystem.c.i
 
 # target to preprocess a source file
 dlgSystem.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSystem.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSystem.c.i
 .PHONY : dlgSystem.c.i
 
 dlgSystem.s: dlgSystem.c.s
@@ -700,7 +700,7 @@ dlgSystem.s: dlgSystem.c.s
 
 # target to generate assembly for a file
 dlgSystem.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSystem.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/dlgSystem.c.s
 .PHONY : dlgSystem.c.s
 
 sdlgui.o: sdlgui.c.o
@@ -708,7 +708,7 @@ sdlgui.o: sdlgui.c.o
 
 # target to build an object file
 sdlgui.c.o:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/sdlgui.c.o
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/sdlgui.c.o
 .PHONY : sdlgui.c.o
 
 sdlgui.i: sdlgui.c.i
@@ -716,7 +716,7 @@ sdlgui.i: sdlgui.c.i
 
 # target to preprocess a source file
 sdlgui.c.i:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/sdlgui.c.i
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/sdlgui.c.i
 .PHONY : sdlgui.c.i
 
 sdlgui.s: sdlgui.c.s
@@ -724,7 +724,7 @@ sdlgui.s: sdlgui.c.s
 
 # target to generate assembly for a file
 sdlgui.c.s:
-	cd /Users/wjk/Code/previous-code/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/sdlgui.c.s
+	cd /Users/wjk/Code/previous-code-test/embuild && $(MAKE) $(MAKESILENT) -f src/gui-sdl/CMakeFiles/GuiSdl.dir/build.make src/gui-sdl/CMakeFiles/GuiSdl.dir/sdlgui.c.s
 .PHONY : sdlgui.c.s
 
 # Help Target
@@ -820,6 +820,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/wjk/Code/previous-code/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/wjk/Code/previous-code-test/embuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

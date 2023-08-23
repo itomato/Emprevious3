@@ -1,5 +1,5 @@
 src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: \
-  /Users/wjk/Code/previous-code/src/ditool/VirtualFS.cpp \
+  /Users/wjk/Code/previous-code-test/src/ditool/VirtualFS.cpp \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/string \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/comp.h \
@@ -677,7 +677,7 @@ src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/stat.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/time.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/select.h \
-  /Users/wjk/Code/previous-code/src/ditool/VirtualFS.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/VirtualFS.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/iostream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/map \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__tree \
@@ -686,6 +686,6 @@ src/ditool/CMakeFiles/ditool.dir/VirtualFS.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/bits/dirent.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/ftw.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/statvfs.h \
-  /Users/wjk/Code/previous-code/src/ditool/compat.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/compat.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/sys/xattr.h

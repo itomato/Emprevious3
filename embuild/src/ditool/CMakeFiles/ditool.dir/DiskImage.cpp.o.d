@@ -1,6 +1,6 @@
 src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o: \
-  /Users/wjk/Code/previous-code/src/ditool/DiskImage.cpp \
-  /Users/wjk/Code/previous-code/src/ditool/DiskImage.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.cpp \
+  /Users/wjk/Code/previous-code-test/src/ditool/DiskImage.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/fstream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/max.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__algorithm/comp.h \
@@ -685,7 +685,7 @@ src/ditool/CMakeFiles/ditool.dir/DiskImage.cpp.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/path_iterator.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/__filesystem/u8path.h \
-  /Users/wjk/Code/previous-code/src/ditool/Partition.h \
+  /Users/wjk/Code/previous-code-test/src/ditool/Partition.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/c++/v1/iostream \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/arpa/inet.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/netinet/in.h \

@@ -87,11 +87,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/Previous.dir/sysReg.c.o.d"
   "CMakeFiles/Previous.dir/tmc.c.o"
   "CMakeFiles/Previous.dir/tmc.c.o.d"
+  "CMakeFiles/Previous.dir/unzip.c.o"
+  "CMakeFiles/Previous.dir/unzip.c.o.d"
   "CMakeFiles/Previous.dir/video.c.o"
   "CMakeFiles/Previous.dir/video.c.o.d"
   "CMakeFiles/Previous.dir/zip.c.o"
   "CMakeFiles/Previous.dir/zip.c.o.d"
-  "Previous.js"
+  "Previous.html"
   "Previous.pdb"
 )
 

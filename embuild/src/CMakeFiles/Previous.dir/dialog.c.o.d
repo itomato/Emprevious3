@@ -1,7 +1,7 @@
 src/CMakeFiles/Previous.dir/dialog.c.o: \
-  /Users/wjk/Code/previous-code/src/dialog.c \
-  /Users/wjk/Code/previous-code/src/includes/main.h \
-  /Users/wjk/Code/previous-code/embuild/config.h \
+  /Users/wjk/Code/previous-code-test/src/dialog.c \
+  /Users/wjk/Code/previous-code-test/src/includes/main.h \
+  /Users/wjk/Code/previous-code-test/embuild/config.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/stdio.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/wasi/api.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stddef.h \
@@ -19,11 +19,11 @@ src/CMakeFiles/Previous.dir/dialog.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/llvm/lib/clang/17/include/stdbool.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/compat/math.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/math.h \
-  /Users/wjk/Code/previous-code/src/includes/configuration.h \
-  /Users/wjk/Code/previous-code/src/includes/change.h \
-  /Users/wjk/Code/previous-code/src/includes/dialog.h \
-  /Users/wjk/Code/previous-code/src/debug/log.h \
-  /Users/wjk/Code/previous-code/src/includes/sdlgui.h \
+  /Users/wjk/Code/previous-code-test/src/includes/configuration.h \
+  /Users/wjk/Code/previous-code-test/src/includes/change.h \
+  /Users/wjk/Code/previous-code-test/src/includes/dialog.h \
+  /Users/wjk/Code/previous-code-test/src/debug/log.h \
+  /Users/wjk/Code/previous-code-test/src/includes/sdlgui.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_main.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -86,6 +86,6 @@ src/CMakeFiles/Previous.dir/dialog.c.o: \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/emscripten/3.1.44/libexec/cache/sysroot/include/SDL2/SDL_misc.h \
-  /Users/wjk/Code/previous-code/src/includes/screen.h \
-  /Users/wjk/Code/previous-code/src/includes/paths.h \
-  /Users/wjk/Code/previous-code/src/includes/file.h
+  /Users/wjk/Code/previous-code-test/src/includes/screen.h \
+  /Users/wjk/Code/previous-code-test/src/includes/paths.h \
+  /Users/wjk/Code/previous-code-test/src/includes/file.h

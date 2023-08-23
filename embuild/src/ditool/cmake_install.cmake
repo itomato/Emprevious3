@@ -1,4 +1,4 @@
-# Install script for directory: /Users/wjk/Code/previous-code/src/ditool
+# Install script for directory: /Users/wjk/Code/previous-code-test/src/ditool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
