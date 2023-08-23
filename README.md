@@ -24,4 +24,6 @@ You can serve this directory with Python's HTTP Server like so:
 
 This only builds on ARM64 currently. Add the X86_64 arch back in CMakeLists.txt if you want to build there.
 
+## Bugs
+
 It currently throws OOM errors loading the WASM. Not sure if enabling dynamic growth and setting an initial allocation is the fix. 
