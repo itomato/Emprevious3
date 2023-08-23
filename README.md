@@ -16,6 +16,12 @@ A simple way is to use "python3 -m http.server" as a minimalist webserver for te
 
 It's built in embuild/src/
 
+Rebuild it yourself with:
+
+    rm -rf CMake*
+    emcmake cmake ..
+    cmake --build . -j$(getconf _NPROCESSORS_ONLN)
+
 You can serve this directory with Python's HTTP Server like so:
 
     python3 -m http.server -d embuild/src/
